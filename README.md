@@ -46,7 +46,7 @@ Onsebat simplifie la recherche de professionnels et assure des travaux de qualit
 - **Chat GPT** : Lorsque Mistral ne me donnait pas ce que je voulais ou pour ajuster ce que Mistral a fait et vice versa.
 
 ## Problème de l'application : 
-- **Une API très lente** : En effet, l'API de Mistral envoie des résultats tardifs.
+- **Une API très lente** : En effet, l'API de Mistral envoie des résultats avec des delais long.
 
 ## Planning suivi : 
 - **Un jour et demi pour apprendre Django et Python**
