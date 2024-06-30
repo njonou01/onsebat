@@ -21,8 +21,7 @@ import sys
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = False
-
-ALLOWED_HOSTS = ['onsebat.onrender.com']
+ALLOWED_HOSTS = [os.environ.get('ALLOWED_HOSTS', 'onsebat.onrender.com')]  # Modifiez selon vos besoins
 LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
 
 # File system encoding
