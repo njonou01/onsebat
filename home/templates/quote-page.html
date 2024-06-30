@@ -57,10 +57,9 @@
                 <label class="block text-gray-700 font-semibold mb-2" for="service"> {% trans 'Service' %} </label>
                 <select id="service" name='service' class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" >
                     <option value="">{% trans 'Choisissez un service' %}</option>
-                    <option value="maconerie">{% trans 'Maconnerie' %}</option>
-                    <option value="menuiserie">{% trans 'Menuiserie' %}</option>
-                    <option value="electricite">{% trans 'Électricité' %}</option>
-                    <option value="plomberie">{% trans 'Plomberie' %}</option>
+                    {% for service in services %}
+                        <option value="{{ service.titre }}">{{ service.titre }}</option>
+                    {% endfor %}
                 </select>
                 <small class="error text-red-700" id="serviceError"></small>
             </div>

@@ -155,7 +155,11 @@ def quote_page(request):
     """
     Affiche la page de devis.
     """
-    return render(request, "quote-page.html")
+    services = get_services()
+    context = {
+        "services": services,
+    }
+    return render(request, "quote-page.html" , context)
 
 
 def get_data(request):
