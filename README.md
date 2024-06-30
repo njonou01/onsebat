@@ -41,7 +41,7 @@ Je vous remercie de prendre le temps de remplir ce formulaire de notation. Votre
 
 ### Informations Supplémentaires
 
-- **Suggestions ou Commentaires additionnels :**
+- **Suggestions ou Commentaires Globales :**
   - [Votre réponse ici]
  
     
