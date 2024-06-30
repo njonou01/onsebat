@@ -6,9 +6,9 @@ Onsebat facilite la mise en relation entre particuliers et professionnels qualif
 ## Contexte
 Ayant grandi au Cameroun, j'ai constaté les difficultés de mon père à trouver des professionnels fiables pour ses projets. Onsebat vise à résoudre ces problèmes en offrant une plateforme où chaque utilisateur peut trouver des professionnels qualifiés, avec des garanties de qualité et de fiabilité.
 
-## Fonctionnalités déja réalisées
+## Fonctionnalités déjà réalisées
 
-### Page d'acceuil 
+### Page d'accueil 
 ### Recherche de Professionnels
 - **Formulaire de Recherche**: Sélectionnez un service et une localisation.
 - **Professionnels Qualifiés**: Liste de professionnels vérifiés avec évaluations.
@@ -20,7 +20,7 @@ Ayant grandi au Cameroun, j'ai constaté les difficultés de mon père à trouve
 - **Assistance 24/7 avec un chat**: Service d'assistance pour répondre aux questions et résoudre les problèmes.
 
 ### L'Internationalisation 
-Avec 7 langue implémentées , le Francais , l'anglais , l'espagnol , l'allemand , le japonais , le hindi , le chinois et l'arabe
+Avec 7 langues implémentées : Français, Anglais, Espagnol, Allemand, Japonais, Hindi, Chinois et Arabe.
 
 Onsebat simplifie la recherche de professionnels et assure des travaux de qualité pour tous vos projets au Cameroun.
 
@@ -28,28 +28,27 @@ Onsebat simplifie la recherche de professionnels et assure des travaux de qualit
 - **Django**
 - **HTML**
 - **CSS & TailwindCSS**
-- **Vanilla js**
-- 
+- **Vanilla JS**
+
 ## Outils : 
-- **Youtube** : avec particulierement 1 chaines (https://www.youtube.com/@donaldprogrammeur)  
+- **Youtube** : avec particulièrement 1 chaîne (https://www.youtube.com/@donaldprogrammeur)  
    + https://www.youtube.com/watch?v=CzDZZPWcGj8&t=1608s&pp=ygUbaW50ZXJuYXRpb25hbGlzYXRpb24gZGphbmdv
    + https://www.youtube.com/watch?v=q-RWsnQ2wHA&pp=ygUbaW50ZXJuYXRpb25hbGlzYXRpb24gZGphbmdv
-   + 5 ou 6 en plus
+   + 5 ou 6 autres vidéos
+
 - **Mistral AI**
-   + pour la génération de contenu particulierement apres avoir defini la structure de mon json il devait me generer un tableau
-   + Apres avoir réalisé la page principale , il ya des animation que j'ai utilisé
-   + La page pour faire le filtrage il ma deneré la structure et un bon modele que j'ai quelque peux ajusté
-   + Pour les json je verifiais juste sil a respecté les keys
-   + pour le code ayant fait du js et tailwind je regardais ce quil m'a donné , je verifiais si ca fonctionne bien et j'ajustais certains element et defois je restucturais la logique
-- **Chat gpt** : lorque mistral ne me donnais pas ce que je voulais ou pour ajuster ceque mistral a fait et vis verca
+   + Pour la génération de contenu, particulièrement après avoir défini la structure de mon JSON, il devait me générer un tableau.
+   + Après avoir réalisé la page principale, il y a des animations que j'ai utilisées.
+   + Pour la page de filtrage, il m'a donné la structure et un bon modèle que j'ai quelque peu ajusté.
+   + Pour les JSON, je vérifiais simplement s'il avait respecté les clés.
+   + Pour le code, ayant utilisé du JS et Tailwind, je vérifiais s'il fonctionnait correctement et j'ajustais certains éléments et parfois je restructurais la logique.
 
-##  Probleme de l'application : 
-- **une api tres lente** : en effet l'api de mistral envois des resultat 
-  
-##  Planning suivi : 
-- **Un jour et demi pour aprprendre django et python**
-- **6 jours pour coder**:souhaitant realiser cetteapplication j'ai du reflechier sur une structure(design html , css ) que je souyaiterais et jaiaussi beaucoup reflechi sur la structure globale de l'application 
-- **demi journé pour documenter et depoyer**
+- **Chat GPT** : Lorsque Mistral ne me donnait pas ce que je voulais ou pour ajuster ce que Mistral a fait et vice versa.
 
+## Problème de l'application : 
+- **Une API très lente** : En effet, l'API de Mistral envoie des résultats tardifs.
 
-
+## Planning suivi : 
+- **Un jour et demi pour apprendre Django et Python**
+- **6 jours pour coder** : Souhaitant réaliser cette application, j'ai dû réfléchir sur une structure (design HTML, CSS) que je souhaitais et j'ai aussi beaucoup réfléchi sur la structure globale de l'application.
+- **Demi-journée pour documenter et déployer**
