@@ -21,7 +21,8 @@ import sys
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG = True
-ALLOWED_HOSTS = ["*"]  
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '').split(',')
+
 LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
 
 # File system encoding
