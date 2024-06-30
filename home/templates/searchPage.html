@@ -1,0 +1,159 @@
+{% extends 'base.html' %}
+{% load i18n %} 
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'css/filterpage.css' %}" />
+<main class="container mx-auto py-12 px-4">
+  <h1 class="text-4xl font-bold text-center mb-12 text-gray-800">{% trans "Trouvez l'Artisan Parfait au Cameroun" %}</h1>
+
+  <div class="bg-white shadow-lg p-6 mb-12">
+    <form id="searchForm" class="grid grid-cols-1 md:grid-cols-4 gap-6" action="{% url 'artisans_api' %}" method="get">
+      {% csrf_token %}
+
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Catégorie" %}</label>
+        <select name="category" class="w-full border border-gray-300 py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{% trans "Tous les métiers" %}</option>
+          {% for service in services %}
+            <option value="{{ service.id }}">{{ service.titre }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Spécialité" %}</label>
+        <input
+          type="text"
+          name="specialty"
+          placeholder="{% trans 'Ex: Installation climatisation' %}"
+          class="w-full border border-gray-300 py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Ville" %}</label>
+        <select name="city" class="w-full border border-gray-300 py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500">
+          <option value="">{% trans "Toutes les villes" %}</option>
+          {% for city in cities %}
+            <option value="{{ city }}">{{ city }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div>
+        <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Quartier" %}</label>
+        <input
+          type="text"
+          name="neighborhood"
+          placeholder="{% trans 'Ex: Akwa, Biyem-Assi' %}"
+          class="w-full border border-gray-300 py-2 px-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+        />
+      </div>
+    </form>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+    <div class="md:col-span-1">
+      <div class="bg-white shadow-lg p-6 sticky top-4">
+        <h2 class="text-2xl font-semibold mb-6 text-gray-800">{% trans "Filtres avancés" %}</h2>
+
+        <div class="space-y-6">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Expérience minimum" %}</label>
+            <input type="range" name="experienceMin" min="0" max="20" step="1" class="w-full" id="experienceRange" />
+            <div class="flex justify-between text-sm text-gray-600">
+              <span>{% trans "0 an" %}</span>
+              <span id="experienceValue">{% trans "10 ans" %}</span>
+              <span>{% trans "20+ ans" %}</span>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Note minimale" %}</label>
+            <div class="flex items-center space-x-2">
+              <input type="range" name="ratingMin" min="1" max="5" step="0.5" class="w-full" id="ratingRange" />
+              <span class="text-blue-600 font-semibold" id="ratingValue">4.5</span>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Disponibilité" %}</label>
+            <div class="space-y-2">
+              <label class="flex items-center">
+                <input type="checkbox" name="availableImmediately" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Disponible immédiatement" %}</span>
+              </label>
+              <label class="flex items-center">
+                <input type="checkbox" name="availableWeekend" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Disponible le week-end" %}</span>
+              </label>
+              <label class="flex items-center">
+                <input type="checkbox" name="availableEvening" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Disponible en soirée" %}</span>
+              </label>
+            </div>
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-2">{% trans "Langue parlée" %}</label>
+            <div class="space-y-2">
+              <label class="flex items-center">
+                <input type="checkbox" name="languageFrench" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Français" %}</span>
+              </label>
+              <label class="flex items-center">
+                <input type="checkbox" name="languageEnglish" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Anglais" %}</span>
+              </label>
+              <label class="flex items-center">
+                <input type="checkbox" name="languageLocal" class="form-checkbox text-blue-600" />
+                <span class="ml-2 text-sm">{% trans "Langues locales" %}</span>
+              </label>
+            </div>
+          </div>
+
+          <button id="applyFilters" class="w-full bg-blue-600 text-white py-2 px-4 hover:bg-blue-700 transition duration-300">
+            {% trans "Appliquer les filtres" %}
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:col-span-3 space-y-6">
+      <div class="flex justify-between items-center bg-white p-4 shadow-lg">
+        <div class="flex items-center space-x-4">
+          <span class="text-gray-600">{% trans "Trier par :" %}</span>
+          <select id="sortBy" class="border border-gray-300 py-1 px-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+            <option value="relevance">{% trans "Pertinence" %}</option>
+            <option value="rating">{% trans "Note" %}</option>
+            <option value="experience">{% trans "Expérience" %}</option>
+            <option value="hourlyRate">{% trans "Tarif horaire" %}</option>
+          </select>
+        </div>
+        <div class="relative">
+          <input
+            type="text"
+            id="searchArtisan"
+            placeholder="{% trans 'Rechercher un artisan...' %}"
+            class="w-64 border border-gray-300 py-2 px-3 pl-10 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          />
+          <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+        </div>
+      </div>
+
+      <div id="artisansContainer" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- cartes d'artisans  -->
+      </div>
+
+      <div class="flex justify-center mt-12">
+        <nav class="relative z-0 inline-flex -md shadow-sm -space-x-px" aria-label="Pagination">
+          <!-- liens de pagination  -->
+        </nav>
+      </div>
+    </div>
+  </div>
+</main>
+{% include "modal_sign.html" %}
+<script src="{% url 'javascript-catalog' %}"></script>
+
+<script src="{% static 'js/serach_filter.js' %}"></script>
+
+{% endblock %}

@@ -1,0 +1,54 @@
+{% load i18n %}
+
+<section id="testimonials" class="py-16 bg-blue-800">
+  <div class="container mx-auto">
+      <h2 class="text-4xl md:text-5xl text-white font-bold text-center mb-12">
+        {% trans 'Témoignages' %}
+      </h2>
+     
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div class="card testimonial-card bg-white p-8 shadow-lg">
+              <p class="text-gray-600 mb-4">
+                {% trans "Service impeccable ! L'artisan était professionnel et le résultat est au-delà de mes attentes. Je recommande fortement ! - " %}
+                <span class="font-semibold">Aminatou B.</span>
+              </p>
+          </div>
+          <div class="card testimonial-card bg-white p-8 shadow-lg">
+              <p class="text-gray-600 mb-4">
+                {% trans "J'ai eu une excellente expérience avec ArtisanConnect. Le processus de réservation était simple et rapide. - " %}
+                <span class="font-semibold">Jean K.</span>
+
+              </p>
+          </div>
+          <div class="card testimonial-card bg-white p-8 shadow-lg">
+              <p class="text-gray-600 mb-4">
+                {% trans "Les artisans sont très compétents et le service client est exceptionnel. Très satisfait ! - " %}
+              
+                <span class="font-semibold">Clarisse N.</span>
+          </div>
+      </div>
+  </div>
+</section>
+
+<section class="py-20 px-6">
+  <div class="container mx-auto text-center">
+    <h2 class="text-4xl md:text-5xl font-bold mb-8">{% trans 'Pourquoi nous choisir ?' %}</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="p-6 bg-white shadow-md">
+        <img src="https://via.placeholder.com/100x100.png" alt="{% trans 'Qualité' %}" class="mx-auto mb-4" />
+        <h3 class="text-2xl font-bold mb-2">{% trans 'Qualité' %}</h3>
+        <p>{% trans 'Nous sélectionnons rigoureusement nos artisans pour garantir un service de qualité.' %}</p>
+      </div>
+      <div class="p-6 bg-white shadow-md">
+        <img src="https://via.placeholder.com/100x100.png" alt="{% trans 'Confiance' %}" class="mx-auto mb-4" />
+        <h3 class="text-2xl font-bold mb-2">{% trans 'Confiance' %}</h3>
+        <p>{% trans 'Nos artisans sont certifiés et de confiance pour tous vos travaux.' %}</p>
+      </div>
+      <div class="p-6 bg-white shadow-md">
+        <img src="https://via.placeholder.com/100x100.png" alt="{% trans 'Support' %}" class="mx-auto mb-4" />
+        <h3 class="text-2xl font-bold mb-2">{% trans 'Support' %}</h3>
+        <p>{% trans 'Nous vous accompagnons tout au long de votre projet pour un résultat parfait.' %}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,804 @@
+{
+  "artisans": [
+    {
+      "id_service": 23,
+      "description": "Alioune Ndiaye के साथ Onsebat पर बार्बर कला का अन्वेषण करें, जहां शेर कटाने और दाढ़ी काटने की सटीकता और स्वाभाविकता एक पुरुषत्व और शैली का व्यक्तिगत व्यक्तिकरण है, जो सुंदर स्वच्छता सेवा का अनुभव प्रस्तुत करता है।",
+      "id": 1,
+      "nom": "Alioune Ndiaye",
+      "specialite": "बार्बर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "Onsebat पर Fatoumata Traoré के साथ इलेक्ट्रिशियन की दुनिया में एक कदम रखें, जहां इलेक्ट्रिकल सुरक्षा प्राथमिकता है। Fatoumata कमेरून के इन्फ्रास्ट्रक्चर के लिए विश्वसनीय इलेक्ट्रिकल समाधान प्रदान करती है, जो ऊर्जा की कुशलता को बढ़ाते हुए सभी के लिए सुरक्षित वातावरण सुनिश्चित करती हैं।",
+      "id": 2,
+      "nom": "Fatoumata Traoré",
+      "specialite": "इलेक्ट्रीशियन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "Issa Diop के साथ Onsebat पर हेयरस्टाइलिंग की दुनिया में एक कदम रखें, जहां प्रत्येक शैली कला और सुंदरता के विशेषज्ञता का प्रतिबिंब है, बालों को कैपिलर कला के कार्यों में परिवर्तित करता है।",
+      "id": 3,
+      "nom": "Issa Diop",
+      "specialite": "सुंदरकार",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "Onsebat पर Aïcha Kone के साथ जूआ बनाने की कला का अन्वेषण करें, जहां प्रत्येक आइटम कला और कस्टम कॉरफ करफ्ट की एक गुमनामी है, शिकन और शैखसानी का प्रतिबिंब है।",
+      "id": 4,
+      "nom": "Aïcha Kone",
+      "specialite": "जूआर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "Onsebat पर Ibrahim Sow के साथ सोफा डेकोरेटर की कला का अन्वेषण करें, जहां प्रत्येक स्थान शैली और संगतता का एक व्यक्तिगत व्यक्तिकरण है, चुने हुए कपड़ों और पारदर्शिताओं के माध्यम से।",
+      "id": 5,
+      "nom": "Ibrahim Sow",
+      "specialite": "सोफा डेकोरेटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "Mariam Diawara के साथ Onsebat पर बेकरी कला का अन्वेषण करें, जहां पारंपरिक कौशल और नया रोटी और मिठाई के लिए प्रेम का संयोग रस और प्राकृतिकता के साथ एक अद्वितीय खाद्य अनुभव प्रदान करता है।",
+      "id": 6,
+      "nom": "Mariam Diawara",
+      "specialite": "बेकरी",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "Onsebat पर Moussa Cissé के साथ मारोकिनेरी की कला का अन्वेषण करें, जहां चमड़ा बैग और एक्सेसरीज़ में बदलता है, पारंपरिक कौशल और आधुनिक डिज़ाइन का संयोग करता है।",
+      "id": 7,
+      "nom": "Moussa Cissé",
+      "specialite": "मारोकिनेर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "Jean-Pierre Ndong के साथ Onsebat पर मसोन की दुनिया में एक कदम रखें, जहां सुरक्षित और सटीक निर्माण की कला एक वास्तविक प्रेम है। Jean-Pierre आधुनिक तकनीकों को पारंपरिक कौशल के साथ जोड़कर कमेरून के लिए सुदृढ और दीर्घकालिक बिल्डिंग बनाता है, जो स्थानीय परिवेश को सुशोभित करते हैं।",
+      "id": 8,
+      "nom": "Jean-Pierre Ndong",
+      "specialite": "मसोन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "Onsebat पर Alphonse Mbarga के साथ लकड़ी पर स्कल्प्चर की कला का अन्वेषण करें, जहां प्रत्येक आइटम लकड़ी की सुंदरता और कस्टम कॉरफ करफ्ट की कला का प्रतिबिंब है, अनितकलिक कार्यों को रचता है।",
+      "id": 9,
+      "nom": "Alphonse Mbarga",
+      "specialite": "लकड़ी पर स्कल्प्चर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "Onsebat पर Adama Ba के साथ खाना की कला का अन्वेषण करें, जहां प्रत्येक डिश कला और उत्तम इंग्रीडियंट की तकनीकों का संयोग है, जो एक अद्वितीय गैस्ट्रोनॉमिक अनुभव प्रदान करता है।",
+      "id": 10,
+      "nom": "Adama Ba",
+      "specialite": "रसोइया",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "Onsebat पर Moussa Konaté के साथ मेटल रिसाइकलिंग की कला का अन्वेषण करें, जहां वास्तविक जिम्मेदारी से रिसाइकलिंग पर्यावरण की दीर्घकालिकता और संसाधनों की सुरक्षा को बढ़ाता है।",
+      "id": 11,
+      "nom": "Moussa Konaté",
+      "specialite": "फेरा व्यापारी",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "Onsebat पर Aïssatou Diop के साथ कोटिंग की कला का अन्वेषण करें, जहां प्रत्येक कपड़ा एक अनोखा स्वरूप है, जो शिकन और व्यक्तित्व का प्रतिबिंब है, अद्वितीय और अनिवार्य शैली बनाता है।",
+      "id": 12,
+      "nom": "Aïssatou Diop",
+      "specialite": "कोटिंग करने वाला",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "Onsebat पर Aboubacar Diallo के साथ हीटिंग की कला का अन्वेषण करें, जहां ऊर्जा सुख प्राथमिकता है, सुविधाजनक और दीर्घकालिक ग्रीटिंग सिस्टम की स्थापना और रखरखाव के माध्यम से।",
+      "id": 13,
+      "nom": "Aboubacar Diallo",
+      "specialite": "हीटिंग इंजीनियर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "Onsebat पर Fatou Camara के साथ टाइलर की कला का अन्वेषण करें, जहां सटीक स्थापना के माध्यम से कवरिंग सुरक्षित और कार्यकर स्थानों को रूपरेखापूर्ण और सुंदर बनाता है।",
+      "id": 14,
+      "nom": "Fatou Camara",
+      "specialite": "टाइलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "Onsebat पर Aliou Mbengue के साथ प्लंबर की कला का अन्वेषण करें, जहां सुविधाजनक और कार्यकर स्थानों के लिए सटीक प्लंबिंग सिस्टम की स्थापना सुनिश्चित करती है।",
+      "id": 15,
+      "nom": "Aliou Mbengue",
+      "specialite": "प्लंबर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "Onsebat पर Fanta Diallo के साथ गार्डनिंग की कला का अन्वेषण करें, जहां प्रत्येक पौधा और फूल प्राकृतिक संतुलन में अपना स्थान पाता है, बाहरी स्थानों को शांति और सुंदरता के आश्रयों में परिवर्तित करता है।",
+      "id": 16,
+      "nom": "Fanta Diallo",
+      "specialite": "गार्डनर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "Onsebat पर Amadou Fofana के साथ सीनोग्राफी की कला का अन्वेषण करें, जहां प्रत्येक सेट कहानी का एक कनवास है, जो दृश्य भाषा के माध्यम से कहता है और प्रदर्शन कला के माध्यम से जनता को आकर्षित करता है।",
+      "id": 17,
+      "nom": "Amadou Fofana",
+      "specialite": "सीनोग्राफर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "Onsebat पर Adama Doumbia के साथ विट्रेज की कला का अन्वेषण करें, जहां सटीक कटाई और स्थापना के माध्यम से कवरिंग प्रकाशमान और सुरक्षित स्थानों को रूपरेखापूर्ण और सुंदर बनाता है, आधुनिक संरचना को सुशोभित करता है।",
+      "id": 18,
+      "nom": "Adama Doumbia",
+      "specialite": "विट्रेज",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "Onsebat पर Aminata Ba के साथ टैपेस्ट्री की कला का अन्वेषण करें, जहां प्रत्येक सीट और कर्पेट एक सुंदरता और सुविधा का महत्वपूर्ण तत्व है, पारंपरिक कौशल और आधुनिक डिज़ाइन का संयोग करता है।",
+      "id": 19,
+      "nom": "Aminata Ba",
+      "specialite": "टैपेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "Onsebat पर Moustapha Diagne के साथ वेल्डर की कला का अन्वेषण करें, जहां सटीक मेटल फ्यूजन सुरक्षित और कार्यकर संरचना और निर्माण के लिए क्षमता बनाता है।",
+      "id": 20,
+      "nom": "Moustapha Diagne",
+      "specialite": "वेल्डर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "Onsebat पर Kadiatou Sow के साथ टेलर की कला का अन्वेषण करें, जहां प्रत्येक कपड़ा एक अनोखा स्वरूप है, जो शिकन और व्यक्तित्व का प्रतिबिंब है, स्मरणीय शैली बनाता है।",
+      "id": 21,
+      "nom": "Kadiatou Sow",
+      "specialite": "टेलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "Onsebat पर Issouf Traoré के साथ मेटलवर्क की कला का अन्वेषण करें, जहां प्रत्येक मेटल आइटम एक कार्यकर और सुंदर कार्य है, जो कार्यकलाप और स्थायीत्व का संयोग करता है, संरचनात्मक परिवेश को सुशोभित करता है।",
+      "id": 22,
+      "nom": "Issouf Traoré",
+      "specialite": "मेटलवर्कर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "Onsebat पर Abdoulaye Sarr के साथ कार्पंटर की कला का अन्वेषण करें, जहां प्रत्येक कस्टम फर्नीचर पारंपरिक कौशल और आधुनिक डिज़ाइन का संयोग है, आंतरिक स्थानों को शिकन और कार्यकर बनाता है।",
+      "id": 23,
+      "nom": "Abdoulaye Sarr",
+      "specialite": "कार्पंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "Onsebat पर Fatimata Camara के साथ बोडीवर्क की कला का अन्वेषण करें, जहां प्रत्येक वाहन एक अनोखा स्वरूप है, जो डिज़ाइन और कार्यकरता का संयोग है, ऑटोमोबाइल इंजीनियरिंग के साथ शैक्षणिक और सुंदरता को जोड़ता है।",
+      "id": 24,
+      "nom": "Fatimata Camara",
+      "specialite": "बोडीवर्कर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "Onsebat पर Oumar Sy के साथ सीरामिक्स की कला का अन्वेषण करें, जहां प्रत्येक हाथ से बनाया गया आइटम मिट्टी की स्वाभाविक सुंदरता का प्रतिबिंब है, अद्वितीय और कलात्मक आइटम बनाता है।",
+      "id": 25,
+      "nom": "Oumar Sy",
+      "specialite": "सीरामिक्स कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "Onsebat पर Amadou Diop के साथ स्टोनमेसन की कला का अन्वेषण करें, जहां प्रत्येक संरचना पत्थर से बनाया गया एक स्थायी और सुंदर कार्य है, जो कमेरून के संरचनात्मक परिवेश को सुशोभित करता है।",
+      "id": 26,
+      "nom": "Amadou Diop",
+      "specialite": "स्टोनमेसन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "Onsebat पर Mariama Cissé के साथ स्टेड ग्लास की कला का अन्वेषण करें, जहां प्रत्येक रंगीन कवरिंग पत्थर के रंग का एक अस्तित्वी और सुंदर कार्य है, जो आंतरिक स्थानों को प्रकाशमान और सुंदर बनाता है।",
+      "id": 27,
+      "nom": "Mariama Cissé",
+      "specialite": "स्टेड ग्लास कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "Onsebat पर Modibo Traoré के साथ डेकोरेटर की कला का अन्वेषण करें, जहां प्रत्येक स्थान एक रंग-भाव और पारदर्शिताओं का संग्रह है, जो प्रेरणाशील और आकर्षक वातावरण बनाता है।",
+      "id": 28,
+      "nom": "Modibo Traoré",
+      "specialite": "डेकोरेटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "Onsebat पर Adama Fofana के साथ फर्जिंग की कला का अन्वेषण करें, जहां प्रत्येक मेटल आइटम पारंपरिक तकनीकों और आधुनिक डिज़ाइन के संयोग के माध्यम से जीवंत होता है, कार्यकर और सुंदर आइटम बनाता है।",
+      "id": 29,
+      "nom": "Adama Fofana",
+      "specialite": "फर्जिंग कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "Onsebat पर Moussa Traoré के साथ ड्राइवर की कला का अन्वेषण करें, जहां सुरक्षित और कुशल चालकी स्थानीय मोबाइलिटी के लिए एक महत्वपूर्ण तत्व है, समयपर और विश्वसनीय सेवा प्रदान करता है।",
+      "id": 30,
+      "nom": "Moussa Traoré",
+      "specialite": "ड्राइवर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "Onsebat पर Fanta Konaté के साथ एम्ब्रोडरी की कला का अन्वेषण करें, जहां प्रत्येक पैटरन कथा का एक कवर है, जो हाथ से किया गया है, कपड़ों और कपड़ों को रंगीन मोटिव और सटीक विवरणों से सुशोभित करता है।",
+      "id": 31,
+      "nom": "Fanta Konaté",
+      "specialite": "एम्ब्रोडर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "Onsebat पर Amadou Diarra के साथ मोज़ाइक की कला का अन्वेषण करें, जहां प्रत्येक कवरिंग पत्थर एक अस्तित्वी और सुंदर डिज़ाइन का एक तत्व है, रंग और पारदर्शिता के माध्यम से स्थानों को अस्तित्वी और सुंदर बनाता है।",
+      "id": 32,
+      "nom": "Amadou Diarra",
+      "specialite": "मोज़ाइक कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "Onsebat पर Fatimata Diakité के साथ ग्लासब्लोविंग की कला का अन्वेषण करें, जहां प्रत्येक हाथ से बनाया गया कवरिंग पत्थर मिट्टी की स्वाभाविक सुंदरता का प्रतिबिंब है, जो शिकन और सुंदरता को प्रदर्शित करता है।",
+      "id": 33,
+      "nom": "Fatimata Diakité",
+      "specialite": "ग्लासब्लोवर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "Onsebat पर Ousmane Doumbia के साथ पोटरी की कला का अन्वेषण करें, जहां प्रत्येक बर्तन और कटोरा हाथ से सावधानीपूर्वक बनाया गया है, प्राकृतिकता की सुंदरता और कलात्मकता का प्रतिबिंब है।",
+      "id": 34,
+      "nom": "Ousmane Doumbia",
+      "specialite": "पोटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "Onsebat पर Moussa Keita के साथ टैक्सिडरमी की कला का अन्वेषण करें, जहां प्रत्येक जानवर एक कथा है, जो संरक्षण और प्राकृतिक सुंदरता का प्रतिबिंब है, कमेरून के जंगली जीव की प्राकृति को भविष्य के लिए प्रतिष्ठित करता है।",
+      "id": 35,
+      "nom": "Moussa Keita",
+      "specialite": "टैक्सिडरमिस्ट",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "Onsebat पर Aissatou Diallo के साथ प्लंबर की कला का अन्वेषण करें, जहां सुविधाजनक और कार्यकर स्थानों के लिए सटीक प्लंबिंग सिस्टम की स्थापना सुनिश्चित करती है।",
+      "id": 36,
+      "nom": "Aissatou Diallo",
+      "specialite": "प्लंबर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "Onsebat पर Mamadou Sow के साथ खाना की कला का अन्वेषण करें, जहां प्रत्येक डिश कला और उत्तम इंग्रीडियंट की तकनीकों का संयोग है, जो एक अद्वितीय गैस्ट्रोनॉमिक अनुभव प्रदान करता है।",
+      "id": 37,
+      "nom": "Mamadou Sow",
+      "specialite": "रसोइया",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "Onsebat पर Fatoumata Diarra के साथ पेंटिंग की कला का अन्वेषण करें, जहां प्रत्येक सतह एक कनवास है, जो आंतरिक और बाहरी स्थानों में कला और माहौल का प्रतिबिंब है।",
+      "id": 38,
+      "nom": "Fatoumata Diarra",
+      "specialite": "पेंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "Onsebat पर Oumar Camara के साथ विट्रेज की कला का अन्वेषण करें, जहां कवरिंग आधुनिक संरचना के एक अनिवार्य तत्व है, जो प्रकाश और स्पष्टता को स्थानों में लाता है।",
+      "id": 39,
+      "nom": "Oumar Camara",
+      "specialite": "विट्रेज",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "Onsebat पर Kadiatou Bah के साथ हेयरस्टाइलिंग की दुनिया में एक कदम रखें, जहां प्रत्येक शैली कला और सुंदरता के विशेषज्ञता का प्रतिबिंब है, बालों को कैपिलर कला के कार्यों में परिवर्तित करता है।",
+      "id": 40,
+      "nom": "Kadiatou Bah",
+      "specialite": "सुंदरकार",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "Onsebat पर Seydou Traoré के साथ टाइलर की कला का अन्वेषण करें, जहां सटीक स्थापना के माध्यम से कवरिंग सुरक्षित और कार्यकर स्थानों को रूपरेखापूर्ण और सुंदर बनाता है।",
+      "id": 41,
+      "nom": "Seydou Traoré",
+      "specialite": "टाइलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "Onsebat पर Fanta Camara के साथ टैपेस्ट्री की कला का अन्वेषण करें, जहां प्रत्येक फर्नीचर एक कलात्मक कार्य है, जो चुने हुए कपड़ों और डेकोरेटिव सामग्री के साथ सुशोभित है।",
+      "id": 42,
+      "nom": "Fanta Camara",
+      "specialite": "टैपेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "Onsebat पर Modibo Doumbia के साथ मसोन की दुनिया में एक कदम रखें, जहां सुरक्षित और सटीक निर्माण की कला विचारों को वास्तविकता में बदलती है।",
+      "id": 43,
+      "nom": "Modibo Doumbia",
+      "specialite": "मसोन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "Onsebat पर Ousmane Sow के साथ लुथियर की कला का अन्वेषण करें, जहां संगीत के साथ संबंधित आइटम की निर्माण और रिपेयर कला संगीत के लिए प्रेम और कला के संयोग का प्रतिबिंब है, आकर्षक स्वर बनाता है।",
+      "id": 44,
+      "nom": "Ousmane Sow",
+      "specialite": "लुथियर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "Onsebat पर Mariam Konaté के साथ इलेक्ट्रिशियन की दुनिया में एक कदम रखें, जहां इलेक्ट्रिकल सिस्टम के विशेषज्ञता सुरक्षा और ऊर्जा की कुशलता के लिए सभी परियोजनाओं को सुनिश्चित करती है।",
+      "id": 45,
+      "nom": "Mariam Konaté",
+      "specialite": "इलेक्ट्रीशियन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "Onsebat पर Mamadou Barry के साथ लकड़ी पर स्कल्प्चर की कला का अन्वेषण करें, जहां प्रत्येक आइटम लकड़ी की सुंदरता और कस्टम कॉरफ करफ्ट की कला का प्रतिबिंब है, अनितकलिक कार्यों को रचता है।",
+      "id": 46,
+      "nom": "Mamadou Barry",
+      "specialite": "लकड़ी पर स्कल्प्चर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "Onsebat पर Aminata Traoré के साथ पेस्ट्री की कला का अन्वेषण करें, जहां प्रत्येक मिठाई एक स्वादिष्ट और कलात्मक क्रिएशन है, जो स्वाद और कला के माध्यम से मीठाई की महिमा का प्रतिबिंब है।",
+      "id": 47,
+      "nom": "Aminata Traoré",
+      "specialite": "पेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "Onsebat पर Amadou Diallo के साथ एम्ब्रोडरी की कला का अन्वेषण करें, जहां प्रत्येक स्टिच एक कहानी है, जो हाथ से किया गया है, कपड़ों और कपड़ों को रंगीन मोटिव और सटीक विवरणों से सुशोभित करता है।",
+      "id": 48,
+      "nom": "Amadou Diallo",
+      "specialite": "एम्ब्रोडर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "Onsebat पर Fadimata Keita के साथ जूआ बनाने की कला का अन्वेषण करें, जहां प्रत्येक आइटम कला और कस्टम कॉरफ करफ्ट की एक गुमनामी है, शिकन और शैखसानी का प्रतिबिंब है।",
+      "id": 49,
+      "nom": "Fadimata Keita",
+      "specialite": "जूआर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "Onsebat पर Ousmane Diallo के साथ लैंडस्केप डिजाइन की कला का अन्वेषण करें, जहां प्रत्येक बगीचा प्राकृति और मानवीय कला का एक संगत विस्तार है, शांत और सुंदर जीवन स्थानों बनाता है।",
+      "id": 50,
+      "nom": "Ousmane Diallo",
+      "specialite": "लैंडस्केप डिजाइनर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "Onsebat पर Fanta Traoré के साथ सीनोग्राफी की कला का अन्वेषण करें, जहां प्रत्येक सेट कहानी का एक कनवास है, जो दृश्य भाषा के माध्यम से कहता है और प्रदर्शन कला के माध्यम से जनता को आकर्षित करता है।",
+      "id": 51,
+      "nom": "Fanta Traoré",
+      "specialite": "सीनोग्राफर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "Onsebat पर Oumar Keita के साथ सोफा डेकोरेटर की कला का अन्वेषण करें, जहां प्रत्येक स्थान शैली और संगतता का एक व्यक्तिगत व्यक्तिकरण है, चुने हुए कपड़ों और पारदर्शिताओं के माध्यम से।",
+      "id": 52,
+      "nom": "Oumar Keita",
+      "specialite": "सोफा डेकोरेटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "Onsebat पर Aminata Camara के साथ पोटरी की कला का अन्वेषण करें, जहां मिट्टी जीवंत कला के एक रूप है, जो अद्वितीय कार्यों को रचती है, जो मानवीय कला की प्राकृति का प्रतिबिंब है।",
+      "id": 53,
+      "nom": "Aminata Camara",
+      "specialite": "पोटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "Onsebat पर Mamadou Traoré के साथ फर्नीचर रिस्टोरेशन की कला का अन्वेषण करें, जहां प्रत्येक पुराना आइटम अपनी मूल सुंदरता को पुनर्प्राप्त करता है, पारंपरिकता को सम्मानित करते हुए उच्च गुणवत्ता वाली तकनीकों के माध्यम से।",
+      "id": 54,
+      "nom": "Mamadou Traoré",
+      "specialite": "फर्नीचर रिस्टोरेशन करने वाला",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "Onsebat पर Fatoumata Traoré के साथ मारोकिनेरी की कला का अन्वेषण करें, जहां प्रत्येक बैग और एक्सेसरीज़ उच्च गुणवत्ता वाले चमड़े और आधुनिक डिज़ाइन का संयोग है, शिकन और कार्यकर आइटम बनाता है।",
+      "id": 55,
+      "nom": "Fatoumata Traoré",
+      "specialite": "मारोकिनेर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "Onsebat पर Ibrahim Camara के साथ कोटिंग की कला का अन्वेषण करें, जहां प्रत्येक कपड़ा एक अनोखा स्वरूप है, जो शैली, सुख और गुणवत्ता का संयोग करता है, उच्च गुणवत्ता वाली कोटिंग तकनीकों के माध्यम से।",
+      "id": 56,
+      "nom": "Ibrahim Camara",
+      "specialite": "कोटिंग करने वाला",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "Onsebat पर Kadiatou Traoré के साथ मोज़ाइक की कला का अन्वेषण करें, जहां प्रत्येक रंगीन मोटिव एक अद्वितीय इंटीरियर डेकोरेशन आइटम है, जो कलात्मक सटीकता और दृश्य सुंदरता का संयोग करता है।",
+      "id": 57,
+      "nom": "Kadiatou Traoré",
+      "specialite": "मोज़ाइक कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "Onsebat पर Ousmane Diallo के साथ स्टोनमेसन की कला का अन्वेषण करें, जहां प्रत्येक पत्थर सटीकता के साथ काटा गया है, सुरक्षित और सुंदर संरचना बनाता है, जो समय का परख सहने वाली है।",
+      "id": 58,
+      "nom": "Ousmane Diallo",
+      "specialite": "स्टोनमेसन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "Onsebat पर Mariama Diop के साथ एयरकंडीशनिंग इंस्टॉलेशन की कला का अन्वेषण करें, जहां प्रत्येक सिस्टम सुख और ऊर्जा की कुशलता के लिए संगत है, सभी आवासीय और व्यावसायिक परिवेशों के लिए डिज़ाइन किया गया है।",
+      "id": 59,
+      "nom": "Mariama Diop",
+      "specialite": "एयरकंडीशनिंग इंस्टॉलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "Onsebat पर Amadou Barry के साथ कार्पंटरी की कला का अन्वेषण करें, जहां प्रत्येक फर्नीचर उच्च गुणवत्ता वाले लकड़ी और कार्यकर डिज़ाइन का संयोग है, शिकन और व्यक्तिगत स्थानों बनाता है।",
+      "id": 60,
+      "nom": "Amadou Barry",
+      "specialite": "कार्पंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "Onsebat पर Aminata Diallo के साथ फोटोग्राफी की दुनिया में एक कदम रखें, जहां प्रत्येक तस्वीर का अंदाज और भाव को पकड़ती है, जो अद्वितीय और अनितकलिक स्मरण बनाती है।",
+      "id": 61,
+      "nom": "Aminata Diallo",
+      "specialite": "फोटोग्राफर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "Onsebat पर Abdoulaye Traoré के साथ स्कल्प्चरिंग की कला का अन्वेषण करें, जहां प्रत्येक कार्य कला और तकनीकी कौशल का प्रतिबिंब है, जो विभिन्न सामग्री और शैलियों के साथ कार्यकर और सुंदर आइटम बनाता है।",
+      "id": 62,
+      "nom": "Abdoulaye Traoré",
+      "specialite": "स्कल्प्टर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "Onsebat पर Fanta Camara के साथ फर्जिंग की कला का अन्वेषण करें, जहां प्रत्येक मेटल आइटम एक कार्यकर और सुंदर कार्य है, जो कार्यकलाप और स्थायीत्व का संयोग करता है।",
+      "id": 63,
+      "nom": "Fanta Camara",
+      "specialite": "फर्जिंग कारीगर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "Onsebat पर Amadou Sow के साथ टैपेस्ट्री की कला का अन्वेषण करें, जहां प्रत्येक आइटम रंगीन मोटिव और पारदर्शिताओं से सुशोभित है, जो स्थानों को सुंदरता और सुख से भरता है।",
+      "id": 64,
+      "nom": "Amadou Sow",
+      "specialite": "टैपेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "Onsebat पर Mariam Doumbia के साथ फेरा व्यापार की कला का अन्वेषण करें, जहां प्रत्येक कस्टम मेटल आइटम एक अद्वितीय और दीर्घकालिक आइटम है, जो कलात्मकता और पर्यावरण के लिए जिम्मेदारी का प्रतिबिंब है।",
+      "id": 65,
+      "nom": "Mariam Doumbia",
+      "specialite": "फेरा व्यापारी",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "Onsebat पर Oumar Traoré के साथ विट्रेज की कला का अन्वेषण करें, जहां कवरिंग आधुनिक संरचना के एक अनिवार्य तत्व है, जो प्रकाश और स्पष्टता को स्थानों में लाता है।",
+      "id": 66,
+      "nom": "Oumar Traoré",
+      "specialite": "विट्रेज",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "Onsebat पर Fatoumata Camara के साथ लॉकस्मिथ की कला का अन्वेषण करें, जहां सुरक्षा और सुंदरता के लिए सटीक लॉक और कुंजी बनाने की कला सुरक्षा और सुविधा के लिए सभी प्रकार के दरवाजों और चढाईयों के लिए डिज़ाइन किया गया है।",
+      "id": 67,
+      "nom": "Fatoumata Camara",
+      "specialite": "लॉकस्मिथ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "Onsebat पर Mohamed Keita के साथ इंटीरियर डेकोरेशन की कला का अन्वेषण करें, जहां प्रत्येक स्थान एक संगत रंग-भाव और फर्नीचर का संग्रह है, जो प्रेरणाशील और आह्वानकारी वातावरण बनाता है।",
+      "id": 68,
+      "nom": "Mohamed Keita",
+      "specialite": "इंटीरियर डेकोरेटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "Onsebat पर Aminata Diakité के साथ प्लास्टरिंग की कला का अन्वेषण करें, जहां प्रत्येक सतह एक कनवास है, जो कार्यकरता और सुंदरता के संयोग के माध्यम से कला और माहौल का प्रतिबिंब है।",
+      "id": 69,
+      "nom": "Aminata Diakité",
+      "specialite": "प्लास्टरर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "اكتشف فن الزخرفة الزهرية مع Amadou Camara في Onsebat، حيث يصبح كل ترتيب من الأزهار سيمفونية من الألوان والأشكال، يجسد جوهر الجمال الطبيعي.",
+      "id": 70,
+      "nom": "Amadou Camara",
+      "specialite": "مصمم الأزهار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "फंटा डियारा के साथ पेस्ट्री कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक मिठाई स्वादिष्ट और कलात्मक रचना है, जो सुंदरता और सृजनशीलता के माध्यम से मिठास की आशा का मनान करती है।",
+      "id": 71,
+      "nom": "फंटा डियारा",
+      "specialite": "पेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "ममदू ट्राओरे के साथ कार्पेंटरी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक फर्नीचर उच्च गुणवत्ता के लकड़ी और कार्यकर डिजाइन का संयोजन है, जो सुंदर और व्यक्तिगत जीवन स्थानों के लिए सुंदर और सुंदर अनुभव बनाता है।",
+      "id": 72,
+      "nom": "ममदू ट्राओरे",
+      "specialite": "कार्पेंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "ऐचा ट्राओरे के साथ लकड़ी पर स्कल्प्टर कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक पीसा लकड़ी की सुंदरता और कलात्मक कौशल का प्रतिबिंब है, जो अक्षर्थ रचनाएँ बनाता है।",
+      "id": 73,
+      "nom": "ऐचा ट्राओरे",
+      "specialite": "लकड़ी पर स्कल्प्टर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "अमदू कामारा के साथ लैंडस्केप डिजाइन का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक बाग प्राकृतिक सुंदरता और मानव सृजनशीलता का एक संतुलित विस्तार बनता है, जो स्वस्थ और शांत जीवन स्थान बनाता है।",
+      "id": 74,
+      "nom": "अमदू कामारा",
+      "specialite": "लैंडस्केप डिजाइनर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "अमिनाता ट्राओरे के साथ कैरलिंग कला का अन्वेषण करें ओनसेबाट पर, जहां सटीक रखने के साथ कवरिंग का स्थापना स्थानों को कार्यकर और सुंदर कलात्मक रचनाओं में परिवर्तित करता है।",
+      "id": 75,
+      "nom": "अमिनाता ट्राओरे",
+      "specialite": "कैरलिंग मेंस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "ओमर केइटा के साथ हेयरस्टाइलिंग कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक स्टाइल सुंदरता और उत्तेजना के मामले में सृजनशीलता और कौशल का प्रतिबिंब है, जो कपड़े के लकड़े में कलात्मक रचनाएँ बनाता है।",
+      "id": 76,
+      "nom": "ओमर केइटा",
+      "specialite": "बार्बर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "मरियम कामारा के साथ सीनोग्राफी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक सेट कहानीयात्मक चित्र के लिए एक कनवास बनता है, जो दृश्य कला के कहानी को समझाता है और जनता को शो की मज़ेदारी में आकर्षित करता है।",
+      "id": 77,
+      "nom": "मरियम कामारा",
+      "specialite": "सीनोग्राफर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "अमदू ट्राओरे के साथ बेकरी कला का अन्वेषण करें ओनसेबाट पर, जहां पारंपरिक कौशल और रोटी और मिठाई के लिए प्रेम का संयोजन संवेदनशीलता को जगाता है और प्रत्येक काट के लिए रसनाओं को जगाता है।",
+      "id": 78,
+      "nom": "अमदू ट्राओरे",
+      "specialite": "बेकर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "ऐसातू ट्राओरे के साथ पोटरी कला का अन्वेषण करें ओनसेबाट पर, जहां मिट्टी अद्वितीय और कार्यकर रचनाओं में परिवर्तित होती है, जो सृजनशीलता और पारंपरिकता के संचार को प्रतिबिंबित करती हैं।",
+      "id": 79,
+      "nom": "ऐसातू ट्राओरे",
+      "specialite": "पोटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "ऊसमाने कामारा के साथ पेंटिंग कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक सतह प्रकाश और रंग के लिए एक कनवास बनती है, जो आंतरिक और बाहरी स्थानों में मूड और स्वरूप का व्यक्तिकरण करती है।",
+      "id": 80,
+      "nom": "ऊसमाने कामारा",
+      "specialite": "पेंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "फंटा ट्राओरे के साथ सोफा कवरिंग डिजाइनर कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक स्थान स्वरूप और संतुलन का व्यक्तिकरण होता है, जो चुने हुए कपड़ों और पाटों के साथ संगत होता है।",
+      "id": 81,
+      "nom": "फंटा ट्राओरे",
+      "specialite": "सोफा कवरिंग डिजाइनर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "ममदू कामारा के साथ लुथियरी कला का अन्वेषण करें ओनसेबाट पर, जहां संगीत साधनों की निर्माण और मरम्मत संगीत के लिए प्रेम और कला के मामले में सृजनशीलता का प्रतिबिंब है, जो मजेदार स्वर बनाता है।",
+      "id": 82,
+      "nom": "ममदू कामारा",
+      "specialite": "लुथियर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "मरियमा ट्राओरे के साथ मसोनरी कला का अन्वेषण करें ओनसेबाट पर, जहां सुरक्षित और कार्यकर संरचनाओं की निर्माण कौशल विचारों को वास्तविकता में परिवर्तित करता है।",
+      "id": 83,
+      "nom": "मरियमा ट्राओरे",
+      "specialite": "मसोन",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "अमिनाता डियारा के साथ प्लंबर की कुशलता का अन्वेषण करें ओनसेबाट पर, जहां सटीक रखने के साथ प्लंबिंग सिस्टम की स्थापना सुविधा और कार्यकरता की सुनिश्चितता सुनिश्चित करती है।",
+      "id": 84,
+      "nom": "अमिनाता डियारा",
+      "specialite": "प्लंबर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "ममदू ट्राओरे के साथ विट्रियर कला का अन्वेषण करें ओनसेबाट पर, जहां कांच सुंदर संरचना का एक हिस्सा बनता है, जो प्रकाश और स्पष्टता को प्रत्येक स्थान में लाता है।",
+      "id": 85,
+      "nom": "ममदू ट्राओरे",
+      "specialite": "विट्रियर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "ऊमू ट्राओरे के साथ जूआरी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक पीसा सृजनशीलता और सटीक कलात्मक कौशल का संयोजन है, जो सुंदरता और संस्कृति का प्रतिबिंब है।",
+      "id": 86,
+      "nom": "ऊमू ट्राओरे",
+      "specialite": "जूआर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "फतूमाता डियाकीटे के साथ सोफा कवरिंग कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक फर्नीचर चुने हुए कपड़ों और डिकोरेटिव सामग्री के साथ एक कलात्मक रचना बनता है।",
+      "id": 87,
+      "nom": "फतूमाता डियाकीटे",
+      "specialite": "सोफा कवरिंग",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "अमदू ट्राओरे के साथ ग्लासवर्क कला का अन्वेषण करें ओनसेबाट पर, जहां कांच प्रकाश और रंग के लिए एक कनवास बनता है, जो चमकीला और कलात्मक रचनाएँ बनाता है।",
+      "id": 88,
+      "nom": "अमदू ट्राओरे",
+      "specialite": "ग्लासवर्कर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "अमिनाता कामारा के साथ फर्नीचर री-कवरिंग कला का अन्वेषण करें ओनसेबाट पर, जहां उच्च गुणवत्ता के कपड़ों और तकनीकों के साथ प्रत्येक फर्नीचर को सुंदरता और आराम पुनर्प्राप्त किया जाता है।",
+      "id": 89,
+      "nom": "अमिनाता कामारा",
+      "specialite": "फर्नीचर री-कवरिंग",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "ऊसमाने डियारा के साथ फोटोग्राफी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक तस्वीर अद्वितीय क्षणों और दृष्टिकोणों को पकड़ती है, जो कहानियाँ कहती हैं और ऑब्जेक्टिव के माध्यम से कहती हैं।",
+      "id": 90,
+      "nom": "ऊसमाने डियारा",
+      "specialite": "फोटोग्राफर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "फंटा डियारा के साथ एम्ब्रोडरी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक रेशम एक कहानी के साथ होता है, जो हाथ से किया गया है, जो कपड़ों और वस्त्रों को सुंदर पैटर्न और विस्तृत विवरणों से सुशोभित करता है।",
+      "id": 91,
+      "nom": "फंटा डियारा",
+      "specialite": "एम्ब्रोडर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "ऊसमाने ट्राओरे के साथ कार्पेंटरी कला का अन्वेषण करें ओनसेबाट पर, जहां श्रेष्ठ लकड़ी सुंदर और कार्यकर फर्नीचर बनाती है, जो पारंपरिकता और आधुनिकता का संयोजन बनाती है।",
+      "id": 92,
+      "nom": "ऊसमाने ट्राओरे",
+      "specialite": "कार्पेंटर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "मरियम डियाकीटे के साथ टेलरी कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक कस्टम-मेड वस्त्र सुंदरता और व्यक्तित्व का प्रतिबिंब है, जो अद्वितीय और अनिवार्य शैली बनाता है।",
+      "id": 93,
+      "nom": "मरियम डियाकीटे",
+      "specialite": "टेलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "ऐसातू डियाकीटे के साथ रीसाइकलिंग कला का अन्वेषण करें ओनसेबाट पर, जहां जवाबदेह रीसाइक्लिंग पर्यावरणीय दुर्भावना को सुधारता है और संसाधनों की सुरक्षा को सुनिश्चित करता है।",
+      "id": 94,
+      "nom": "ऐसातू डियाकीटे",
+      "specialite": "रीसाइकलर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "अमदू ट्राओरे के साथ गार्डनिंग कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक पौधा और फूल प्राकृतिक संतुलन में अपना स्थान पाता है, जो बाहरी स्थानों को शांति और सुंदरता के आश्रय में परिवर्तित करता है।",
+      "id": 95,
+      "nom": "अमदू ट्राओरे",
+      "specialite": "गार्डनर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "ऊमर कामारा के साथ लॉकस्मिथ कला का अन्वेषण करें ओनसेबाट पर, जहां लॉक और सुरक्षा सिस्टम की निर्माण कौशल संपत्ति और जनों की सुरक्षा की सुनिश्चितता सुनिश्चित करती है।",
+      "id": 96,
+      "nom": "ऊमर कामारा",
+      "specialite": "लॉकस्मिथ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "फंटा कामारा के साथ बार्बरिंग कला का अन्वेषण करें ओनसेबाट पर, जहां सटीक रखने के साथ शेविंग और बार्ड कटिंग पुरुषत्व और शैली का व्यक्तिकरण होता है, जो सुंदर और संवर्धित ग्रोमिंग अनुभव प्रदान करता है।",
+      "id": 97,
+      "nom": "फंटा कामारा",
+      "specialite": "बार्बर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "अमिनाता ट्राओरे के साथ पेस्ट्री कला का अन्वेषण करें ओनसेबाट पर, जहां प्रत्येक मिठाई स्वादिष्ट और कलात्मक रचना है, जो सुंदरता और सृजनशीलता के माध्यम से मिठास की आशा का मनान करती है।",
+      "id": 98,
+      "nom": "अमिनाता ट्राओरे",
+      "specialite": "पेस्ट्री",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "ऊमर डियारा के साथ स्किनकेयर सेवाएं का अन्वेषण करें ओनसेबाट पर, जहां सुंदरता और कल्याण कौशल व्यक्तिगत सेवाएं प्रदान करता है, जो स्वच्छ त्वचा और शांत मन के लिए सुधार करता है।",
+      "id": 99,
+      "nom": "ऊमर डियारा",
+      "specialite": "स्किनकेयर",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "अमिनाता डियारा के साथ पुरानी कला का अन्वेषण करें ओनसेबाट पर, जहां धातु तापमान के साथ जीवंत होता है, जो कौशल के साथ कार्यकर और कलात्मक पीसे बनाता है।",
+      "id": 100,
+      "nom": "अमिनाता डियारा",
+      "specialite": "पुराना",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

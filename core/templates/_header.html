@@ -1,0 +1,111 @@
+{% load static %} {% load i18n %}
+
+<script src="{% static 'js/header.js' %}"></script>
+
+{% get_current_language as LANGUAGE_CODE %} 
+{% get_available_languages as LANGUAGES %} 
+{% get_language_info_list for LANGUAGES as languages %}
+
+<header class="navbar-sticky bg-transparent">
+  <div class="container mx-auto flex flex-col md:flex-row justify-between items-center py-6 px-4">
+    <div class="flex items-center mb-4 md:mb-0">
+      <a href="{% url 'home' %}">
+        <img src="https://via.placeholder.com/100x40.png" alt="Onsebat" class="h-10" />
+      </a>
+      <nav class="ml-4 md:ml-10">
+        <ul class="flex space-x-4 md:space-x-6">
+          <li><a href="{% url 'home' %}" class="text-gray-700 hover:text-blue-600">{% trans 'Acceuil' %}</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-blue-600">{% trans 'Espace Clients' %}</a></li>
+          <li><a href="#" class="text-gray-700 hover:text-blue-600">{% trans 'Espace Artisans' %}</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="flex  items-center space-x-2 md:space-x-4 relative">
+      <a href="#" class="bg-blue-600 text-white px-3 py-2 md:px-4 md:py-2 rounded hover:bg-blue-700 text-sm md:text-base"
+        >{% trans 'Devenir Artisan' %}</a
+      >
+      <a href="#" class="text-blue-600 hover:text-blue-700 text-sm md:text-base">{% trans 'Se connecter' %}</a>
+     
+
+      <div class="relative">
+        <button class="flex gap-2 justify-center items-center text-gray-700 rounded w-24" id="languageDropdownButton" type="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          <i class="fa-solid fa-globe"></i>
+          <span class="uppercase">{{ LANGUAGE_CODE | capfirst }}
+          </span>
+        </button>
+        <div class="absolute hidden mt-3 w-full rounded-md  z-10" id="languageDropdownMenu" aria-labelledby="dropdownButton">
+          <div id="languageOptions" class="bg-white rounded-md shadow-xs py-1" role="menu" aria-orientation="vertical"
+            aria-labelledby="dropdownButton">
+            {% for language in languages %}
+            <div  class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 hover:text-gray-900 role=" menuitem"
+              tabindex="-1" id="option1">
+              <a onclick="changeLanguage(event)"
+              href="/{{ language.code }}"
+              data-planguage="{{ language.code }}"
+              >{{ language.name_local | capfirst }}</a>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<script>
+  const dropdownButton = document.querySelector('#languageDropdownButton');
+const dropdownMenu = document.querySelector('#languageDropdownMenu');
+
+dropdownButton.addEventListener('click', () => {
+  dropdownMenu.classList.toggle('hidden');
+});
+
+document.querySelectorAll('#dropdownMenu a').forEach((option) => {
+  option.addEventListener('click', (event) => {
+    dropdownButton.textContent = event.target.textContent;
+    dropdownMenu.classList.add('hidden');
+  });
+});
+
+document.addEventListener('click', (event) => {
+  if (!dropdownMenu.contains(event.target) && !dropdownButton.contains(event.target)) {
+    dropdownMenu.classList.add('hidden');
+  }
+});
+
+const changeLanguage = (event) => {
+  event.preventDefault();
+  const language = event.target.getAttribute('data-planguage');
+  translatedpage = changerOuAjouterLangue(window.location.href, language);
+  window.location.href = translatedpage ;
+}
+let elementsLangue = document.querySelectorAll('#languageOptions a');
+  let languesAcceptees = [];
+  elementsLangue.forEach(function (element) {
+    let planguage = element.getAttribute('data-planguage');
+    languesAcceptees.push(planguage);
+  });
+
+  console.log(languesAcceptees);
+
+  function changerOuAjouterLangue(url, nouvelleLangue) {
+    if (!languesAcceptees.includes(nouvelleLangue)) {
+      return url;
+    }
+
+    let regex = new RegExp(`\/(${languesAcceptees.join('|')})\/`);
+    if (regex.test(url)) {
+      return url.replace(regex, `/${nouvelleLangue}/`);
+    } else {
+      let posPremierSlash = url.indexOf('/', 8);
+      if (posPremierSlash !== -1) {
+        return url.substring(0, posPremierSlash) + '/' + nouvelleLangue + url.substring(posPremierSlash);
+      } else {
+        return url + '/' + nouvelleLangue;
+      }
+    }
+  }
+</script>

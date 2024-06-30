@@ -1,0 +1,44 @@
+{% extends "base.html" %} {% load static %} {% load i18n %} {% block content %}
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"
+  integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+></script>
+<div class="flex items-center justify-center h-screen bg-gray-100">
+  <div class="mx-auto max-w-md text-center">
+    <h1 class="text-4xl font-bold text-blue-800 mb-8">{% trans "Merci !" %}</h1>
+    <p class="text-lg text-gray-700 mb-8">{% trans "Votre demande a été soumise avec succès. Notre équipe vous contactera sous peu." %}</p>
+    <div id="counter" class="text-lg text-gray-700 mb-8"></div>
+    <a href="{% url 'home' %}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded inline-block mt-4"
+      >{% trans "Retourner à l'accueil" %}</a
+    >
+    <div class="hidden">
+      <div id="result">{{devis}}</div>
+    </div>
+  </div>
+</div>
+
+<script>
+  function redirectWithCounter() {
+    let counter = 5;
+    const countdown = setInterval(() => {
+      counter--;
+      const text = `{% trans "Redirection automatique dans" %} ${counter} {% trans "secondes..." %}`;
+      document.getElementById('counter').textContent = text;
+      if (counter <= 0) {
+        clearInterval(countdown);
+        window.location.href = '{% url "home" %}';
+      }
+    }, 1000);
+  }
+  function generatePDF() {
+    const element = document.getElementById('result');
+    html2pdf().from(element).save();
+  };
+  generatePDF();
+  redirectWithCounter();
+
+ 
+</script>
+{% endblock %}

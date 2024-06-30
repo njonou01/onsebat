@@ -1,0 +1,485 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 08:10+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+#: core/templates/_chat.html:20
+msgid "Chatbot"
+msgstr "محادثة آلية"
+
+#: core/templates/_chat.html:32
+msgid "Posez votre question ici..."
+msgstr "اطرح سؤالك هنا..."
+
+#: core/templates/_footer.html:7
+msgid "À propos d'Onsebat"
+msgstr "حول Onsebat"
+
+#: core/templates/_footer.html:10
+msgid ""
+"Onsebat est la plateforme leader de mise en relation entre artisans "
+"qualifiés et clients au Cameroun."
+msgstr ""
+"Onsebat هي المنصة الرائدة لإقامة العلاقات بين الحرفيين المؤهلين والعملاء في كاميرون."
+
+#: core/templates/_footer.html:14
+msgid "Liens rapides"
+msgstr "روابط سريعة"
+
+#: core/templates/_footer.html:17
+msgid " Accueil"
+msgstr " الصفحة الرئيسية"
+
+#: core/templates/_footer.html:19
+msgid "Recherche d'artisans"
+msgstr "بحث عن حرفي"
+
+#: core/templates/_footer.html:20
+msgid "Devenir artisan"
+msgstr "أصبح حرفيا"
+
+#: core/templates/_footer.html:21
+msgid "Blog"
+msgstr "مدونة"
+
+#: core/templates/_footer.html:25
+msgid "Contact"
+msgstr "اتصل بنا"
+
+#: core/templates/_footer.html:33
+msgid "Suivez-nous"
+msgstr "تابعنا"
+
+#: core/templates/_footer.html:43
+msgid ""
+"Conditions générales - Données personnelles - Mentions légales - Charte de "
+"qualité"
+msgstr ""
+"الشروط العامة - البيانات الشخصية - الإشعارات القانونية - شروط الجودة"
+
+#: core/templates/_header.html:17
+msgid "Acceuil"
+msgstr "الصفحة الرئيسية"
+
+#: core/templates/_header.html:18
+msgid "Espace Clients"
+msgstr "مساحة العملاء"
+
+#: core/templates/_header.html:19
+msgid "Espace Artisans"
+msgstr "مساحة الحرفيين"
+
+#: core/templates/_header.html:25
+msgid "Devenir Artisan"
+msgstr "أصبح حرفيا"
+
+#: core/templates/_header.html:27 home/templates/modal_sign.html:28
+msgid "Se connecter"
+msgstr "تسجيل الدخول"
+
+#: core/templates/thanksPage.html:8
+msgid "Merci !"
+msgstr "شكرا لك!"
+
+#: core/templates/thanksPage.html:9
+msgid ""
+"Votre demande a été soumise avec succès. Notre équipe vous contactera sous "
+"peu."
+msgstr ""
+"تم تقديم طلبك بنجاح. سيتصل بك فريقنا قريبا."
+
+#: core/templates/thanksPage.html:11
+msgid "Retourner à l'accueil"
+msgstr "العودة إلى الصفحة الرئيسية"
+
+#: core/templates/thanksPage.html:20
+msgid "Redirection automatique dans"
+msgstr "إعادة التوجيه التلقائي في"
+
+#: core/templates/thanksPage.html:20
+msgid "secondes..."
+msgstr "ثواني..."
+
+#: home/templates/featured-services-section.html:4
+msgid "Services Populaires"
+msgstr "الخدمات المميزة"
+
+#: home/templates/featured-services-section.html:19
+msgid ""
+"D'autres services disponibles : Carreleur, Chauffagiste, Couvreur, Maçon, "
+"Peintre, etc.' "
+msgstr ""
+"خدمات أخرى متاحة: بلاطي، مدفأة، سقفي، بناء، مدهش، إلخ."
+
+#: home/templates/featured-services-section.html:20
+msgid "Voir tous les services"
+msgstr "عرض جميع الخدمات"
+
+#: home/templates/hero.html:32
+msgid "Trouvez le meilleur Artisan près de chez vous"
+msgstr "ابحث عن أفضل الحرفيين بالقرب منك"
+
+#: home/templates/hero.html:33
+msgid ""
+"Onsebat vous met en relation avec des professionnels qualifiés pour tous vos "
+"travaux."
+msgstr ""
+"Onsebat يوفر لك الاتصال بالمحترفين المؤهلين لجميع أعمالك."
+
+#: home/templates/hero.html:38
+msgid "Selectionner un service"
+msgstr "اختر خدمة"
+
+#: home/templates/hero.html:47
+msgid "Ville, code postal, adresse..."
+msgstr "المدينة، الرمز البريدي، العنوان..."
+
+#: home/templates/hero.html:54
+msgid "Rechercher"
+msgstr "بحث"
+
+#: home/templates/heroes-section.html:6
+msgid "Nos Héros"
+msgstr "بطلونا"
+
+#: home/templates/heroes-section.html:7
+msgid ""
+"Découvrez les artisans qui se dépassent chaque jour pour vous offrir le "
+"meilleur service."
+msgstr ""
+"اكتشف الحرفيين الذين يتجاوزون أنفسهم كل يوم لتقديم أفضل الخدمات لك."
+
+#: home/templates/home.html:9
+msgid "Besoin d'un devis ?"
+msgstr "هل تحتاج إلى عرض سعر؟"
+
+#: home/templates/home.html:11
+msgid "Obtenez gratuitement des devis pour vos travaux."
+msgstr "احصل على عروض أسعار مجانية لمشاريعك."
+
+#: home/templates/home.html:12
+msgid "Demandez un devis"
+msgstr "اطلب عرض سعر"
+
+#: home/templates/modal_sign.html:5
+msgid "Connexion"
+msgstr "تسجيل الدخول"
+
+#: home/templates/modal_sign.html:8
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: home/templates/modal_sign.html:18
+msgid "Mot de passe"
+msgstr "كلمة المرور"
+
+#: home/templates/modal_sign.html:31
+msgid "Pas encore de compte ?"
+msgstr "ليس لديك حساب؟"
+
+#: home/templates/modal_sign.html:31
+msgid "S'inscrire"
+msgstr "سجل"
+
+#: home/templates/quote-page.html:11
+msgid "Demandez un Devis"
+msgstr "اطلب عرض سعر"
+
+#: home/templates/quote-page.html:13
+msgid ""
+"Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans "
+"engagement."
+msgstr ""
+"املأ النموذج أدناه للحصول على عرض سعر مجاني وغير ملزم."
+
+#: home/templates/quote-page.html:20
+msgid "Nom"
+msgstr "الاسم"
+
+#: home/templates/quote-page.html:25
+msgid "Entrez votre nom"
+msgstr "أدخل اسمك"
+
+#: home/templates/quote-page.html:31
+msgid "E-mail"
+msgstr "البريد الإلكتروني"
+
+#: home/templates/quote-page.html:36
+msgid "Entrez votre email"
+msgstr "أدخل بريدك الإلكتروني"
+
+#: home/templates/quote-page.html:43
+msgid "Téléphone"
+msgstr "هاتف"
+
+#: home/templates/quote-page.html:48
+msgid "Entrez votre téléphone"
+msgstr "أدخل رقم هاتفك"
+
+#: home/templates/quote-page.html:55
+msgid "Service"
+msgstr "خدمة"
+
+#: home/templates/quote-page.html:57
+msgid "Choisissez un service"
+msgstr "اختر خدمة"
+
+#: home/templates/quote-page.html:58
+msgid "Maconnerie"
+msgstr "البناء"
+
+#: home/templates/quote-page.html:59
+msgid "Menuiserie"
+msgstr "نجارة"
+
+#: home/templates/quote-page.html:60
+msgid "Électricité"
+msgstr "كهرباء"
+
+#: home/templates/quote-page.html:61
+msgid "Plomberie"
+msgstr "سباكة"
+
+#: home/templates/quote-page.html:66
+msgid "Adresse"
+msgstr "عنوان"
+
+#: home/templates/quote-page.html:72
+msgid "Entrez votre adresse"
+msgstr "أدخل عنوانك"
+
+#: home/templates/quote-page.html:78
+msgid "Description du projet"
+msgstr "وصف المشروع"
+
+#: home/templates/quote-page.html:84
+msgid "Décrivez votre projet"
+msgstr "صف مشروعك"
+
+#: home/templates/quote-page.html:95
+msgid "Demander un devis"
+msgstr "اطلب عرض سعر"
+
+#: home/templates/searchPage.html:8
+msgid "Trouvez l'Artisan Parfait au Cameroun"
+msgstr "ابحث عن الحرفي المثالي في كاميرون"
+
+#: home/templates/searchPage.html:15
+msgid "Catégorie"
+msgstr "الفئة"
+
+#: home/templates/searchPage.html:17
+msgid "Tous les métiers"
+msgstr "جميع المهن"
+
+#: home/templates/searchPage.html:24
+msgid "Spécialité"
+msgstr "التخصص"
+
+#: home/templates/searchPage.html:28
+msgid "Ex: Installation climatisation"
+msgstr "مثال: تركيب التكييف"
+
+#: home/templates/searchPage.html:33
+msgid "Ville"
+msgstr "مدينة"
+
+#: home/templates/searchPage.html:35
+msgid "Toutes les villes"
+msgstr "جميع المدن"
+
+#: home/templates/searchPage.html:42
+msgid "Quartier"
+msgstr "حي"
+
+#: home/templates/searchPage.html:46
+msgid "Ex: Akwa, Biyem-Assi"
+msgstr "مثال: Akwa، Biyem-Assi"
+
+#: home/templates/searchPage.html:56
+msgid "Filtres avancés"
+msgstr "فلاتر متقدمة"
+
+#: home/templates/searchPage.html:60
+msgid "Expérience minimum"
+msgstr "الخبرة الدنيا"
+
+#: home/templates/searchPage.html:63
+msgid "0 an"
+msgstr "0 سنة"
+
+#: home/templates/searchPage.html:64
+msgid "10 ans"
+msgstr "10 سنوات"
+
+#: home/templates/searchPage.html:65
+msgid "20+ ans"
+msgstr "20+ سنة"
+
+#: home/templates/searchPage.html:70
+msgid "Note minimale"
+msgstr "التقييم الدنيا"
+
+#: home/templates/searchPage.html:78
+msgid "Disponibilité"
+msgstr "التوفر"
+
+#: home/templates/searchPage.html:82
+msgid "Disponible immédiatement"
+msgstr "متاح على الفور"
+
+#: home/templates/searchPage.html:86
+msgid "Disponible le week-end"
+msgstr "متاح في عطلة نهاية الأسبوع"
+
+#: home/templates/searchPage.html:90
+msgid "Disponible en soirée"
+msgstr "متاح في المساء"
+
+#: home/templates/searchPage.html:96
+msgid "Langue parlée"
+msgstr "اللغة المتحدث بها"
+
+#: home/templates/searchPage.html:100 onsebat/settings.py:124
+msgid "Français"
+msgstr "فرنسي"
+
+#: home/templates/searchPage.html:104
+msgid "Anglais"
+msgstr "إنجليزي"
+
+#: home/templates/searchPage.html:108
+msgid "Langues locales"
+msgstr "اللغات المحلية"
+
+#: home/templates/searchPage.html:114
+msgid "Appliquer les filtres"
+msgstr "تطبيق الفلاتر"
+
+#: home/templates/searchPage.html:123
+msgid "Trier par :"
+msgstr "ترتيب حسب:"
+
+#: home/templates/searchPage.html:125
+msgid "Pertinence"
+msgstr "الملاءمة"
+
+#: home/templates/searchPage.html:126
+msgid "Note"
+msgstr "تقييم"
+
+#: home/templates/searchPage.html:127
+msgid "Expérience"
+msgstr "خبرة"
+
+#: home/templates/searchPage.html:128
+msgid "Tarif horaire"
+msgstr "سعر ساعي"
+
+#: home/templates/searchPage.html:135
+msgid "Rechercher un artisan..."
+msgstr "البحث عن حرفي..."
+
+#: home/templates/why-choose-us-section.html:6
+msgid "Témoignages"
+msgstr "شهادات"
+
+#: home/templates/why-choose-us-section.html:12
+msgid ""
+"Service impeccable ! L'artisan était professionnel et le résultat est au-"
+"delà de mes attentes. Je recommande fortement ! - "
+msgstr ""
+"خدمة لا تقبل التشوب! كان الحرفي محترفاً والنتيجة تجاوزت توقعاتي. أوصي بشدة! - "
+
+#: home/templates/why-choose-us-section.html:18
+msgid ""
+"J'ai eu une excellente expérience avec ArtisanConnect. Le processus de "
+"réservation était simple et rapide. - "
+msgstr ""
+"لقد كانت لدي تجربة ممتازة مع ArtisanConnect. كان عملية الحجز سهلة وسريعة. - "
+
+#: home/templates/why-choose-us-section.html:25
+msgid ""
+"Les artisans sont très compétents et le service client est exceptionnel. "
+"Très satisfait ! - "
+msgstr ""
+"الحرفيين ماهرون جداً وخدمة العملاء ممتازة. من دواعي السرور جداً! - "
+
+#: home/templates/why-choose-us-section.html:35
+msgid "Pourquoi nous choisir ?"
+msgstr "لماذا تختارنا؟"
+
+#: home/templates/why-choose-us-section.html:38
+#: home/templates/why-choose-us-section.html:39
+msgid "Qualité"
+msgstr "جودة"
+
+#: home/templates/why-choose-us-section.html:40
+msgid ""
+"Nous sélectionnons rigoureusement nos artisans pour garantir un service de "
+"qualité."
+msgstr ""
+"نحن نختار حرفيينا بدقة لضمان خدمة ذات جودة عالية."
+
+#: home/templates/why-choose-us-section.html:43
+#: home/templates/why-choose-us-section.html:44
+msgid "Confiance"
+msgstr "ثقة"
+
+#: home/templates/why-choose-us-section.html:45
+msgid "Nos artisans sont certifiés et de confiance pour tous vos travaux."
+msgstr "حرفيينا معتمدون وموثوقون لجميع أعمالك."
+
+#: home/templates/why-choose-us-section.html:48
+#: home/templates/why-choose-us-section.html:49
+msgid "Support"
+msgstr "دعم"
+
+#: home/templates/why-choose-us-section.html:50
+msgid ""
+"Nous vous accompagnons tout au long de votre projet pour un résultat parfait."
+msgstr ""
+"نحن نقدم لك الدعم طوال مشروعك للحصول على نتيجة مثالية."
+
+#: onsebat/settings.py:123
+msgid "English"
+msgstr "إنجليزي"
+
+#: onsebat/settings.py:125
+msgid "Español"
+msgstr "إسبانيول"
+
+#: onsebat/settings.py:126
+msgid "Deutsch"
+msgstr "ألماني"
+
+#: onsebat/settings.py:127
+msgid "Chinois"
+msgstr "صيني"
+
+#: onsebat/settings.py:128
+msgid "Arabe"
+msgstr "عربي"
+
+#: onsebat/settings.py:131
+msgid "Japonais"
+msgstr "ياباني"
+
+#: onsebat/settings.py:133
+msgid "Hindi"
+msgstr "هندي"

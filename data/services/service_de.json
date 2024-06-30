@@ -1,0 +1,249 @@
+{
+  "popular_services": [
+    {
+      "id": 1,
+      "titre": "Polsterer",
+      "category": "Bauwesen",
+      "description": "Entdecken Sie das Handwerk des Polsterers auf Onsebat, wo jedes Möbelstück mit sorgfältig ausgewählten Stoffen und dekorativen Materialien zur Kunst wird.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 2,
+      "titre": "Tischler",
+      "category": "Bauwesen",
+      "description": "Erkunden Sie das Tischlerhandwerk auf Onsebat, wo Holz in maßgefertigte Möbel und Objekte verwandelt wird und handwerkliche Qualität mit Innovation verschmilzt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 3,
+      "titre": "Maurer",
+      "category": "Bauwesen",
+      "description": "Tauchen Sie ein in die Welt des Maurers auf Onsebat, wo der Bau solider und langlebiger Strukturen Ideen in architektonische Realität verwandelt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 4,
+      "titre": "Installateur",
+      "category": "Bauwesen",
+      "description": "Erkunden Sie die Expertise des Installateurs auf Onsebat, wo die präzise Installation von Sanitäranlagen für Komfort und Funktionalität in jedem Gebäude sorgt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 5,
+      "titre": "Elektriker",
+      "category": "Bauwesen",
+      "description": "Entdecken Sie die Welt des Elektrikers auf Onsebat, wo die Beherrschung elektrischer Systeme Sicherheit und Energieeffizienz in allen Projekten gewährleistet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 6,
+      "titre": "Schlosser",
+      "category": "Sicherheit",
+      "description": "Tauchen Sie ein in die Schlosserkunst auf Onsebat, wo die Herstellung von Schlössern und Sicherheitssystemen Schutz für Eigentum und Menschen bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 7,
+      "titre": "Fliesenleger",
+      "category": "Bauwesen",
+      "description": "Erkunden Sie die Kunst des Fliesenlegens auf Onsebat, wo die präzise Verlegung von Belägen Räume in funktionale und ästhetische Kunstwerke verwandelt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 8,
+      "titre": "Maler",
+      "category": "Kunst",
+      "description": "Entdecken Sie die Kunst des Malens auf Onsebat, wo jede Oberfläche zur Leinwand wird, um Kreativität und Ambiente in Innen- und Außenräumen auszudrücken.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 9,
+      "titre": "Schrottsammler",
+      "category": "Recycling",
+      "description": "Erkunden Sie das Metallrecycling auf Onsebat, wo die verantwortungsvolle Rückgewinnung zur Umweltschonung und Ressourcenschonung beiträgt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 10,
+      "titre": "Schneider",
+      "category": "Mode",
+      "description": "Tauchen Sie ein in die Welt des Schneiders auf Onsebat, wo jedes maßgeschneiderte Kleidungsstück Eleganz und Persönlichkeit reflektiert und einzigartige und unvergessliche Stile schafft.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 11,
+      "titre": "Juwele",
+      "category": "Mode",
+      "description": "Entdecken Sie die Kunst der Schmuckherstellung auf Onsebat, wo jedes Stück eine Fusion aus Kreativität und handwerklicher Präzision ist, die Eleganz und Raffinesse verkörpert.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 12,
+      "titre": "Töpfer",
+      "category": "Kunst",
+      "description": "Erkunden Sie das Handwerk der Töpferei auf Onsebat, wo Ton in einzigartige und funktionale Kunstwerke verwandelt wird, die die Essenz von Kreativität und Tradition einfangen.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 13,
+      "titre": "Holzbildhauer",
+      "category": "Kunst",
+      "description": "Tauchen Sie ein in die Holzbearbeitung auf Onsebat, wo jedes Stück die natürliche Schönheit des Holzes und das handwerkliche Geschick widerspiegelt und zeitlose Kunstwerke schafft.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 14,
+      "titre": "Schmied",
+      "category": "Metallverarbeitung",
+      "description": "Entdecken Sie die alte Kunst des Schmiedens auf Onsebat, wo Metall unter Hitze und handwerklicher Fertigkeit zum Leben erweckt wird und funktionale und künstlerische Stücke geformt werden.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 15,
+      "titre": "Glaskünstler",
+      "category": "Kunst",
+      "description": "Erkunden Sie die Glaskunst auf Onsebat, wo Glas zur Leinwand für Licht und Farbe wird und dekorative und künstlerische Stücke von atemberaubender Schönheit entstehen lässt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 16,
+      "titre": "Friseur",
+      "category": "Schönheit",
+      "description": "Tauchen Sie ein in die Welt des Friseurs auf Onsebat, wo jeder Stil Kreativität und Fachkenntnis in Schönheit widerspiegelt und Haare in künstlerische Meisterwerke verwandelt werden.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 17,
+      "titre": "Kosmetiker",
+      "category": "Schönheit",
+      "description": "Entdecken Sie ästhetische Behandlungen auf Onsebat, wo Fachwissen in Schönheit und Wohlbefinden personalisierte Behandlungen für strahlende Haut und einen entspannten Geist bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 18,
+      "titre": "Landschaftsgestalter",
+      "category": "Landschaftsgestaltung",
+      "description": "Erkunden Sie die Kunst der Landschaftsgestaltung auf Onsebat, wo jeder Garten zu einer harmonischen Erweiterung von Natur und menschlicher Kreativität wird und grüne und friedliche Lebensräume schafft.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 19,
+      "titre": "Gärtner",
+      "category": "Landschaftsgestaltung",
+      "description": "Tauchen Sie ein in die Kunst des Gärtnerns auf Onsebat, wo jede Pflanze und Blume ihren Platz in natürlicher Balance findet und Außenräume in Oasen des Friedens und der Schönheit verwandelt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 20,
+      "titre": "Bäcker",
+      "category": "Lebensmittel",
+      "description": "Entdecken Sie das Handwerk des Bäckers auf Onsebat, wo traditionelles Handwerk auf Leidenschaft für frisches Brot und köstliches Gebäck trifft und die Sinne mit jedem Bissen weckt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 21,
+      "titre": "Konditor",
+      "category": "Lebensmittel",
+      "description": "Erkunden Sie die Kunst der Konditorei auf Onsebat, wo jeder Nachtisch eine herzhafte und künstlerische Kreation ist, die Süße und Kreativität durch exquisite Aromen feiert.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 22,
+      "titre": "Koch",
+      "category": "Lebensmittel",
+      "description": "Tauchen Sie ein in die Welt des Kochens auf Onsebat, wo jedes Gericht eine Fusion aus kulinarischen Techniken und hochwertigen Zutaten ist und ein einzigartiges gastronomisches Erlebnis bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 23,
+      "titre": "Barbier",
+      "category": "Schönheit",
+      "description": "Entdecken Sie die Kunst des Barbiers auf Onsebat, wo präzises Rasieren und Barttrimmen zu einem Ausdruck von Männlichkeit und Stil wird und ein raffiniertes Pflegeerlebnis bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 24,
+      "titre": "Fotograf",
+      "category": "Kunst",
+      "description": "Erkunden Sie die Kunst der Fotografie auf Onsebat, wo jedes Bild einzigartige Momente und Emotionen festhält und visuelle Geschichten durch Licht, Farben und Kompositionen erzählt werden.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 25,
+      "titre": "Journalist",
+      "category": "Medien",
+      "description": "Tauchen Sie ein in den Journalismus auf Onsebat, wo Nachrichten und Geschichten mit Präzision und Integrität erzählt werden und das Verständnis für aktuelle Ereignisse und Themen vertieft wird.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 26,
+      "titre": "Animator",
+      "category": "Medien",
+      "description": "Entdecken Sie die Welt der Animation auf Onsebat, wo jeder Frame Leben und Fantasie einfängt und visuelle Erlebnisse schafft, die die Grenzen der Vorstellungskraft überschreiten.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 27,
+      "titre": "Koch",
+      "category": "Lebensmittel",
+      "description": "Tauchen Sie ein in die Welt des Kochens auf Onsebat, wo jedes Gericht eine Fusion aus kulinarischen Techniken und hochwertigen Zutaten ist und ein einzigartiges gastronomisches Erlebnis bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 28,
+      "titre": "Barkeeper",
+      "category": "Gastronomie",
+      "description": "Entdecken Sie die Kunst des Mixens auf Onsebat, wo jeder Cocktail eine perfekte Balance aus Aromen und Zutaten ist und eine unvergessliche sensorische Reise bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 29,
+      "titre": "Sportcoach",
+      "category": "Sport",
+      "description": "Erkunden Sie das Coaching auf Onsebat, wo jedes Training zu einem Weg der Selbstverbesserung und körperlichen Fitness wird und Athleten zu persönlichen Höchstleistungen inspiriert.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 30,
+      "titre": "Trainer",
+      "category": "Sport",
+      "description": "Tauchen Sie ein in die Welt des Coachings auf Onsebat, wo Fachwissen und Erfahrung Athleten helfen, ihre Ziele zu erreichen und Spitzenleistungen in jeder Disziplin zu erzielen.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 31,
+      "titre": "Zirkuskünstler",
+      "category": "Unterhaltung",
+      "description": "Entdecken Sie die Welt des Zirkus auf Onsebat, wo jedes Kunststück Geschicklichkeit und Kreativität vereint und das Publikum in eine Welt voller Magie und Nervenkitzel entführt.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 32,
+      "titre": "Musiker",
+      "category": "Unterhaltung",
+      "description": "Tauchen Sie ein in die Musik auf Onsebat, wo jeder Ton und jede Melodie Emotionen und Geschichten vermitteln und eine Verbindung zwischen Künstlern und ihrem Publikum schaffen.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 33,
+      "titre": "Schauspieler",
+      "category": "Unterhaltung",
+      "description": "Erkunden Sie die Schauspielkunst auf Onsebat, wo jedes Stück Theater oder Film die Magie des Geschichtenerzählens zum Leben erweckt und die Vielfalt menschlicher Emotionen feiert.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 34,
+      "titre": "Inneneinrichter",
+      "category": "Kunst",
+      "description": "Tauchen Sie ein in die Kunst der Innenarchitektur auf Onsebat, wo jeder Raum zu einem Ausdruck von Stil und Harmonie wird, dank sorgfältig ausgewählter Stoffe und Texturen.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 35,
+      "titre": "Schneider",
+      "category": "Mode",
+      "description": "Entdecken Sie das Handwerk des Maßschneiders auf Onsebat, wo jedes maßgeschneiderte Kleidungsstück Eleganz und Raffinesse verkörpert und jedem Kunden einen persönlichen und makellosen Stil bietet.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

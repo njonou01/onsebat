@@ -1,0 +1,482 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 08:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? "
+"1 : 2;\n"
+
+#: core/templates/_chat.html:20
+msgid "Chatbot"
+msgstr "Chatbot"
+
+#: core/templates/_chat.html:32
+msgid "Posez votre question ici..."
+msgstr "Haz tu pregunta aquí..."
+
+#: core/templates/_footer.html:7
+msgid "À propos d'Onsebat"
+msgstr "Acerca de Onsebat"
+
+#: core/templates/_footer.html:10
+msgid ""
+"Onsebat is the leading platform for connecting qualified artisans and clients "
+"in Cameroon."
+msgstr ""
+"Onsebat es la plataforma líder para conectar artesanos calificados y clientes en Camerún."
+
+#: core/templates/_footer.html:14
+msgid "Liens rapides"
+msgstr "Enlaces rápidos"
+
+#: core/templates/_footer.html:17
+msgid " Accueil"
+msgstr " Inicio"
+
+#: core/templates/_footer.html:19
+msgid "Recherche d'artisans"
+msgstr "Búsqueda de artesanos"
+
+#: core/templates/_footer.html:20
+msgid "Devenir artisan"
+msgstr "Convertirse en artesano"
+
+#: core/templates/_footer.html:21
+msgid "Blog"
+msgstr "Blog"
+
+#: core/templates/_footer.html:25
+msgid "Contact"
+msgstr "Contacto"
+
+#: core/templates/_footer.html:33
+msgid "Suivez-nous"
+msgstr "Síguenos"
+
+#: core/templates/_footer.html:43
+msgid ""
+"Conditions générales - Données personnelles - Mentions légales - Charte de "
+"qualité"
+msgstr ""
+"Términos y condiciones - Datos personales - Aviso legal - Carta de calidad"
+
+#: core/templates/_header.html:17
+msgid "Acceuil"
+msgstr "Inicio"
+
+#: core/templates/_header.html:18
+msgid "Espace Clients"
+msgstr "Área de clientes"
+
+#: core/templates/_header.html:19
+msgid "Espace Artisans"
+msgstr "Área de artesanos"
+
+#: core/templates/_header.html:25
+msgid "Devenir Artisan"
+msgstr "Convertirse en artesano"
+
+#: core/templates/_header.html:27 home/templates/modal_sign.html:28
+msgid "Se connecter"
+msgstr "Iniciar sesión"
+
+#: core/templates/thanksPage.html:8
+msgid "Merci !"
+msgstr "¡Gracias!"
+
+#: core/templates/thanksPage.html:9
+msgid ""
+"Votre demande a été soumise avec succès. Notre équipe vous contactera sous "
+"peu."
+msgstr ""
+"Tu solicitud ha sido enviada con éxito. Nuestro equipo se pondrá en contacto contigo pronto."
+
+#: core/templates/thanksPage.html:11
+msgid "Retourner à l'accueil"
+msgstr "Volver a la página de inicio"
+
+#: core/templates/thanksPage.html:20
+msgid "Redirection automatique dans"
+msgstr "Redirección automática en"
+
+#: core/templates/thanksPage.html:20
+msgid "secondes..."
+msgstr "segundos..."
+
+#: home/templates/featured-services-section.html:4
+msgid "Services Populaires"
+msgstr "Servicios Destacados"
+
+#: home/templates/featured-services-section.html:19
+msgid ""
+"D'autres services disponibles : Carreleur, Chauffagiste, Couvreur, Maçon, "
+"Peintre, etc.' "
+msgstr ""
+"Otros servicios disponibles: Albañil, Carpintero, Electricista, Fontanero, Pintor, etc."
+
+#: home/templates/featured-services-section.html:20
+msgid "Voir tous les services"
+msgstr "Ver todos los servicios"
+
+#: home/templates/hero.html:32
+msgid "Trouvez le meilleur Artisan près de chez vous"
+msgstr "Encuentra al mejor artesano cerca de ti"
+
+#: home/templates/hero.html:33
+msgid ""
+"Onsebat vous met en relation avec des professionnels qualifiés pour tous vos "
+"travaux."
+msgstr ""
+"Onsebat te pone en contacto con profesionales calificados para todos tus trabajos."
+
+#: home/templates/hero.html:38
+msgid "Selectionner un service"
+msgstr "Seleccionar un servicio"
+
+#: home/templates/hero.html:47
+msgid "Ville, code postal, adresse..."
+msgstr "Ciudad, código postal, dirección..."
+
+#: home/templates/hero.html:54
+msgid "Rechercher"
+msgstr "Buscar"
+
+#: home/templates/heroes-section.html:6
+msgid "Nos Héros"
+msgstr "Nuestros Héroes"
+
+#: home/templates/heroes-section.html:7
+msgid ""
+"Découvrez les artisans qui se dépassent chaque jour pour vous offrir le "
+"meilleur service."
+msgstr ""
+"Descubre a los artesanos que se superan cada día para ofrecerte el mejor servicio."
+
+#: home/templates/home.html:9
+msgid "Besoin d'un devis ?"
+msgstr "¿Necesitas un presupuesto?"
+
+#: home/templates/home.html:11
+msgid "Obtenez gratuitement des devis pour vos travaux."
+msgstr "Obtén presupuestos gratuitos para tus trabajos."
+
+#: home/templates/home.html:12
+msgid "Demandez un devis"
+msgstr "Solicitar un presupuesto"
+
+#: home/templates/modal_sign.html:5
+msgid "Connexion"
+msgstr "Conexión"
+
+#: home/templates/modal_sign.html:8
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: home/templates/modal_sign.html:18
+msgid "Mot de passe"
+msgstr "Contraseña"
+
+#: home/templates/modal_sign.html:31
+msgid "Pas encore de compte ?"
+msgstr "¿Todavía no tienes una cuenta?"
+
+#: home/templates/modal_sign.html:31
+msgid "S'inscrire"
+msgstr "Registrarse"
+
+#: home/templates/quote-page.html:11
+msgid "Demandez un Devis"
+msgstr "Solicitar un Presupuesto"
+
+#: home/templates/quote-page.html:13
+msgid ""
+"Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans "
+"engagement."
+msgstr ""
+"Rellena el siguiente formulario para obtener un presupuesto gratuito y sin compromiso."
+
+#: home/templates/quote-page.html:20
+msgid "Nom"
+msgstr "Nombre"
+
+#: home/templates/quote-page.html:25
+msgid "Entrez votre nom"
+msgstr "Ingrese su nombre"
+
+#: home/templates/quote-page.html:31
+msgid "E-mail"
+msgstr "Correo electrónico"
+
+#: home/templates/quote-page.html:36
+msgid "Entrez votre email"
+msgstr "Ingrese su correo electrónico"
+
+#: home/templates/quote-page.html:43
+msgid "Téléphone"
+msgstr "Teléfono"
+
+#: home/templates/quote-page.html:48
+msgid "Entrez votre téléphone"
+msgstr "Ingrese su teléfono"
+
+#: home/templates/quote-page.html:55
+msgid "Service"
+msgstr "Servicio"
+
+#: home/templates/quote-page.html:57
+msgid "Choisissez un service"
+msgstr "Seleccione un servicio"
+
+#: home/templates/quote-page.html:58
+msgid "Maconnerie"
+msgstr "Albañilería"
+
+#: home/templates/quote-page.html:59
+msgid "Menuiserie"
+msgstr "Carpintería"
+
+#: home/templates/quote-page.html:60
+msgid "Électricité"
+msgstr "Electricidad"
+
+#: home/templates/quote-page.html:61
+msgid "Plomberie"
+msgstr "Fontanería"
+
+#: home/templates/quote-page.html:66
+msgid "Adresse"
+msgstr "Dirección"
+
+#: home/templates/quote-page.html:72
+msgid "Entrez votre adresse"
+msgstr "Ingrese su dirección"
+
+#: home/templates/quote-page.html:78
+msgid "Description du projet"
+msgstr "Descripción del proyecto"
+
+#: home/templates/quote-page.html:84
+msgid "Décrivez votre projet"
+msgstr "Describa su proyecto"
+
+#: home/templates/quote-page.html:95
+msgid "Demander un devis"
+msgstr "Solicitar un presupuesto"
+
+#: home/templates/searchPage.html:8
+msgid "Trouvez l'Artisan Parfait au Cameroun"
+msgstr "Encuentra al Artesano Perfecto en Camerún"
+
+#: home/templates/searchPage.html:15
+msgid "Catégorie"
+msgstr "Categoría"
+
+#: home/templates/searchPage.html:17
+msgid "Tous les métiers"
+msgstr "Todos los oficios"
+
+#: home/templates/searchPage.html:24
+msgid "Spécialité"
+msgstr "Especialidad"
+
+#: home/templates/searchPage.html:28
+msgid "Ex: Installation climatisation"
+msgstr "Ej: Instalación de aire acondicionado"
+
+#: home/templates/searchPage.html:33
+msgid "Ville"
+msgstr "Ciudad"
+
+#: home/templates/searchPage.html:35
+msgid "Toutes les villes"
+msgstr "Todas las ciudades"
+
+#: home/templates/searchPage.html:42
+msgid "Quartier"
+msgstr "Barrio"
+
+#: home/templates/searchPage.html:46
+msgid "Ex: Akwa, Biyem-Assi"
+msgstr "Ej: Akwa, Biyem-Assi"
+
+#: home/templates/searchPage.html:56
+msgid "Filtres avancés"
+msgstr "Filtros avanzados"
+
+#: home/templates/searchPage.html:60
+msgid "Expérience minimum"
+msgstr "Experiencia mínima"
+
+#: home/templates/searchPage.html:63
+msgid "0 an"
+msgstr "0 años"
+
+#: home/templates/searchPage.html:64
+msgid "10 ans"
+msgstr "10 años"
+
+#: home/templates/searchPage.html:65
+msgid "20+ ans"
+msgstr "20+ años"
+
+#: home/templates/searchPage.html:70
+msgid "Note minimale"
+msgstr "Calificación mínima"
+
+#: home/templates/searchPage.html:78
+msgid "Disponibilité"
+msgstr "Disponibilidad"
+
+#: home/templates/searchPage.html:82
+msgid "Disponible immédiatement"
+msgstr "Disponible inmediatamente"
+
+#: home/templates/searchPage.html:86
+msgid "Disponible le week-end"
+msgstr "Disponible los fines de semana"
+
+#: home/templates/searchPage.html:90
+msgid "Disponible en soirée"
+msgstr "Disponible por la noche"
+
+#: home/templates/searchPage.html:96
+msgid "Langue parlée"
+msgstr "Idioma hablado"
+
+#: home/templates/searchPage.html:100 onsebat/settings.py:124
+msgid "Français"
+msgstr "Francés"
+
+#: home/templates/searchPage.html:104
+msgid "Anglais"
+msgstr "Inglés"
+
+#: home/templates/searchPage.html:108
+msgid "Langues locales"
+msgstr "Idiomas locales"
+
+#: home/templates/searchPage.html:114
+msgid "Appliquer les filtres"
+msgstr "Aplicar filtros"
+
+#: home/templates/searchPage.html:123
+msgid "Trier par :"
+msgstr "Ordenar por:"
+
+#: home/templates/searchPage.html:125
+msgid "Pertinence"
+msgstr "Pertinencia"
+
+#: home/templates/searchPage.html:126
+msgid "Note"
+msgstr "Calificación"
+
+#: home/templates/searchPage.html:127
+msgid "Expérience"
+msgstr "Experiencia"
+
+#: home/templates/searchPage.html:128
+msgid "Tarif horaire"
+msgstr "Tarifa por hora"
+
+#: home/templates/searchPage.html:135
+msgid "Rechercher un artisan..."
+msgstr "Buscar un artesano..."
+
+#: home/templates/why-choose-us-section.html:6
+msgid "Témoignages"
+msgstr "Testimonios"
+
+#: home/templates/why-choose-us-section.html:12
+msgid ""
+"Service impeccable ! L'artisan était professionnel et le résultat est au-"
+"delà de mes attentes. Je recommande fortement ! - "
+msgstr ""
+"¡Servicio impecable! El artesano era profesional y el resultado superó mis expectativas. ¡Lo recomiendo altamente! - "
+
+#: home/templates/why-choose-us-section.html:18
+msgid ""
+"J'ai eu une excellente expérience avec ArtisanConnect. Le processus de "
+"réservation était simple et rapide. - "
+msgstr ""
+"Tuve una excelente experiencia con ArtisanConnect. El proceso de reserva fue simple y rápido. - "
+
+#: home/templates/why-choose-us-section.html:25
+msgid ""
+"Les artisans sont très compétents et le service client est exceptionnel. "
+"Très satisfait ! - "
+msgstr ""
+"Los artesanos son muy competentes y el servicio al cliente es excepcional. ¡Muy satisfecho! - "
+
+#: home/templates/why-choose-us-section.html:35
+msgid "Pourquoi nous choisir ?"
+msgstr "¿Por qué elegirnos?"
+
+#: home/templates/why-choose-us-section.html:38
+#: home/templates/why-choose-us-section.html:39
+msgid "Qualité"
+msgstr "Calidad"
+
+#: home/templates/why-choose-us-section.html:40
+msgid ""
+"Nous sélectionnons rigoureusement nos artisans pour garantir un service de "
+"qualité."
+msgstr ""
+"Seleccionamos rigurosamente a nuestros artesanos para garantizar un servicio de calidad."
+
+#: home/templates/why-choose-us-section.html:43
+#: home/templates/why-choose-us-section.html:44
+msgid "Confiance"
+msgstr "Confianza"
+
+#: home/templates/why-choose-us-section.html:45
+msgid "Nos artisans sont certifiés et de confiance pour tous vos travaux."
+msgstr "Nuestros artesanos están certificados y de confianza para todos sus trabajos."
+
+#: home/templates/why-choose-us-section.html:48
+#: home/templates/why-choose-us-section.html:49
+msgid "Support"
+msgstr "Soporte"
+
+#: home/templates/why-choose-us-section.html:50
+msgid ""
+"Nous vous accompagnons tout au long de votre projet pour un résultat parfait."
+msgstr ""
+"Le acompañamos en todo momento en su proyecto para obtener un resultado perfecto."
+
+#: onsebat/settings.py:123
+msgid "English"
+msgstr "Inglés"
+
+#: onsebat/settings.py:125
+msgid "Español"
+msgstr "Español"
+
+#: onsebat/settings.py:126
+msgid "Deutsch"
+msgstr "Alemán"
+
+#: onsebat/settings.py:128
+msgid "Arabe"
+msgstr "Árabe"
+
+#: onsebat/settings.py:131
+msgid "Japonais"
+msgstr "Japonés"
+
+#: onsebat/settings.py:133
+msgid "Hindi"
+msgstr "Hindi"

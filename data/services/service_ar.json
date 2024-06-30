@@ -1,0 +1,249 @@
+{
+    "popular_services": [
+      {
+          "id": 1,
+          "titre": "تابع الأثاث",
+          "category": "البناء",
+          "description": "اكتشف فن التابع الأثاث على Onsebat، حيث يصبح كل قطعة أثاث عمل فني بفضل الأقمشة والمواد الزخرفية المختارة بعناية.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 2,
+          "titre": "نجار",
+          "category": "البناء",
+          "description": "استكشف مهنة النجار على Onsebat، حيث يتحول الخشب إلى أثاث وأدوات مخصصة، مجمعة بين المهارة الفنية والابتكار.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 3,
+          "titre": "بناء",
+          "category": "البناء",
+          "description": "اغمر في عالم البناء على Onsebat، حيث يتحول بناء البنية الصلبة والمستدامة إلى تحويل الأفكار إلى بناء هندسي حقيقي.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 4,
+          "titre": "سباك",
+          "category": "البناء",
+          "description": "استكشف الخبرة المتخصصة للسباك على Onsebat، حيث يضمن تركيب الأنابيب بدقة راحة ووظيفية في كل مبنى.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 5,
+          "titre": "كهربائي",
+          "category": "البناء",
+          "description": "اكتشف عالم الكهرباء على Onsebat، حيث تؤمن المهارة في أنظمة الكهرباء الأمان وكفاءة الطاقة في جميع المشاريع.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 6,
+          "titre": "صانع المفاتيح",
+          "category": "الأمن",
+          "description": "اغمر في فن الصانع المفاتيح على Onsebat، حيث يتم صنع المفاتيح وأنظمة الأمن لضمان حماية الأموال والأشخاص.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 7,
+          "titre": "بلاط",
+          "category": "البناء",
+          "description": "استكشف فن البلاط على Onsebat، حيث يتم تركيب البلاط بدقة ليصبح كل مساحة عمل فني وجمالي ووظيفي.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 8,
+          "titre": "مدهش",
+          "category": "فن",
+          "description": "اكتشف فن الرسم على Onsebat، حيث يصبح كل سطح قماشًا لتعبير الإبداعية والجو في الداخلي والخارجي.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 9,
+          "titre": "تاجر الخردة",
+          "category": "إعادة التدوير",
+          "description": "استكشف إعادة تدوير المعادن على Onsebat، حيث تساهم التواصل المسؤول في حفظ البيئة وحماية الموارد.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 10,
+          "titre": "خياط",
+          "category": "موضة",
+          "description": "اغمر في عالم الخياطة على Onsebat، حيث يصبح كل ملابس مخصص تعبيرًا للأناقة والشخصية، منشئًا أساليبًا فريدة وغير قابلة للنسيان.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 11,
+          "titre": "صانع المجوهرات",
+          "category": "موضة",
+          "description": "اكتشف فن المجوهرات على Onsebat، حيث يصبح كل قطعة مزيجًا من الإبداعية والدقة التقنية، مثل الأناقة والرقي.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 12,
+          "titre": "خزاف",
+          "category": "فن",
+          "description": "استكشف فن الخزف على Onsebat، حيث يتحول الطين إلى أعمال فريدة ووظيفية، تلتقط روح الإبداعية والتقاليد.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 13,
+          "titre": "نحات الخشب",
+          "category": "فن",
+          "description": "اغمر في فن النحت على الخشب على Onsebat، حيث يعكس كل قطعة جمال الخشب الطبيعي والمهارة التقنية، منشئًا أعمالًا دائمة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 14,
+          "titre": "حداد",
+          "category": "تشكيل المعادن",
+          "description": "اكتشف فن الحداد التقليدي على Onsebat، حيث يتحول الحديد إلى حياة بفضل الحرارة والمهارة، منشئًا قطع وظيفية وفنية.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 15,
+          "titre": "زجاج",
+          "category": "فن",
+          "description": "استكشف فن الزجاج على Onsebat، حيث يصبح الزجاج قماشًا للضوء واللون، منشئًا قطع جميلة وفنية تلمع.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 16,
+          "titre": "مصفف شعر",
+          "category": "جمال",
+          "description": "اغمر في عالم الجمال على Onsebat، حيث يصبح كل نمط تعبيرًا للإبداعية والخبرة في مجال الجمال، منشئًا لأعمال فنية للشعر.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 17,
+          "titre": "مستشفى تجميل",
+          "category": "جمال",
+          "description": "اكتشف معالجات التجميل على Onsebat، حيث توفر المهارة في الجمال والراحة العاطفية علاجات مخصصة لبشرة لامعة وروح هادئة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 18,
+          "titre": "مصمم حدائق",
+          "category": "تصميم الحدائق",
+          "description": "استكشف فن التصميم الحدائقي على Onsebat، حيث يصبح كل حديقة امتدادًا متوازنًا للطبيعة والإبداع البشري، منشئًا مساحات حياة خضراء وهادئة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 19,
+          "titre": "بستاني",
+          "category": "تصميم الحدائق",
+          "description": "اغمر في عالم البستنة على Onsebat، حيث يجد كل نبات وزهرة مكانها في التوازن الطبيعي، منشئًا مساحات خارجية هادئة وجميلة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 20,
+          "titre": "خباز",
+          "category": "غذاء",
+          "description": "اكتشف فن الخبز على Onsebat، حيث يتقابل المهارة التقليدية مع حب الخبز الطازج والحلويات اللذيذة، منشئًا تجربة حسية لذيذة لكل لقمة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 21,
+          "titre": "صانع الحلويات",
+          "category": "غذاء",
+          "description": "استكشف فن الحلويات على Onsebat، حيث يصبح كل حلوى إبداعًا لذيذًا وجميلًا، متمتعًا باللذة والإبداعية من خلال النكهات اللذيذة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 22,
+          "titre": "شيف",
+          "category": "غذاء",
+          "description": "اغمر في عالم الطبخ على Onsebat، حيث يصبح كل وجبة مزيجًا من التقنيات الطهية والمكونات الغذائية العالية الجودة، مقدمًا تجربة غاسترونومية فريدة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 23,
+          "titre": "حلاق شعر",
+          "category": "جمال",
+          "description": "اكتشف فن الحلاقة على Onsebat، حيث يصبح التقليم الدقيق وقص اللحية تعبيرًا للذكونة والأسلوب، مقدمًا تجربة تجميل رفيعة المستوى.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 24,
+          "titre": "مصور",
+          "category": "فن",
+          "description": "استكشف فن التصوير على Onsebat، حيث يلتقط كل صورة لحظات فريدة ومنظرًا جذابًا، محكيًا قصصًا من خلال العدسة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 25,
+          "titre": "زجاج",
+          "category": "البناء",
+          "description": "اغمر في فن الزجاج على Onsebat، حيث يصبح الزجاج جزءًا لا يتجزأ من الهندسة الحديثة، مضيفًا ضوءًا وشفافية إلى كل مساحة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 26,
+          "titre": "نحات الحجر",
+          "category": "البناء",
+          "description": "اكتشف فن النحت على الحجر على Onsebat، حيث يتحول الحجر إلى عناصر هندسية، معبرًا عن جمال هذا المادة التقليدية وقوتها.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 27,
+          "titre": "مدفأة",
+          "category": "البناء",
+          "description": "استكشف الخبرة المتخصصة للمدفأة على Onsebat، حيث يضمن تركيب وصيانة أنظمة التدفئة الفعالة والمستدامة راحة حرارية.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 28,
+          "titre": "ليوتيست",
+          "category": "موسيقى",
+          "description": "استكشف فن الليوتيست على Onsebat، حيث يتم صنع وإصلاح الآلات الموسيقية ليعبر عن حب الصوت والفن في إنشاء ملوديات جذابة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 29,
+          "titre": "تابع الأثاث",
+          "category": "البناء",
+          "description": "اكتشف فن التابع الأثاث على Onsebat، حيث يتم استعادة جمال وراحة كل قطعة أثاث من خلال الأقمشة والتقنيات العالية الجودة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 30,
+          "titre": "مشط",
+          "category": "فن",
+          "description": "استكشف فن المشطة على Onsebat، حيث يصبح كل خيط قصة مكوكة باليد، مضيفًا لمحات أنيقة وتفاصيل دقيقة إلى الأقمشة والملابس.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 31,
+          "titre": "جلدي",
+          "category": "موضة",
+          "description": "اغمر في فن الجلدي على Onsebat، حيث يتحول الجلد إلى حقائب وإكسسوارات فاخرة، مجمعة بين المهارة التقليدية والتصميم الحديث.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 32,
+          "titre": "مصمم مجموعات",
+          "category": "فن",
+          "description": "اكتشف فن التصميم المجموعات على Onsebat، حيث يصبح كل مجموعة قماشًا لرواية قصص بصرية وجذب الجمهور من خلال فن المسرح.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 33,
+          "titre": "إبانيست",
+          "category": "البناء",
+          "description": "استكشف فن الإبانيست على Onsebat، حيث يتحول الخشب الثمين إلى أثاث أنيق ووظيفي، منشئًا قطع تجمع بين التقاليد والحداثة.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 34,
+          "titre": "تابع الديكور",
+          "category": "فن",
+          "description": "اغمر في فن التابع الديكور على Onsebat، حيث يصبح كل مساحة تعبيرًا للأسلوب والتوازن، من خلال اختيار الأقمشة والنسيج بعناية.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      },
+      {
+          "id": 35,
+          "titre": "خياط",
+          "category": "موضة",
+          "description": "اكتشف فن الخياطة على Onsebat، حيث يعبر كل ملابس مخصص عن الأناقة والرقي، مقدمًا نمطًا مخصصًا ومتميزًا لكل عميل.",
+          "image_url": "https://via.placeholder.com/400x200.png"
+      }
+  ]
+}

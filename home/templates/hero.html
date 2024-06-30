@@ -1,0 +1,146 @@
+{% load i18n %} {% load static %}
+
+<div class="hero-bg bg-cover bg-center">
+  <div class="relative isolate px-6 pt-14 lg:px-8">
+    <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
+      <div
+        class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
+    </div>
+    <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+      <div class="text-center hero-content">
+        <h1 class="text-4xl md:text-5xl font-bold mb-4">{% trans 'Trouvez le meilleur Artisan près de chez vous' %}</h1>
+        <p class="text-lg mb-8">{% trans 'Onsebat vous met en relation avec des professionnels qualifiés pour tous vos travaux.' %}</p>
+        <form class="max-w-lg mx-auto" action="{% url 'search_page' %}" method="GET">
+          <div class="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-4" 
+          >
+            <select class="w-full md:w-1/2 px-4 py-2 border rounded bg-white text-black" name="category">
+              <option value="">{% trans 'Selectionner un service' %}</option>
+              {% for feature in services %}
+              <option value="{{ feature.id }}">{{ feature.titre }}</option>
+              {% endfor %}
+            </select>
+            <input
+            name="neighborhood"
+              type="text"
+              class="w-full md:w-1/2 px-4 py-2 border rounded"
+              placeholder="{% trans 'Ville, code postal, adresse...' %}"
+            />
+          </div>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <button
+            type="submit"
+              class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              >{% trans 'Rechercher' %}</button
+            >
+          </div>
+        </form>
+      </div>
+    </div>
+    <div
+      class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]"
+      aria-hidden="true"
+    >
+      <div
+        class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]"
+        style="
+          clip-path: polygon(
+            74.1% 44.1%,
+            100% 61.6%,
+            97.5% 26.9%,
+            85.5% 0.1%,
+            80.7% 2%,
+            72.5% 32.5%,
+            60.2% 62.4%,
+            52.4% 68.1%,
+            47.5% 58.3%,
+            45.2% 34.5%,
+            27.5% 76.7%,
+            0.1% 64.9%,
+            17.9% 100%,
+            27.6% 76.8%,
+            76.1% 97.7%,
+            74.1% 44.1%
+          );
+        "
+      ></div>
+    </div>
+  </div>
+</div>
+<script>
+  const backgroundImages = [
+    '{% static "images/14200809_5449671-removebg-preview.png" %}',
+    '{% static "images/8600-removebg-preview.png" %}',
+    '{% static "images/0700bf3b-13c3-40be-b792-7603c0a08e70-removebg-preview.png" %}',
+    '{% static "images/94577333_10071448-removebg-preview.png" %}',
+    '{% static "images/Server-rafiki-removebg-preview.png" %}',
+  ];
+
+  const _images = backgroundImages.map(image => `url('${image}') no-repeat bottom right`);
+
+  function generateKeyframes(images) {
+    let keyframes = `@keyframes fadeAndChange {`;
+    const duration = 100 / images.length;
+
+    images.forEach((image, index) => {
+      const start = duration * index;
+      const end = start + duration;
+
+      keyframes += `
+    ${start}% {
+        opacity: 0;
+        background: ${image};
+    }
+    ${start + duration / 2}% {
+        opacity: 1;
+    }
+    ${end}% {
+        opacity: 1;
+        background: ${image};
+    }
+    ${end + duration / 2}% {
+        opacity: 0;
+    }
+  `;
+    });
+
+    keyframes += `
+  100% {
+      opacity: 0;
+      background: ${images[0]};
+  }
+}`;
+
+    return keyframes;
+  }
+
+  function injectKeyframes(keyframes) {
+    const styleSheet = document.createElement('style');
+    styleSheet.type = 'text/css';
+    styleSheet.innerHTML = keyframes;
+    document.head.appendChild(styleSheet);
+  }
+
+  const keyframes = generateKeyframes(_images);
+  injectKeyframes(keyframes);
+</script>

@@ -1,0 +1,804 @@
+{
+  "artisans": [
+    {
+      "id_service": 23,
+      "description": "اكتشف فن الحلاق على منصة Onsebat مع Alioune Ndiaye، حيث يصبح دقة الحلاقة وتقليم اللحية تعبيرًا عن الذكورية والأسلوب، مما يوفر تجربة تجميل رفيعة المستوى.",
+      "id": 1,
+      "nom": "Alioune Ndiaye",
+      "specialite": "حلاق",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "اكتشف عالم الكهربائي مع Fatoumata Traoré على منصة Onsebat، حيث تكون السلامة الكهربائية أمرًا بالغ الأهمية. تقدم Fatoumata حلولاً كهربائية موثوقة تحسن من كفاءة الطاقة في البنية التحتية لكاميرون، مما يضمن بيئة آمنة للجميع.",
+      "id": 2,
+      "nom": "Fatoumata Traoré",
+      "specialite": "كهربائي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "انغمس في عالم التجميل مع Issa Diop على منصة Onsebat، حيث يعبر كل نمط عن الإبداع والخبرة في مجال الجمال، مما يجعل الشعر عملًا فنيًا للشعر.",
+      "id": 3,
+      "nom": "Issa Diop",
+      "specialite": "مصفف شعر",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "اكتشف فن المجوهرات مع Aïcha Kone على منصة Onsebat، حيث تصبح كل قطعة اندماجًا بين الإبداع والدقة الحرفية، مما يجسد الأناقة والرقي.",
+      "id": 4,
+      "nom": "Aïcha Kone",
+      "specialite": "صائغ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "انغمس في فن المخيط المصمم للأسراف مع Ibrahim Sow على منصة Onsebat، حيث يصبح كل مساحة تعبيرًا عن الأسلوب والتوافق، بفضل أنسجة وملمسات مختارة بعناية.",
+      "id": 5,
+      "nom": "Ibrahim Sow",
+      "specialite": "مخيط مصمم ديكور",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "اكتشف حرفة الخباز على منصة Onsebat مع Mariam Diawara، حيث يكون المهارة التقليدية تلتقي بالشغف بالخبز الطازج والحلويات اللذيذة، مما يثير الأحاسيس في كل لقمة.",
+      "id": 6,
+      "nom": "Mariam Diawara",
+      "specialite": "خباز",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "انغمس في فن المروقي على منصة Onsebat مع Moussa Cissé، حيث يصبح الجلد يأخذ شكل الأحزمة والمستلزمات الفاخرة، مما يجمع بين المهارة التقليدية والتصميم الحديث.",
+      "id": 7,
+      "nom": "Moussa Cissé",
+      "specialite": "مروقي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "انغمس في عالم البناء مع Jean-Pierre Ndong على منصة Onsebat، حيث يكون البناء المنشآت الصلبة شغفًا حقيقيًا. يجمع Jean-Pierre بين التقنيات الحديثة مع المهارة التقليدية لبناء مباني مستدامة تغني المنظر العمراني لكاميرون.",
+      "id": 8,
+      "nom": "Jean-Pierre Ndong",
+      "specialite": "بناء",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "انغمس في فن النحت على الخشب مع Alphonse Mbarga على منصة Onsebat، حيث تعكس كل قطعة جمال الخشب الطبيعي والمهارة الحرفية، مما يخلق أعمالًا دائمة.",
+      "id": 9,
+      "nom": "Alphonse Mbarga",
+      "specialite": "نحات على الخشب",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "انغمس في عالم الطبخ مع Adama Ba على منصة Onsebat، حيث تصبح كل وجبة اندماجًا بين تقنيات الطبخ والمكونات العالية الجودة، مما يوفر تجربة غذائية فريدة.",
+      "id": 10,
+      "nom": "Adama Ba",
+      "specialite": "طباخ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "استكشف إعادة تدوير المعادن مع Moussa Konaté على منصة Onsebat، حيث تساهم الاسترداد المسؤول في استدامة البيئة وحفظ الموارد.",
+      "id": 11,
+      "nom": "Moussa Konaté",
+      "specialite": "تاجر خردة",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "انغمس في عالم الخياطة مع Aïssatou Diop على منصة Onsebat، حيث تصبح كل ملابس مخصصة تعكس الأناقة والشخصية، مما يخلق أنماطًا فريدة وغير قابلة للنسيان.",
+      "id": 12,
+      "nom": "Aïssatou Diop",
+      "specialite": "خياط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "استكشف خبرة السخان مع Aboubacar Diallo على منصة Onsebat، حيث يصبح الراحة الحرارية أمرًا بالغ الأهمية بفضل تركيب وصيانة أنظمة التدفئة الفعالة والمستدامة.",
+      "id": 13,
+      "nom": "Aboubacar Diallo",
+      "specialite": "سخان",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "استكشف فن البلاط مع Fatou Camara على منصة Onsebat، حيث تكون وضع البلاط الدقيق تحول المساحات إلى أعمال فنية وجمالية.",
+      "id": 14,
+      "nom": "Fatou Camara",
+      "specialite": "بلاط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "استكشف خبرة السباك مع Aliou Mbengue على منصة Onsebat، حيث تكون تركيب الأنابيب الدقيق يضمن الراحة والوظيفية في كل مبنى.",
+      "id": 15,
+      "nom": "Aliou Mbengue",
+      "specialite": "سباك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "انغمس في فن التربية النباتية مع Fanta Diallo على منصة Onsebat، حيث تجد كل نبتة وزهرة مكانها في توازن طبيعي، مما يجعل المساحات الخارجية أرجاء سلمية وجميلة.",
+      "id": 16,
+      "nom": "Fanta Diallo",
+      "specialite": "بستاني",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "اكتشف فن المصمم المسرحي مع Amadou Fofana على منصة Onsebat، حيث يصبح كل ديكور قماشًا لرواية قصص بصرية والجذب للجمهور من خلال فن المسرح.",
+      "id": 17,
+      "nom": "Amadou Fofana",
+      "specialite": "مصمم مسرحي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "اكتشف عالم الزجاج مع Adama Doumbia على منصة Onsebat، حيث تكون الدقة في تقطيع وتركيب الزجاج تخلق مساحات مضائة وآمنة، مما يغني الهندسة الحديثة بالجمال.",
+      "id": 18,
+      "nom": "Adama Doumbia",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "اكتشف فن المخيط مع Aminata Ba على منصة Onsebat، حيث تصبح كل مقعد ومفرش يعبر عن الأناقة والشخصية، مما يجمع بين الأسلوب والمهارة التقليدية.",
+      "id": 19,
+      "nom": "Aminata Ba",
+      "specialite": "مخيط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "اكتشف فن اللحام مع Moustapha Diagne على منصة Onsebat، حيث تكون الدقة في دمج المعادن تخلق هياكل صلبة وعملية، تلبي احتياجات البناء والتصنيع.",
+      "id": 20,
+      "nom": "Moustapha Diagne",
+      "specialite": "لحام",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "اكتشف فن التفصيل مع Kadiatou Sow على منصة Onsebat، حيث تصبح كل ملابس مخصصة تعكس الأناقة والشخصية، مما يخلق أنماطًا تترك أثرًا.",
+      "id": 21,
+      "nom": "Kadiatou Sow",
+      "specialite": "تفصيل",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "اكتشف حرفة المعدني مع Issouf Traoré على منصة Onsebat، حيث تصبح كل قطعة معدنية تعبيرًا فنيًا عمليًا، مما يجمع بين الجمال والمتانة في المنظر العمراني.",
+      "id": 22,
+      "nom": "Issouf Traoré",
+      "specialite": "معدني",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "اكتشف فن النجار مع Abdoulaye Sarr على منصة Onsebat، حيث تصبح كل مفروشات مخصصة اندماجًا بين المهارة التقليدية والتصميم الحديث، مما يغني الداخليات بالأناقة والوظيفية.",
+      "id": 23,
+      "nom": "Abdoulaye Sarr",
+      "specialite": "نجار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "اكتشف فن الكاروسير مع Fatimata Camara على منصة Onsebat، حيث تصبح كل مركبة قطعة فنية وظيفية، مما يجمع بين الجمال والهندسة السيارات.",
+      "id": 24,
+      "nom": "Fatimata Camara",
+      "specialite": "كاروسير",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "اكتشف فن الخزف مع Oumar Sy على منصة Onsebat، حيث تصبح كل قطعة مشكلة يدويًا تعبر عن جمال الطين الطبيعي، مما يخلق أعمالًا فريدة وفنية.",
+      "id": 25,
+      "nom": "Oumar Sy",
+      "specialite": "خزاف",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "اكتشف حرفة نحات الحجر مع Amadou Diop على منصة Onsebat، حيث تصبح كل هيكل من الحجر عملًا فنيًا دائمًا، مما يشكل بصمة في المنظر العمراني لكاميرون.",
+      "id": 26,
+      "nom": "Amadou Diop",
+      "specialite": "نحات الحجر",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "اكتشف فن الفيترال مع Mariama Cissé على منصة Onsebat، حيث تصبح كل قطعة زجاج منفوخة تعبر عن جمال الزجاج الحساس والنقاء، مما يخلق أعمالًا مضيئة وأنيقة.",
+      "id": 27,
+      "nom": "Mariama Cissé",
+      "specialite": "فيترال",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "اكتشف حرفة المصمم الداخلي مع Modibo Traoré على منصة Onsebat، حيث يصبح كل مساحة سيمفونية من الألوان والملمسات، مما يخلق بيئات تشجع وتسحر.",
+      "id": 28,
+      "nom": "Modibo Traoré",
+      "specialite": "مصمم داخلي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "اكتشف فن الحدادة مع Adama Fofana على منصة Onsebat، حيث تصبح كل قطعة معدنية تحيا بفضل دمج التقنيات التقليدية مع تصاميم حديثة، مما يخلق أعمالًا عملية وجمالية.",
+      "id": 29,
+      "nom": "Adama Fofana",
+      "specialite": "حداد",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "اكتشف عالم السائق مع Moussa Traoré على منصة Onsebat، حيث تصبح القيادة الآمنة والفعالة عنصرًا أساسيًا في الموبيلية العمرانية، مما يوفر خدمة موثوقة ومنتظمة عبر كاميرون.",
+      "id": 30,
+      "nom": "Moussa Traoré",
+      "specialite": "سائق",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "اكتشف فن التطريز مع Fanta Konaté على منصة Onsebat، حيث تصبح كل خيط قصة مكوسة يدويًا، مما يجعل الأقمشة والملابس أكثر جمالًا وتفصيلًا.",
+      "id": 31,
+      "nom": "Fanta Konaté",
+      "specialite": "تطريز",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "اكتشف فن الموزاييك مع Amadou Diarra على منصة Onsebat، حيث تصبح كل قطعة من البلاط لوحة فنية مجردة، مما يحول الأسطح إلى أعمال لونية ومتعددة الملمسات.",
+      "id": 32,
+      "nom": "Amadou Diarra",
+      "specialite": "موزاييك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "اكتشف حرفة الزجاج مع Fatimata Diakité على منصة Onsebat، حيث تصبح كل قطعة زجاج منفوخة تعبر عن جمال الزجاج الحساس والنقاء، مما يخلق أعمالًا مضيئة وأنيقة.",
+      "id": 33,
+      "nom": "Fatimata Diakité",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "اكتشف حرفة الصانع الفخار مع Ousmane Doumbia على منصة Onsebat، حيث تصبح كل وعاء وزهرية تمثل بساطة وجمال الطين، مما يجسد الطبيعة البسيطة.",
+      "id": 34,
+      "nom": "Ousmane Doumbia",
+      "specialite": "صانع فخار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "اكتشف فن التجليد مع Moussa Keita على منصة Onsebat، حيث تصبح كل حيوان مجمد قصة تجليد وجمال طبيعي، مما يلتقط روح الوفاة البرية لكاميرون للأجيال القادمة.",
+      "id": 35,
+      "nom": "Moussa Keita",
+      "specialite": "تجليد",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "استكشف خبرة السباك مع Aissatou Diallo على منصة Onsebat، حيث تكون تركيب الأنابيب الدقيق يضمن الراحة والوظيفية في كل مبنى.",
+      "id": 36,
+      "nom": "Aissatou Diallo",
+      "specialite": "سباك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "انغمس في عالم الطبخ مع Mamadou Sow على منصة Onsebat، حيث تصبح كل وجبة اندماجًا بين تقنيات الطبخ والمكونات العالية الجودة، مما يوفر تجربة غذائية فريدة.",
+      "id": 37,
+      "nom": "Mamadou Sow",
+      "specialite": "طباخ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "اكتشف فن الرسم مع Fatoumata Diarra على منصة Onsebat، حيث تصبح كل سطح قماشًا لتعبير الإبداع والجو في الداخليات والخارجيات.",
+      "id": 38,
+      "nom": "Fatoumata Diarra",
+      "specialite": "رسام",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "انغمس في حرفة الزجاج مع Oumar Camara على منصة Onsebat، حيث يصبح الزجاج جزءًا أساسيًا من الهندسة الحديثة، مما يوفر ضوءًا وشفافية لكل مساحة.",
+      "id": 39,
+      "nom": "Oumar Camara",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "انغمس في عالم التجميل مع Kadiatou Bah على منصة Onsebat، حيث يعبر كل نمط عن الإبداع والخبرة في مجال الجمال، مما يجعل الشعر عملًا فنيًا للشعر.",
+      "id": 40,
+      "nom": "Kadiatou Bah",
+      "specialite": "مصفف شعر",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "استكشف فن البلاط مع Seydou Traoré على منصة Onsebat، حيث تكون وضع البلاط الدقيق تحول المساحات إلى أعمال فنية وجمالية.",
+      "id": 41,
+      "nom": "Seydou Traoré",
+      "specialite": "بلاط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "اكتشف حرفة المخيط مع Fanta Camara على منصة Onsebat، حيث تصبح كل مفروشات عملًا فنيًا مع اختيار مواد وأنسجة زخرفية بعناية.",
+      "id": 42,
+      "nom": "Fanta Camara",
+      "specialite": "مخيط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "انغمس في عالم البناء مع Modibo Doumbia على منصة Onsebat، حيث يصبح البناء المنشآت الصلبة والمستدامة تحول الأفكار إلى واقع عمراني.",
+      "id": 43,
+      "nom": "Modibo Doumbia",
+      "specialite": "بناء",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "انغمس في حرفة العود مع Ousmane Sow على منصة Onsebat، حيث تكون صناعة وإصلاح آلات الموسيقى تعبر عن الشغف بالصوت والفن في إنشاء ألحان ساحرة.",
+      "id": 44,
+      "nom": "Ousmane Sow",
+      "specialite": "عود",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "اكتشف عالم الكهربائي مع Mariam Konaté على منصة Onsebat، حيث تكون المهارة في أنظمة الكهرباء تضمن السلامة وكفاءة الطاقة في جميع المشاريع.",
+      "id": 45,
+      "nom": "Mariam Konaté",
+      "specialite": "كهربائي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "انغمس في فن النحت على الخشب مع Mamadou Barry على منصة Onsebat، حيث تعكس كل قطعة جمال الخشب الطبيعي والمهارة الحرفية، مما يخلق أعمالًا دائمة.",
+      "id": 46,
+      "nom": "Mamadou Barry",
+      "specialite": "نحات على الخشب",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "استكشف فن الحلويات مع Aminata Traoré على منصة Onsebat، حيث تصبح كل حلوى إنشاءً لذيذًا وفنيًا، مما يحتفل بالحلاوة والإبداع من خلال نكهات رائعة.",
+      "id": 47,
+      "nom": "Aminata Traoré",
+      "specialite": "حلويات",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "استكشف فن التطريز مع Amadou Diallo على منصة Onsebat، حيث تصبح كل خيط تصميمًا مكوسًا يدويًا، مما يجعل الأقمشة والملابس أكثر جمالًا وتفصيلًا.",
+      "id": 48,
+      "nom": "Amadou Diallo",
+      "specialite": "تطريز",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "اكتشف فن المجوهرات مع Fadimata Keita على منصة Onsebat، حيث تصبح كل قطعة اندماجًا بين الإبداع والدقة الحرفية، مما يجسد الأناقة والرقي.",
+      "id": 49,
+      "nom": "Fadimata Keita",
+      "specialite": "صائغ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "استكشف فن التصميم البسيطي مع Ousmane Diallo على منصة Onsebat، حيث يصبح كل حديقة امتدادًا طبيعيًا ومتوازنًا من الطبيعة والإبداع البشري، مما يخلق مساحات حياة خضراء وهادئة.",
+      "id": 50,
+      "nom": "Ousmane Diallo",
+      "specialite": "مصمم بسيطي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "اكتشف فن المصمم المسرحي مع Fanta Traoré على منصة Onsebat، حيث يصبح كل ديكور قماشًا لرواية قصص بصرية والجذب للجمهور من خلال فن المسرح.",
+      "id": 51,
+      "nom": "Fanta Traoré",
+      "specialite": "مصمم مسرحي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "انغمس في فن المخيط المصمم للأسراف مع Oumar Keita على منصة Onsebat، حيث يصبح كل مساحة تعبيرًا عن الأسلوب والتوافق، بفضل أنسجة وملمسات مختارة بعناية.",
+      "id": 52,
+      "nom": "Oumar Keita",
+      "specialite": "مخيط مصمم ديكور",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "استكشف حرفة الصانع الفخار مع Aminata Camara على منصة Onsebat، حيث يصبح الطين حيًا ونشطًا، مما يشكل أعمالًا فريدة وعملية تلتقط روح الإبداع البشري.",
+      "id": 53,
+      "nom": "Aminata Camara",
+      "specialite": "صانع فخار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "اكتشف فن ترميم الأثاث مع Mamadou Traoré على منصة Onsebat، حيث تستعيد كل قطعة قديمة جمالها الأصلي بفضل تقنيات ترميم خبيرة ومحترمة للتراث.",
+      "id": 54,
+      "nom": "Mamadou Traoré",
+      "specialite": "مرمم أثاث",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "استكشف فن المروقي مع Fatoumata Traoré على منصة Onsebat، حيث تصبح كل حقيبة ومستلزمات قطعة فنية وعملية، مما يجمع بين الجلد العالي الجودة والتصميم المبتكر.",
+      "id": 55,
+      "nom": "Fatoumata Traoré",
+      "specialite": "مروقي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "انغمس في فن الخياطة مع Ibrahim Camara على منصة Onsebat، حيث تصبح كل ملابس مخصصة عملًا فنيًا من الخياطة الدقيقة، مما يجمع بين الأسلوب والراحة والجودة.",
+      "id": 56,
+      "nom": "Ibrahim Camara",
+      "specialite": "خياط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "اكتشف فن الموزاييك مع Kadiatou Traoré على منصة Onsebat، حيث تصبح كل تصميم لوني قطعة ديكور داخلية فريدة، مما يجمع بين الدقة الفنية والجمال البصري.",
+      "id": 57,
+      "nom": "Kadiatou Traoré",
+      "specialite": "موزاييك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "استكشف حرفة نحات الحجر مع Ousmane Diallo على منصة Onsebat، حيث تصبح كل حجر منحوت بدقة لإنشاء هياكل صلبة وجمالية تتحمل الاختبارات الزمنية.",
+      "id": 58,
+      "nom": "Ousmane Diallo",
+      "specialite": "نحات الحجر",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "اكتشف فن تركيب التكييف مع Mariama Diop على منصة Onsebat، حيث تضمن كل نظام الراحة وكفاءة الطاقة، مصمم لجميع البيئات السكنية والتجارية.",
+      "id": 59,
+      "nom": "Mariama Diop",
+      "specialite": "مثبت التكييف",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "استكشف فن النجارة مع Amadou Barry على منصة Onsebat، حيث تصبح كل مفروشات قطعة فنية وعملية، مما يجمع بين الخشب العالي الجودة والتصميم الوظيفي.",
+      "id": 60,
+      "nom": "Amadou Barry",
+      "specialite": "نجار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "انغمس في عالم التصوير الفوتوغرافي مع Aminata Diallo على منصة Onsebat، حيث تصبح كل صورة تلتقط الروح والمزاج من اللحظات الثمينة، مما يحول الضوء إلى ذكريات دائمة.",
+      "id": 61,
+      "nom": "Aminata Diallo",
+      "specialite": "مصور",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "استكشف حرفة النحت مع Abdoulaye Traoré على منصة Onsebat، حيث تعبر كل عمل فني عن الرؤية الإبداعية والمهارة التقنية من خلال مواد متنوعة وأساليب مبتكرة.",
+      "id": 62,
+      "nom": "Abdoulaye Traoré",
+      "specialite": "نحات",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "انغمس في حرفة الحدادة مع Fanta Camara على منصة Onsebat، حيث تصبح كل قطعة معدنية عملًا فنيًا عمليًا، مما يجمع بين الجمال والمتانة في كل إنشاء.",
+      "id": 63,
+      "nom": "Fanta Camara",
+      "specialite": "حداد",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "استكشف حرفة المخيط مع Amadou Sow على منصة Onsebat، حيث تصبح كل قطعة مزينة بألوان وملمسات تروي قصصًا فريدة، مما يغني كل مساحة بالجمال والراحة.",
+      "id": 64,
+      "nom": "Amadou Sow",
+      "specialite": "مخيط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "اكتشف حرفة التاجر في الخردة مع Mariam Doumbia على منصة Onsebat، حيث تصبح كل إنشاء من المعادن المعاد تدويره قطعة فريدة ومستدامة، مما يجسد الإبداع والالتزام بالبيئة.",
+      "id": 65,
+      "nom": "Mariam Doumbia",
+      "specialite": "تاجر خردة",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "انغمس في عالم الزجاج مع Oumar Traoré على منصة Onsebat، حيث يصبح الزجاج جزءًا أساسيًا من الهندسة الحديثة، مما يوفر ضوءًا وشفافية لكل مساحة بدقة.",
+      "id": 66,
+      "nom": "Oumar Traoré",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "اكتشف حرفة السمكري مع Fatoumata Camara على منصة Onsebat، حيث تصبح كل مفتاح وقفل أداة آمنة وجميلة للغاية، مصممة لجميع أنواع الأبواب والنوافذ.",
+      "id": 67,
+      "nom": "Fatoumata Camara",
+      "specialite": "سمكري",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "استكشف فن التصميم الداخلي مع Mohamed Keita على منصة Onsebat، حيث يصبح كل مساحة اندماجًا طبيعيًا من الألوان والأثاث والمستلزمات، مما يخلق بيئات تشجع ومرحبة بها.",
+      "id": 68,
+      "nom": "Mohamed Keita",
+      "specialite": "مصمم داخلي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "انغمس في عالم الجص مع Aminata Diakité على منصة Onsebat، حيث تصبح كل جدار قماشًا لتعبير الإبداع والوظيفية، مما يوفر تشطيبات دقيقة ومستدامة.",
+      "id": 69,
+      "nom": "Aminata Diakité",
+      "specialite": "جصاص",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "اكتشف فن التصميم الزهري مع Amadou Camara على منصة Onsebat، حيث يصبح كل مجموعة زهرية امتدادًا طبيعيًا ومتوازنًا من الطبيعة والجمال البصري، مما يخلق ترتيبات زهرية تلتقط روح الطبيعة الجميلة.",
+      "id": 70,
+      "nom": "Amadou Camara",
+      "specialite": "مصمم زهري",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "اكتشف فن الحلويات مع Fanta Diarra على منصة Onsebat، حيث تصبح كل حلوى إنشاءً لذيذًا وفنيًا، مما يحتفل بالحلاوة والإبداع من خلال نكهات رائعة.",
+      "id": 71,
+      "nom": "Fanta Diarra",
+      "specialite": "حلويات",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "استكشف فن النجارة مع Mamadou Traoré على منصة Onsebat، حيث تصبح كل مفروشات قطعة فنية وعملية، مما يجمع بين الخشب العالي الجودة والتصميم الوظيفي.",
+      "id": 72,
+      "nom": "Mamadou Traoré",
+      "specialite": "نجار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "انغمس في فن النحت على الخشب مع Aïcha Traoré على منصة Onsebat، حيث تعكس كل قطعة جمال الخشب الطبيعي والمهارة الحرفية، مما يخلق أعمالًا دائمة.",
+      "id": 73,
+      "nom": "Aïcha Traoré",
+      "specialite": "نحات على الخشب",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "اكتشف فن التصميم البسيطي مع Amadou Camara على منصة Onsebat، حيث يصبح كل حديقة امتدادًا طبيعيًا ومتوازنًا من الطبيعة والإبداع البشري، مما يخلق مساحات حياة خضراء وهادئة.",
+      "id": 74,
+      "nom": "Amadou Camara",
+      "specialite": "مصمم بسيطي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "استكشف فن البلاط مع Aminata Traoré على منصة Onsebat، حيث تكون وضع البلاط الدقيق تحول المساحات إلى أعمال فنية وجمالية.",
+      "id": 75,
+      "nom": "Aminata Traoré",
+      "specialite": "بلاط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "انغمس في عالم التجميل مع Oumar Keita على منصة Onsebat، حيث يعبر كل نمط عن الإبداع والخبرة في مجال الجمال، مما يجعل الشعر عملًا فنيًا للشعر.",
+      "id": 76,
+      "nom": "Oumar Keita",
+      "specialite": "مصفف شعر",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "اكتشف فن المصمم المسرحي مع Mariam Camara على منصة Onsebat، حيث يصبح كل ديكور قماشًا لرواية قصص بصرية والجذب للجمهور من خلال فن المسرح.",
+      "id": 77,
+      "nom": "Mariam Camara",
+      "specialite": "مصمم مسرحي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "استكشف حرفة الخباز مع Amadou Traoré على منصة Onsebat، حيث يكون المهارة التقليدية تلتقي بالشغف بالخبز الطازج والحلويات اللذيذة، مما يثير الأحاسيس في كل لقمة.",
+      "id": 78,
+      "nom": "Amadou Traoré",
+      "specialite": "خباز",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "انغمس في حرفة الصانع الفخار مع Aïssatou Traoré على منصة Onsebat، حيث يصبح الطين حيًا ونشطًا، مما يشكل أعمالًا فريدة وعملية تلتقط روح الإبداع البشري.",
+      "id": 79,
+      "nom": "Aïssatou Traoré",
+      "specialite": "صانع فخار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "اكتشف فن الرسم مع Ousmane Camara على منصة Onsebat، حيث تصبح كل سطح قماشًا لتعبير الإبداع والجو في الداخليات والخارجيات.",
+      "id": 80,
+      "nom": "Ousmane Camara",
+      "specialite": "رسام",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "استكشف فن المخيط المصمم للأسراف مع Fanta Traoré على منصة Onsebat، حيث يصبح كل مساحة تعبيرًا عن الأسلوب والتوافق، بفضل أنسجة وملمسات مختارة بعناية.",
+      "id": 81,
+      "nom": "Fanta Traoré",
+      "specialite": "مخيط مصمم ديكور",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "انغمس في حرفة العود مع Mamadou Camara على منصة Onsebat، حيث تكون صناعة وإصلاح آلات الموسيقى تعبر عن الشغف بالصوت والفن في إنشاء ألحان ساحرة.",
+      "id": 82,
+      "nom": "Mamadou Camara",
+      "specialite": "عود",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "اكتشف فن البناء مع Mariama Traoré على منصة Onsebat، حيث يصبح البناء المنشآت الصلبة والمستدامة تحول الأفكار إلى واقع عمراني.",
+      "id": 83,
+      "nom": "Mariama Traoré",
+      "specialite": "بناء",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "استكشف خبرة السباك مع Aminata Diarra على منصة Onsebat، حيث تكون تركيب الأنابيب الدقيق يضمن الراحة والوظيفية في كل مبنى.",
+      "id": 84,
+      "nom": "Aminata Diarra",
+      "specialite": "سباك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "انغمس في حرفة الزجاج مع Mamadou Traoré على منصة Onsebat، حيث يصبح الزجاج جزءًا أساسيًا من الهندسة الحديثة، مما يوفر ضوءًا وشفافية لكل مساحة.",
+      "id": 85,
+      "nom": "Mamadou Traoré",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "اكتشف فن المجوهرات مع Oumou Traoré على منصة Onsebat، حيث تصبح كل قطعة اندماجًا بين الإبداع والدقة الحرفية، مما يجسد الأناقة والرقي.",
+      "id": 86,
+      "nom": "Oumou Traoré",
+      "specialite": "صائغ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "انغمس في حرفة المخيط مع Fatoumata Diakité على منصة Onsebat، حيث تصبح كل مفروشات عملًا فنيًا مع اختيار مواد وأنسجة زخرفية بعناية.",
+      "id": 87,
+      "nom": "Fatoumata Diakité",
+      "specialite": "مخيط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "اكتشف حرفة الزجاج مع Amadou Traoré على منصة Onsebat، حيث يصبح الزجاج قماشًا للضوء واللون، مما يخلق قطعًا ديكورية وفنية ذات جمال لامع.",
+      "id": 88,
+      "nom": "Amadou Traoré",
+      "specialite": "زجاجي",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "اكتشف حرفة المخيط للأثاث مع Aminata Camara على منصة Onsebat، حيث تستعيد كل مفروشات جمالها وراحتها من خلال تقنيات ومواد الترميم العالية الجودة.",
+      "id": 89,
+      "nom": "Aminata Camara",
+      "specialite": "مخيط أثاث",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 90,
+      "description": "اكتشف فن الحلاق بواسطة Fanta Diarra على Onsebat، حيث دقة الحلاقة وتقليم اللحية تصبح تعبيرًا عن الذكورية والأسلوب، مما يوفر تجربة تجميل رفيعة.",
+      "id": 90,
+      "nom": "Fanta Diarra",
+      "specialite": "حلاق",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 91,
+      "description": "استكشف فن الخياطة بواسطة Ousmane Diarra على Onsebat، حيث يصبح كل خيط قصة مكوسة باليد، مما يجعل الأقمشة والملابس أكثر جاذبية وتفصيلاً باستخدام تصاميم راقية وتفاصيل دقيقة.",
+      "id": 91,
+      "nom": "Ousmane Diarra",
+      "specialite": "خياط",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 92,
+      "description": "استكشف فن النجارة بواسطة Ousmane Traoré على Onsebat، حيث يتحول الخشب النفيس إلى أثاث راقي وعملي، مما ينشئ قطعًا تجمع بين التقاليد والحداثة.",
+      "id": 92,
+      "nom": "Ousmane Traoré",
+      "specialite": "نجار",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 93,
+      "description": "اكتشف فن التطريز بواسطة Mariam Camara على Onsebat، حيث يصبح كل خيط قصة مكوسة باليد، مما يجعل الأقمشة والملابس أكثر جاذبية وتفصيلاً باستخدام تصاميم راقية وتفاصيل دقيقة.",
+      "id": 93,
+      "nom": "Mariam Camara",
+      "specialite": "مطرز",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 94,
+      "description": "استكشف إعادة تدوير المعادن بواسطة Aïssatou Diakité على Onsebat، حيث تساهم الاسترداد المسؤول في الاستدامة البيئية وحفظ الموارد.",
+      "id": 94,
+      "nom": "Aïssatou Diakité",
+      "specialite": "تجار الخردة",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 95,
+      "description": "انغمس في عالم التنسيق الخضري بواسطة Amadou Traoré على Onsebat، حيث تجد كل نبات وزهرة مكانها في توازن طبيعي، مما يحول المساحات الخارجية إلى أروقة من السلام والجمال.",
+      "id": 95,
+      "nom": "Amadou Traoré",
+      "specialite": "باية",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 96,
+      "description": "استكشف صناعة السباك بواسطة Oumar Camara على Onsebat، حيث تتم صناعة أنظمة الأمان والسلامة تحت الضغط الدقيق لتأمين الممتلكات والأشخاص.",
+      "id": 96,
+      "nom": "Oumar Camara",
+      "specialite": "سباك",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 97,
+      "description": "اكتشف فن الحلاق بواسطة Fanta Camara على Onsebat، حيث دقة الحلاقة وتقليم اللحية تصبح تعبيرًا عن الذكورية والأسلوب، مما يوفر تجربة تجميل رفيعة.",
+      "id": 97,
+      "nom": "Fanta Camara",
+      "specialite": "حلاق",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 98,
+      "description": "اكتشف صناعة الحلويات بواسطة Aminata Traoré على Onsebat، حيث تصبح كل حلوى إبداعًا لذيذًا وفنيًا، مما يحتفل بالحلاوة والإبداعية من خلال الأذواق الرائعة.",
+      "id": 98,
+      "nom": "Aminata Traoré",
+      "specialite": "ماجستير في الحلويات",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 99,
+      "description": "انغمس في عالم العناية الشخصية بواسطة Oumar Diarra على Onsebat، حيث تقدم الخبرة في الجمال والراحة معالجات مخصصة لتحقيق بشرة لامعة وروح مهدوءة.",
+      "id": 99,
+      "nom": "Oumar Diarra",
+      "specialite": "مستشفى جمال",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 100,
+      "description": "اكتشف الفن الأنيق القديم للحداد بواسطة Aminata Diarra على Onsebat، حيث يتحول المعدن إلى حياة تحت الحرارة والمهارة، مما يشكل قطعًا عملية وفنية.",
+      "id": 100,
+      "nom": "Aminata Diarra",
+      "specialite": "حداد",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

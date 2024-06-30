@@ -1,0 +1,207 @@
+import os
+from mistralai.client import MistralClient
+from mistralai.models.chat_completion import ChatMessage
+
+def generer_prompt_devis(service, nom, email, telephone, adresse, description_projet, langue="français"):
+    prompt = f"""
+    RÔLE : Tu es un expert comptable camerounais spécialisé dans la création de devis précis et professionnels pour l'entreprise Onsebat. Ta tâche est de générer un devis détaillé en {langue} pour le service suivant.
+    
+    CONTEXTE : Onsebat est une entreprise de construction et de services basée au Cameroun, connue pour sa fiabilité et son professionnalisme.
+
+    INFORMATIONS CLIENT :
+    - Service demandé : {service}
+    - Nom : {nom}
+    - E-mail : {email}
+    - Téléphone : {telephone}
+    - Adresse : {adresse}
+
+    DESCRIPTION DU PROJET :
+    {description_projet}
+
+    INSTRUCTIONS DÉTAILLÉES :
+
+    1. En-tête du devis :
+    - Logo et nom de l'entreprise : Onsebat
+    - Numéro unique du devis (format : ONS-AAAAMMJJ-XXX)
+    - Date d'émission du devis
+    - Mention "Valable 30 jours à compter de la date d'émission"
+
+    2. Informations du client :
+    - Reproduire les informations fournies ci-dessus
+
+    3. Description détaillée des services :
+    - Décomposer le service demandé en étapes ou composants spécifiques
+    - Pour chaque étape/composant, fournir une brève description
+
+    4. Estimation des coûts :
+    - Main-d'œuvre :
+        * Détailler les différents types de travailleurs nécessaires
+        * Estimer le nombre d'heures pour chaque type
+        * Appliquer un taux horaire réaliste pour le Cameroun
+    - Matériaux :
+        * Lister tous les matériaux nécessaires avec leurs quantités
+        * Fournir un coût unitaire et un coût total pour chaque matériau
+    - Équipements :
+        * Si applicable, lister les équipements nécessaires et leur coût de location/utilisation
+    - Frais supplémentaires :
+        * Transport
+        * Permis et autorisations
+        * Frais d'inspection
+        * Marge pour imprévus (généralement 10-15% du total)
+
+    5. Récapitulatif des coûts :
+    - Sous-total pour chaque catégorie (main-d'œuvre, matériaux, équipements, frais supplémentaires)
+    - Total avant taxes
+    - Taxes   (TVA à 19.25%)
+    - Total final TTC
+
+    6. Conditions de paiement :
+    - Proposer un échéancier de paiement (par exemple : 30% à la signature, 40% à mi-projet, 30% à la livraison)
+    - Spécifier les modes de paiement acceptés
+
+    7. Délais d'exécution :
+    - Fournir une estimation réaliste du temps nécessaire pour compléter le projet
+    - Mentionner les facteurs pouvant influencer ce délai
+
+    8. Garanties et services après-vente :
+    - Détailler les garanties offertes sur le travail et les matériaux
+    - Mentionner tout service après-vente inclus
+
+    9. Conditions générales :
+    - Inclure les clauses standards (modification du projet, résiliation, force majeure, etc.)
+
+    10. Signature :
+        - Signature et cachet d'Onsebat
+
+    11. Pied de page :
+        - Coordonnées complètes d'Onsebat
+        - Numéro d'identification fiscale
+        - Mention légale : "Onsebat, société de droit camerounais"
+
+    CONSIGNES SUPPLÉMENTAIRES :
+    - Utilise un langage formel et professionnel
+    - Assure-toi que toutes les estimations sont réalistes pour le marché camerounais actuel
+    - Vérifie la cohérence des calculs
+    - Adapte le niveau de détail à l'ampleur du projet
+    - Utilise le franc CFA (FCFA) comme devise
+    - Rédige l'intégralité du devis en {langue}
+
+    Génère maintenant un devis complet et détaillé en suivant scrupuleusement ces instructions.
+    """
+    return prompt
+
+def generer_prompt_devis_html_tailwind_pdf(service, nom, email, telephone, adresse, description_projet, langue="français"):
+    prompt = f"""
+    RÔLE : Tu es un expert comptable camerounais spécialisé dans la création de devis précis et professionnels pour l'entreprise Onsebat. Ta tâche est de générer un code HTML avec Tailwind CSS pour un devis détaillé en {langue}, optimisé pour être converti en PDF.
+
+    CONTEXTE : Onsebat est une entreprise de construction et de services basée au Cameroun, connue pour sa fiabilité et son professionnalisme. Le devis sera converti en PDF.
+
+    INFORMATIONS CLIENT :
+    - Service demandé : {service}
+    - Nom : {nom}
+    - E-mail : {email}
+    - Téléphone : {telephone}
+    - Adresse : {adresse}
+
+    DESCRIPTION DU PROJET :
+    {description_projet}
+
+    INSTRUCTIONS DÉTAILLÉES :
+
+    1. Crée une structure HTML5 valide avec les balises appropriées.
+    2. Utilise les classes Tailwind CSS pour le style et la mise en page, en te limitant aux styles qui s'imprimeront bien en PDF.
+    3. Le design doit être simple, clair et professionnel, optimisé pour l'impression.
+
+    4. Inclus les sections suivantes dans le devis HTML :
+
+    a. En-tête du devis :
+    - Nom de l'entreprise : Onsebat (pas de logo)
+    - Numéro unique du devis (format : ONS-AAAAMMJJ-XXX)
+    - Date d'émission du devis
+    - Mention "Valable 30 jours à compter de la date d'émission"
+
+    b. Informations du client :
+    - Reproduire les informations fournies ci-dessus
+
+    c. Description détaillée des services :
+    - Décomposer le service demandé en étapes ou composants spécifiques
+    - Pour chaque étape/composant, fournir une brève description
+
+    d. Estimation des coûts :
+    - Main-d'œuvre :
+        * Détailler les différents types de travailleurs nécessaires
+        * Estimer le nombre d'heures pour chaque type
+        * Appliquer un taux horaire réaliste pour le Cameroun
+    - Matériaux :
+        * Lister tous les matériaux nécessaires avec leurs quantités
+        * Fournir un coût unitaire et un coût total pour chaque matériau
+    - Équipements :
+        * Si applicable, lister les équipements nécessaires et leur coût de location/utilisation
+    - Frais supplémentaires :
+        * Transport
+        * Permis et autorisations
+        * Frais d'inspection
+        * Marge pour imprévus (généralement 10-15% du total)
+
+    e. Récapitulatif des coûts :
+    - Sous-total pour chaque catégorie (main-d'œuvre, matériaux, équipements, frais supplémentaires)
+    - Total avant taxes
+    - Taxes applicables au Cameroun (TVA à 19.25%)
+    - Total final TTC
+
+    f. Conditions de paiement :
+    - Proposer un échéancier de paiement (par exemple : 30% à la signature, 40% à mi-projet, 30% à la livraison)
+    - Spécifier les modes de paiement acceptés
+
+    g. Délais d'exécution :
+    - Fournir une estimation réaliste du temps nécessaire pour compléter le projet
+    - Mentionner les facteurs pouvant influencer ce délai
+
+    h. Garanties et services après-vente :
+    - Détailler les garanties offertes sur le travail et les matériaux
+    - Mentionner tout service après-vente inclus
+
+    i. Conditions générales :
+    - Inclure les clauses standards (modification du projet, résiliation, force majeure, etc.)
+
+    j. Signature :
+    - Espace pour la signature du client
+    - Signature et cachet d'Onsebat
+
+    k. Pied de page :
+    - Coordonnées complètes d'Onsebat
+    - Numéro d'identification fiscale
+    - Mention légale : "Onsebat, société de droit camerounais"
+
+    5. Utilise des tableaux HTML avec des classes Tailwind CSS pour présenter les coûts de manière claire et structurée.
+
+    CONSIGNES SUPPLÉMENTAIRES :
+    - Utilise des classes Tailwind pour créer un design sobre et professionnel, adapté à l'impression PDF.
+    - Évite les effets qui ne s'imprimeront pas bien (ombres, gradients complexes, etc.).
+    - Utilise des couleurs sobres, principalement du noir, des gris et éventuellement une couleur d'accent pour les en-têtes.
+    - Assure-toi que tous les textes sont parfaitement lisibles une fois imprimés.
+    - Utilise un langage formel et professionnel.
+    - Assure-toi que toutes les estimations sont réalistes pour le marché camerounais actuel.
+    - Vérifie la cohérence des calculs.
+    - Adapte le niveau de détail à l'ampleur du projet.
+    - Utilise le franc CFA (FCFA) comme devise.
+    - Rédige l'intégralité du devis en {langue}.
+    - Ajoute des commentaires dans le code HTML pour expliquer la structure.
+
+    Génère maintenant le code HTML complet avec Tailwind CSS en suivant scrupuleusement ces instructions. Le code doit être bien indenté et commenté, prêt à être converti en PDF.
+    """
+    return prompt
+
+
+def chat(question):
+    api_key = "rug3ahbZQs9ZOrvjJiuOAm9ZYlgWTKU4"
+    model = "mistral-large-latest"
+    client = MistralClient(api_key=api_key)
+
+   
+
+    chat_response = client.chat(
+        model=model,
+        messages=[ChatMessage(role="user", content=question)]
+    )
+    return chat_response.choices[0].message.content

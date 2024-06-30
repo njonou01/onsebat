@@ -1,0 +1,804 @@
+{
+  "artisans": [
+    {
+      "id_service": 23,
+      "description": "オンセバットでアリウーネ・ンディアイェというバーバーと出会いましょう。彼は男性の美しさとスタイルを表現する髭剃りとカットの専門家で、精密な髭剃りとカットで男性的な魅力とスタイルを表現し、高品質のトリミング体験を提供します。",
+      "id": 1,
+      "nom": "Alioune Ndiaye",
+      "specialite": "バーバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "オンセバットでファトゥマタ・トラオレという電気工と出会いましょう。彼女は電気安全を最優先に考え、カメルーンのインフラストラクチャーの電気システムを安全で効率的に改善し、誰もが安全な環境を楽しむことができるようにします。",
+      "id": 2,
+      "nom": "Fatoumata Traoré",
+      "specialite": "電気工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "オンセバットでイッサ・ディオープという美容師と出会いましょう。彼の各スタイルは創造性と美容の専門知識を反映し、髪は美しい髪のアートへと変わります。",
+      "id": 3,
+      "nom": "Issa Diop",
+      "specialite": "美容師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "オンセバットでアイチャ・コーネというジュエリーアーティストと出会いましょう。彼女の各作品は創造性と職人的な技術の融合で、優雅さと贅沢を体現します。",
+      "id": 4,
+      "nom": "Aïcha Kone",
+      "specialite": "ジュエリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "オンセバットでイブラヒム・ソーというテキスチャーデコレーターと出会いましょう。彼の各空間は、選ばれたテキスチャーと素材によってスタイルと調和の表現となります。",
+      "id": 5,
+      "nom": "Ibrahim Sow",
+      "specialite": "テキスチャーデコレーター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "オンセバットでマリアム・ディアワラというパティシエと出会いましょう。彼女の伝統的な技術とパンとスイーツの愛は、味覚を刺激し、美味しい一品となります。",
+      "id": 6,
+      "nom": "Mariam Diawara",
+      "specialite": "パティシエ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "オンセバットでムサ・シッセという革細工師と出会いましょう。彼の革は贅沢なバッグやアクセサリーへと変わり、伝統的な技術と現代的なデザインが融合します。",
+      "id": 7,
+      "nom": "Moussa Cissé",
+      "specialite": "革細工師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "オンセバットでジャンピエール・ンドングという石工と出会いましょう。彼の構造物は堅牢で持続可能で、カメルーンの都市景観に豊かな貢献をします。",
+      "id": 8,
+      "nom": "Jean-Pierre Ndong",
+      "specialite": "石工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "オンセバットでアルフォンス・ムバーガという木彫り芸術家と出会いましょう。彼の各作品は木の美しさと職人的な技術を反映し、永遠の美を創造します。",
+      "id": 9,
+      "nom": "Alphonse Mbarga",
+      "specialite": "木彫り芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "オンセバットでアダマ・バというシェフと出会いましょう。彼の各料理は料理技術と高品質の材料の融合で、独特のガストロノミー体験を提供します。",
+      "id": 10,
+      "nom": "Adama Ba",
+      "specialite": "シェフ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "オンセバットでムサ・コナテという金属廃品回収業者と出会いましょう。彼の責任ある回収は環境保全に貢献し、資源の保護に努めます。",
+      "id": 11,
+      "nom": "Moussa Konaté",
+      "specialite": "金属廃品回収業者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "オンセバットでアイッサトゥ・ディオープという裁縫師と出会いましょう。彼の各作品は優雅さと個性を反映し、独自のスタイルを創造します。",
+      "id": 12,
+      "nom": "Aïssatou Diop",
+      "specialite": "裁縫師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "オンセバットでアブーバカル・ディアロという暖房工と出会いましょう。彼の効率的で持続可能な暖房システムは、快適な熱環境を確保します。",
+      "id": 13,
+      "nom": "Aboubacar Diallo",
+      "specialite": "暖房工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "オンセバットでファトゥ・カマラというタイルセット工と出会いましょう。彼の正確なタイル配置は、機能性と美的価値の両方を兼ね備えた空間へと変わります。",
+      "id": 14,
+      "nom": "Fatou Camara",
+      "specialite": "タイルセット工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "オンセバットでアリウー・ンベングエというプランバーと出会いましょう。彼の正確な配管は、快適さと機能性を確保します。",
+      "id": 15,
+      "nom": "Aliou Mbengue",
+      "specialite": "プランバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "オンセバットでファンタ・ディアロという園芸師と出会いましょう。彼の各植物と花は自然のバランスを保ち、外部空間を平和で美しい場所に変えます。",
+      "id": 16,
+      "nom": "Fanta Diallo",
+      "specialite": "園芸師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "オンセバットでアマドゥ・フォファナというセットデザイナーと出会いましょう。彼の各セットは、視覚的なストーリーを伝えるキャンバスとなり、芸術的なパフォーマンスを引き出します。",
+      "id": 17,
+      "nom": "Amadou Fofana",
+      "specialite": "セットデザイナー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "オンセバットでアダマ・ドゥンビアというガラス工と出会いましょう。彼の正確なガラス切断と配置は、明るく安全な空間を創造します。",
+      "id": 18,
+      "nom": "Adama Doumbia",
+      "specialite": "ガラス工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "オンセバットでアミナタ・バというタペストリーアーティストと出会いましょう。彼女の各作品は優雅さと快適さを反映し、伝統的な技術と現代的なデザインが融合します。",
+      "id": 19,
+      "nom": "Aminata Ba",
+      "specialite": "タペストリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "オンセバットでムスタファ・ディアンゲという溶接工と出会いましょう。彼の正確な溶接は、構築と製造に必要な構造物を創造します。",
+      "id": 20,
+      "nom": "Moustapha Diagne",
+      "specialite": "溶接工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "オンセバットでカディアトゥ・ソーという仕立て屋と出会いましょう。彼女の各作品は優雅さと個性を反映し、印象に残るスタイルを創造します。",
+      "id": 21,
+      "nom": "Kadiatou Sow",
+      "specialite": "仕立て屋",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "オンセバットでイススフ・トラオレという金属加工工と出会いましょう。彼の各作品は機能性と美的価値の両方を兼ね備えたアート作品となります。",
+      "id": 22,
+      "nom": "Issouf Traoré",
+      "specialite": "金属加工工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "オンセバットでアブドゥライェ・サールという木工と出会いましょう。彼の各家具は伝統的な技術と現代的なデザインが融合し、優雅さと機能性を兼ね備えた空間を創造します。",
+      "id": 23,
+      "nom": "Abdoulaye Sarr",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "オンセバットでファティマタ・カマラという車体修理工と出会いましょう。彼女の各作品はデザインと機能性を兼ね備えたアート作品となります。",
+      "id": 24,
+      "nom": "Fatimata Camara",
+      "specialite": "車体修理工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "オンセバットでウマール・シーというセラミックアーティストと出会いましょう。彼の各作品は手作りの陶器の美しさを表現し、ユニークでアート的な作品を創造します。",
+      "id": 25,
+      "nom": "Oumar Sy",
+      "specialite": "セラミックアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "オンセバットでアマドゥ・ディオープという石彫り芸術家と出会いましょう。彼の各作品は持続可能なアート作品となり、カメルーンの建築景観に豊かな貢献をします。",
+      "id": 26,
+      "nom": "Amadou Diop",
+      "specialite": "石彫り芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "オンセバットでマリアマ・シッセというガラス工芸術家と出会いましょう。彼女の各作品は色と光を表現するガラスの窓となり、内部の美しさと明るさを創造します。",
+      "id": 27,
+      "nom": "Mariama Cissé",
+      "specialite": "ガラス工芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "オンセバットでモディボ・トラオレというインテリアデザイナーと出会いましょう。彼の各空間は色とテクスチャーの調和を創造し、魅力的で心地よい環境を創造します。",
+      "id": 28,
+      "nom": "Modibo Traoré",
+      "specialite": "インテリアデザイナー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "オンセバットでアダマ・フォファナという鉄工と出会いましょう。彼の各作品は伝統的な技術と現代的なデザインが融合し、機能性と美的価値の両方を兼ね備えたアート作品となります。",
+      "id": 29,
+      "nom": "Adama Fofana",
+      "specialite": "鉄工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "オンセバットでムサ・トラオレというドライバーと出会いましょう。彼の安全で効率的な運転は、都市の移動性を確保し、信頼性と迅速さを提供します。",
+      "id": 30,
+      "nom": "Moussa Traoré",
+      "specialite": "ドライバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "オンセバットでファンタ・コナテという刺繍家と出会いましょう。彼女の各作品は手作りの織物に彩色されたストーリーを伝え、アート的なテキスタイルを創造します。",
+      "id": 31,
+      "nom": "Fanta Konaté",
+      "specialite": "刺繍家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "オンセバットでアマドゥ・ディアラというモザイクアーティストと出会いましょう。彼の各作品は抽象的な色彩のモザイクとなり、表面の美しさとテクスチャーを創造します。",
+      "id": 32,
+      "nom": "Amadou Diarra",
+      "specialite": "モザイクアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "オンセバットでファティマタ・ディアキテというガラス細工師と出会いましょう。彼女の各作品はガラスの美しさと脆弱さを表現し、優雅さと美しさを創造します。",
+      "id": 33,
+      "nom": "Fatimata Diakité",
+      "specialite": "ガラス細工師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "オンセバットでウスマン・ドゥンビアという陶器職人と出会いましょう。彼の各作品は土の美しさとシンプルさを表現し、自然のアートを創造します。",
+      "id": 34,
+      "nom": "Ousmane Doumbia",
+      "specialite": "陶器職人",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "オンセバットでムサ・ケイタというタクシデライヤーと出会いましょう。彼の各作品は自然の美しさと保存を表現し、カメルーンの野生動物を未来の世代に残します。",
+      "id": 35,
+      "nom": "Moussa Keita",
+      "specialite": "タクシデライヤー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "オンセバットでアイッサトゥ・ディアロというプランバーと出会いましょう。彼女の正確な配管は、快適さと機能性を確保します。",
+      "id": 36,
+      "nom": "Aissatou Diallo",
+      "specialite": "プランバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "オンセバットでママドゥ・ソーというシェフと出会いましょう。彼の各料理は料理技術と高品質の材料の融合で、独特のガストロノミー体験を提供します。",
+      "id": 37,
+      "nom": "Mamadou Sow",
+      "specialite": "シェフ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "オンセバットでファトゥマタ・ディアラというペインターと出会いましょう。彼女の各作品は表現力と雰囲気を表面に表現し、内外の空間を彩ります。",
+      "id": 38,
+      "nom": "Fatoumata Diarra",
+      "specialite": "ペインター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "オンセバットでウマール・カマラというガラス工と出会いましょう。彼のガラスは現代的な建築の重要な部分となり、明るさと透明性を空間にもたらします。",
+      "id": 39,
+      "nom": "Oumar Camara",
+      "specialite": "ガラス工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "オンセバットでカディアトゥ・バーという美容師と出会いましょう。彼女の各スタイルは創造性と美容の専門知識を反映し、髪は美しい髪のアートへと変わります。",
+      "id": 40,
+      "nom": "Kadiatou Bah",
+      "specialite": "美容師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "オンセバットでセイドゥ・トラオレというタイルセット工と出会いましょう。彼の正確なタイル配置は、機能性と美的価値の両方を兼ね備えた空間へと変わります。",
+      "id": 41,
+      "nom": "Seydou Traoré",
+      "specialite": "タイルセット工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "オンセバットでファンタ・カマラというタペストリーアーティストと出会いましょう。彼女の各作品は装飾品と素材で選ばれたテキスチャーと素材で家具へと変わります。",
+      "id": 42,
+      "nom": "Fanta Camara",
+      "specialite": "タペストリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "オンセバットでモディボ・ドゥンビアという石工と出会いましょう。彼の構造物は堅牢で持続可能で、アイデアを現実の建築へと変えます。",
+      "id": 43,
+      "nom": "Modibo Doumbia",
+      "specialite": "石工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "オンセバットでウスマン・ソーというリューターと出会いましょう。彼の楽器の製造と修理は音とアートのパッションを表現し、美しいメロディーを創造します。",
+      "id": 44,
+      "nom": "Ousmane Sow",
+      "specialite": "リューター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "オンセバットでマリアム・コナテという電気工と出会いましょう。彼女の電気システムの専門知識は安全性とエネルギー効率を確保し、すべてのプロジェクトに貢献します。",
+      "id": 45,
+      "nom": "Mariam Konaté",
+      "specialite": "電気工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "オンセバットでママドゥ・バリーという木彫り芸術家と出会いましょう。彼の各作品は木の美しさと職人的な技術を反映し、永遠の美を創造します。",
+      "id": 46,
+      "nom": "Mamadou Barry",
+      "specialite": "木彫り芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "オンセバットでアミナタ・トラオレというパティシエと出会いましょう。彼女の各デザートは美味しくアート的なクリエーションで、甘さと創造性を通じて味を楽しむことができます。",
+      "id": 47,
+      "nom": "Aminata Traoré",
+      "specialite": "パティシエ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "オンセバットでアマドゥ・ディアロという刺繍家と出会いましょう。彼の各作品は手作りの織物に彩色されたストーリーを伝え、アート的なテキスタイルを創造します。",
+      "id": 48,
+      "nom": "Amadou Diallo",
+      "specialite": "刺繍家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "オンセバットでファディマタ・ケイタというジュエリーアーティストと出会いましょう。彼女の各作品は創造性と職人的な技術の融合で、優雅さと贅沢を体現します。",
+      "id": 49,
+      "nom": "Fadimata Keita",
+      "specialite": "ジュエリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "オンセバットでウスマン・ディアロという園芸師と出会いましょう。彼の各庭園は自然と人間の創造性の調和的な拡張となり、緑豊かで心地よい生活空間を創造します。",
+      "id": 50,
+      "nom": "Ousmane Diallo",
+      "specialite": "園芸師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "オンセバットでファンタ・トラオレというセットデザイナーと出会いましょう。彼女の各セットは、視覚的なストーリーを伝えるキャンバスとなり、芸術的なパフォーマンスを引き出します。",
+      "id": 51,
+      "nom": "Fanta Traoré",
+      "specialite": "セットデザイナー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "オンセバットでウマール・ケイタというテキスチャーデコレーターと出会いましょう。彼の各空間は、選ばれたテキスチャーと素材によってスタイルと調和の表現となります。",
+      "id": 52,
+      "nom": "Oumar Keita",
+      "specialite": "テキスチャーデコレーター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "オンセバットでアミナタ・カマラという陶器職人と出会いましょう。彼女の陶器は生きているアートとなり、人間の創造性の本質を表現します。",
+      "id": 53,
+      "nom": "Aminata Camara",
+      "specialite": "陶器職人",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "オンセバットでママドゥ・トラオレという家具修理工と出会いましょう。彼の技術は古い家具の美しさと機能性を回復させ、伝統を尊重することができます。",
+      "id": 54,
+      "nom": "Mamadou Traoré",
+      "specialite": "家具修理工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "オンセバットでファトゥマタ・トラオレという革細工師と出会いましょう。彼女の各作品は高品質の革と現代的なデザインが融合し、優雅で機能的な作品を創造します。",
+      "id": 55,
+      "nom": "Fatoumata Traoré",
+      "specialite": "革細工師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "オンセバットでイブラヒム・カマラという裁縫師と出会いましょう。彼の各作品は、スタイル、快適さ、品質を兼ね備えた、高品質の裁縫作品となります。",
+      "id": 56,
+      "nom": "Ibrahim Camara",
+      "specialite": "裁縫師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "オンセバットでカディアトゥ・トラオレというモザイクアーティストと出会いましょう。彼女の各作品は、アート的な精密さと美しさを結合した、デコレーションの一部となります。",
+      "id": 57,
+      "nom": "Kadiatou Traoré",
+      "specialite": "モザイクアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "オンセバットでウスマン・ディアロという石彫り芸術家と出会いましょう。彼の各作品は、耐久性と美しさを兼ね備えた、高品質の石彫りとなります。",
+      "id": 58,
+      "nom": "Ousmane Diallo",
+      "specialite": "石彫り芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "オンセバットでマリアマ・ディオープというエアコンインストーラーと出会いましょう。彼女の各システムは、快適さとエネルギー効率を確保し、住宅や商業施設に適しています。",
+      "id": 59,
+      "nom": "Mariama Diop",
+      "specialite": "エアコンインストーラー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "オンセバットでアマドゥ・バリーという木工と出会いましょう。彼の各家具は高品質の木と機能的なデザインが融合し、優雅で個性的な生活空間を創造します。",
+      "id": 60,
+      "nom": "Amadou Barry",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "オンセバットでアミナタ・ディアロという写真家と出会いましょう。彼女の各写真は、特別な瞬間と感情を捉え、永遠の思い出となります。",
+      "id": 61,
+      "nom": "Aminata Diallo",
+      "specialite": "写真家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "オンセバットでアブドゥライェ・トラオレという彫刻家と出会いましょう。彼の各作品は、さまざまな材料とスタイルを用いて、表現力と技術を表現します。",
+      "id": 62,
+      "nom": "Abdoulaye Traoré",
+      "specialite": "彫刻家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "オンセバットでファンタ・カマラという鉄工と出会いましょう。彼女の各作品は機能性と耐久性を兼ね備えたアート作品となります。",
+      "id": 63,
+      "nom": "Fanta Camara",
+      "specialite": "鉄工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "オンセバットでアマドゥ・ソーというタペストリーアーティストと出会いましょう。彼の各作品は、ユニークなモチーフとテクスチャーで飾られ、各空間を美しさと快適さで満たします。",
+      "id": 64,
+      "nom": "Amadou Sow",
+      "specialite": "タペストリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "オンセバットでマリアム・ドゥンビアという金属廃品回収業者と出会いましょう。彼女の各作品は、創造性と環境への取り組みを表現した、ユニークで耐久性のある金属作品となります。",
+      "id": 65,
+      "nom": "Mariam Doumbia",
+      "specialite": "金属廃品回収業者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "オンセバットでウマール・トラオレというガラス工と出会いましょう。彼のガラスは現代的な建築の重要な部分となり、明るさと透明性を空間にもたらします。",
+      "id": 66,
+      "nom": "Oumar Traoré",
+      "specialite": "ガラス工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "オンセバットでファトゥマタ・カマラという鍵開けと出会いましょう。彼女の各鍵と鍵は、安全で美的なものとなり、すべてのドアと窓に適しています。",
+      "id": 67,
+      "nom": "Fatoumata Camara",
+      "specialite": "鍵開け",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "オンセバットでモハメド・ケイタというインテリアデザイナーと出会いましょう。彼の各空間は、色、家具、アクセサリーの調和で、魅力的で心地よい環境を創造します。",
+      "id": 68,
+      "nom": "Mohamed Keita",
+      "specialite": "インテリアデザイナー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "オンセバットでアミナタ・ディアキテというプラスターと出会いましょう。彼女の各壁は、創造性と機能性を表現するキャンバスとなり、正確で耐久性のある仕上げです。",
+      "id": 69,
+      "nom": "Aminata Diakité",
+      "specialite": "プラスター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "オンセバットでアマドゥ・カマラというフラワーアレンジャーと出会いましょう。彼の各アレンジメントは、色と形が調和する美しいシンフォニーとなり、自然の美しさを表現します。",
+      "id": 70,
+      "nom": "Amadou Camara",
+      "specialite": "フラワーアレンジャー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "オンセバットでファンタ・ディアラというパティシエと出会いましょう。彼女の各デザートは美味しくアート的なクリエーションで、甘さと創造性を通じて味を楽しむことができます。",
+      "id": 71,
+      "nom": "Fanta Diarra",
+      "specialite": "パティシエ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "オンセバットでママドゥ・トラオレという木工と出会いましょう。彼の各家具は高品質の木と機能的なデザインが融合し、優雅で個性的な生活空間を創造します。",
+      "id": 72,
+      "nom": "Mamadou Traoré",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "オンセバットでアイチャ・トラオレという木彫り芸術家と出会いましょう。彼の各作品は木の美しさと職人的な技術を反映し、永遠の美を創造します。",
+      "id": 73,
+      "nom": "Aïcha Traoré",
+      "specialite": "木彫り芸術家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "オンセバットでアマドゥ・カマラという園芸師と出会いましょう。彼の各庭園は自然と人間の創造性の調和的な拡張となり、緑豊かで心地よい生活空間を創造します。",
+      "id": 74,
+      "nom": "Amadou Camara",
+      "specialite": "園芸師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "オンセバットでアミナタ・トラオレというタイルセット工と出会いましょう。彼の正確なタイル配置は、機能性と美的価値の両方を兼ね備えた空間へと変わります。",
+      "id": 75,
+      "nom": "Aminata Traoré",
+      "specialite": "タイルセット工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "オンセバットでウマール・ケイタという美容師と出会いましょう。彼の各スタイルは創造性と美容の専門知識を反映し、髪は美しい髪のアートへと変わります。",
+      "id": 76,
+      "nom": "Oumar Keita",
+      "specialite": "美容師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "オンセバットでマリアム・カマラというセットデザイナーと出会いましょう。彼女の各セットは、視覚的なストーリーを伝えるキャンバスとなり、芸術的なパフォーマンスを引き出します。",
+      "id": 77,
+      "nom": "Mariam Camara",
+      "specialite": "セットデザイナー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "オンセバットでアマドゥ・トラオレというパティシエと出会いましょう。彼の伝統的な技術とパンとスイーツの愛は、味覚を刺激し、美味しい一品となります。",
+      "id": 78,
+      "nom": "Amadou Traoré",
+      "specialite": "パティシエ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "オンセバットでアイッサトゥ・トラオレという陶器職人と出会いましょう。彼女の陶器は機能性と美的価値の両方を兼ね備えた作品となります。",
+      "id": 79,
+      "nom": "Aïssatou Traoré",
+      "specialite": "陶器職人",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "オンセバットでウスマン・カマラというペインターと出会いましょう。彼の各作品は表現力と雰囲気を表面に表現し、内外の空間を彩ります。",
+      "id": 80,
+      "nom": "Ousmane Camara",
+      "specialite": "ペインター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "オンセバットでファンタ・トラオレというテキスチャーデコレーターと出会いましょう。彼の各空間は、選ばれたテキスチャーと素材によってスタイルと調和の表現となります。",
+      "id": 81,
+      "nom": "Fanta Traoré",
+      "specialite": "テキスチャーデコレーター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "オンセバットでママドゥ・カマラというリューターと出会いましょう。彼の楽器の製造と修理は音とアートのパッションを表現し、美しいメロディーを創造します。",
+      "id": 82,
+      "nom": "Mamadou Camara",
+      "specialite": "リューター",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "オンセバットでマリアマ・トラオレという石工と出会いましょう。彼の構造物は堅牢で持続可能で、アイデアを現実の建築へと変えます。",
+      "id": 83,
+      "nom": "Mariama Traoré",
+      "specialite": "石工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "オンセバットでアミナタ・ディアラというプランバーと出会いましょう。彼女の正確な配管は、快適さと機能性を確保します。",
+      "id": 84,
+      "nom": "Aminata Diarra",
+      "specialite": "プランバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "オンセバットでママドゥ・トラオレというガラス工と出会いましょう。彼のガラスは現代的な建築の重要な部分となり、明るさと透明性を空間にもたらします。",
+      "id": 85,
+      "nom": "Mamadou Traoré",
+      "specialite": "ガラス工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "オンセバットでウムー・トラオレというジュエリーアーティストと出会いましょう。彼女の各作品は創造性と職人的な技術の融合で、優雅さと贅沢を体現します。",
+      "id": 86,
+      "nom": "Oumou Traoré",
+      "specialite": "ジュエリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "オンセバットでファトゥマタ・ディアキテというタペストリーアーティストと出会いましょう。彼女の各作品は装飾品と素材で選ばれたテキスチャーと素材で家具へと変わります。",
+      "id": 87,
+      "nom": "Fatoumata Diakité",
+      "specialite": "タペストリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "オンセバットでアマドゥ・トラオレというガラス細工師と出会いましょう。彼のガラスは光と色のキャンバスとなり、美しいデコレーションアート作品を創造します。",
+      "id": 88,
+      "nom": "Amadou Traoré",
+      "specialite": "ガラス細工師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "オンセバットでアミナタ・カマラというタペストリーアーティストと出会いましょう。彼女の技術と材料は、家具の美しさと快適さを回復させます。",
+      "id": 89,
+      "nom": "Aminata Camara",
+      "specialite": "タペストリーアーティスト",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "オンセバットでウスマン・ディアラという写真家と出会いましょう。彼の各写真は、ユニークな視点とパースペクティブで、物語を伝えます。",
+      "id": 90,
+      "nom": "Ousmane Diarra",
+      "specialite": "写真家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "オンセバットでファンタ・ディアラという刺繍家と出会いましょう。彼女の各作品は、手作りの織物に彩色されたストーリーを伝え、アート的なテキスタイルを創造します。",
+      "id": 91,
+      "nom": "Fanta Diarra",
+      "specialite": "刺繍家",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "オンセバットでウスマン・トラオレというエビニアリーと出会いましょう。彼の木は贅沢な家具へと変わり、伝統とモダンの融合を表現します。",
+      "id": 92,
+      "nom": "Ousmane Traoré",
+      "specialite": "エビニアリー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "オンセバットでマリアム・ディアキテという裁縫師と出会いましょう。彼女の各作品は優雅さと個性を反映し、独自のスタイルを創造します。",
+      "id": 93,
+      "nom": "Mariam Diakité",
+      "specialite": "裁縫師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "オンセバットでアイッサトゥ・ディアキテという金属廃品回収業者と出会いましょう。彼女の責任ある回収は環境保全に貢献し、資源の保護に努めます。",
+      "id": 94,
+      "nom": "Aïssatou Diakité",
+      "specialite": "金属廃品回収業者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "オンセバットでアマドゥ・トラオレという園芸師と出会いましょう。彼の各植物と花は自然のバランスを保ち、外部空間を平和で美しい場所に変えます。",
+      "id": 95,
+      "nom": "Amadou Traoré",
+      "specialite": "園芸師",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "オンセバットでウマール・カマラという鍵開けと出会いましょう。彼の鍵とシステムは、財産と人々の保護に貢献します。",
+      "id": 96,
+      "nom": "Oumar Camara",
+      "specialite": "鍵開け",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "オンセバットでファンタ・カマラというバーバーと出会いましょう。彼女は男性の美しさとスタイルを表現する髭剃りとカットの専門家で、精密な髭剃りとカットで男性的な魅力とスタイルを表現し、高品質のトリミング体験を提供します。",
+      "id": 97,
+      "nom": "Fanta Camara",
+      "specialite": "バーバー",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "オンセバットでアミナタ・トラオレというパティシエと出会いましょう。彼女の各デザートは美味しくアート的なクリエーションで、甘さと創造性を通じて味を楽しむことができます。",
+      "id": 98,
+      "nom": "Aminata Traoré",
+      "specialite": "パティシエ",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "オンセバットでウマール・ディアラというエステティシャンと出会いましょう。彼の美容とウェルビーイングの専門知識は、個人に合わせたカスタムトリートメントを提供し、美しい肌と心地よい心を実現します。",
+      "id": 99,
+      "nom": "Oumar Diarra",
+      "specialite": "エステティシャン",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "オンセバットでアミナタ・ディアラという鍛冶と出会いましょう。彼の金属は熱と技術によって生き生きとし、機能性とアートの両方を兼ね備えた作品を創造します。",
+      "id": 100,
+      "nom": "Aminata Diarra",
+      "specialite": "鍛冶",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

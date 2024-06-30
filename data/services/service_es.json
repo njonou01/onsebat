@@ -1,0 +1,249 @@
+{
+  "popular_services": [
+    {
+      "id": 1,
+      "titre": "Tapicero",
+      "category": "Construcción",
+      "description": "Descubre el arte del tapicero en Onsebat, donde cada mueble se convierte en una obra de arte con telas y materiales decorativos cuidadosamente seleccionados.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 2,
+      "titre": "Carpintero",
+      "category": "Construcción",
+      "description": "Explora el oficio de carpintero en Onsebat, donde la madera se transforma en muebles y objetos a medida, combinando calidad artesanal e innovación.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 3,
+      "titre": "Albañil",
+      "category": "Construcción",
+      "description": "Sumérgete en el mundo del albañil en Onsebat, donde la construcción de estructuras sólidas y duraderas transforma las ideas en realidad arquitectónica.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 4,
+      "titre": "Fontanero",
+      "category": "Construcción",
+      "description": "Explora la experiencia del fontanero en Onsebat, donde la instalación precisa de sistemas de fontanería asegura comodidad y funcionalidad en cada edificio.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 5,
+      "titre": "Electricista",
+      "category": "Construcción",
+      "description": "Descubre el mundo del electricista en Onsebat, donde el dominio de los sistemas eléctricos garantiza seguridad y eficiencia energética en todos los proyectos.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 6,
+      "titre": "Cerrajero",
+      "category": "Seguridad",
+      "description": "Sumérgete en el arte del cerrajero en Onsebat, donde la fabricación de cerraduras y sistemas de seguridad garantiza la protección de bienes y personas.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 7,
+      "titre": "Alicatador",
+      "category": "Construcción",
+      "description": "Explora el arte del alicatador en Onsebat, donde la colocación precisa de revestimientos transforma los espacios en obras de arte funcionales y estéticas.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 8,
+      "titre": "Pintor",
+      "category": "Arte",
+      "description": "Descubre el arte de la pintura en Onsebat, donde cada superficie se convierte en un lienzo para expresar creatividad y ambiente en interiores y exteriores.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 9,
+      "titre": "Chatarrero",
+      "category": "Reciclaje",
+      "description": "Explora el reciclaje de metales en Onsebat, donde la recuperación responsable contribuye a la sostenibilidad ambiental y a la preservación de recursos.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 10,
+      "titre": "Sastre",
+      "category": "Moda",
+      "description": "Sumérgete en el universo del sastre en Onsebat, donde cada prenda a medida refleja elegancia y personalidad, creando estilos únicos e inolvidables.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 11,
+      "titre": "Joyero",
+      "category": "Moda",
+      "description": "Descubre el arte de la joyería en Onsebat, donde cada pieza es una fusión de creatividad y precisión artesanal, encarnando elegancia y refinamiento.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 12,
+      "titre": "Alfarero",
+      "category": "Arte",
+      "description": "Explora el arte del alfarero en Onsebat, donde el barro se transforma en obras únicas y funcionales, capturando la esencia de la creatividad y la tradición.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 13,
+      "titre": "Escultor en madera",
+      "category": "Arte",
+      "description": "Sumérgete en el arte de la escultura en madera en Onsebat, donde cada pieza refleja la belleza natural de la madera y la habilidad artesanal, creando obras atemporales.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 14,
+      "titre": "Herrero",
+      "category": "Trabajo del metal",
+      "description": "Descubre el arte ancestral del herrero en Onsebat, donde el metal toma vida bajo el calor y la pericia, forjando piezas funcionales y artísticas.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 15,
+      "titre": "Vidriero",
+      "category": "Arte",
+      "description": "Explora el arte del vidriero en Onsebat, donde el vidrio se convierte en un lienzo para la luz y el color, creando piezas decorativas y artísticas de una belleza deslumbrante.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 16,
+      "titre": "Peluquero",
+      "category": "Belleza",
+      "description": "Sumérgete en el universo de la peluquería en Onsebat, donde cada estilo refleja creatividad y expertise en materia de belleza, transformando el cabello en obras de arte capilares.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 17,
+      "titre": "Esteticista",
+      "category": "Belleza",
+      "description": "Descubre los cuidados estéticos en Onsebat, donde la expertise en belleza y bienestar ofrece tratamientos personalizados para una piel radiante y una mente apaciguada.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 18,
+      "titre": "Paisajista",
+      "category": "Diseño de paisajes",
+      "description": "Explora el arte del paisajismo en Onsebat, donde cada jardín se convierte en una extensión armónica de la naturaleza y la creatividad humana, creando espacios de vida verdes y pacíficos.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 19,
+      "titre": "Jardinero",
+      "category": "Diseño de paisajes",
+      "description": "Sumérgete en el arte del jardinería en Onsebat, donde cada planta y flor encuentra su lugar en un equilibrio natural, transformando los espacios exteriores en oasis de paz y belleza.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 20,
+      "titre": "Panadero",
+      "category": "Alimentación",
+      "description": "Descubre el arte de la panadería en Onsebat, donde el saber hacer tradicional se encuentra con la pasión por el pan fresco y los dulces deliciosos, despertando los sentidos en cada bocado.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 21,
+      "titre": "Pastelero",
+      "category": "Alimentación",
+      "description": "Explora el arte de la pastelería en Onsebat, donde cada postre es una creación sabrosa y artística, celebrando la dulzura y la creatividad a través de sabores exquisitos.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 22,
+      "titre": "Cocinero",
+      "category": "Alimentación",
+      "description": "Sumérgete en el universo de la cocina en Onsebat, donde cada plato es una fusión de técnicas culinarias e ingredientes de calidad, ofreciendo una experiencia gastronómica única.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 23,
+      "titre": "Barbero",
+      "category": "Belleza",
+      "description": "Descubre el arte del barbero en Onsebat, donde la precisión de los afeitados y los cortes de barba se convierte en una expresión de masculinidad y estilo, ofreciendo una experiencia de aseo refinada.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 24,
+      "titre": "Fotógrafo",
+      "category": "Arte",
+      "description": "Explora el arte de la fotografía en Onsebat, donde cada imagen captura momentos únicos y perspectivas inspiradoras, contando historias a través del objetivo.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 25,
+      "titre": "Vidriero",
+      "category": "Construcción",
+      "description": "Sumérgete en el arte del vidriero en Onsebat, donde el vidrio se convierte en una parte integral de la arquitectura moderna, aportando luz y transparencia a cada espacio.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 26,
+      "titre": "Cantero",
+      "category": "Construcción",
+      "description": "Descubre el arte del cantero en Onsebat, donde la transformación de la piedra en elementos arquitectónicos revela la belleza natural y la robustez de este material ancestral.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 27,
+      "titre": "Calefaccionista",
+      "category": "Construcción",
+      "description": "Explora la experiencia del calefaccionista en Onsebat, donde el confort térmico se convierte en una prioridad gracias a la instalación y el mantenimiento de sistemas de calefacción eficientes y sostenibles.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 28,
+      "titre": "Lutier",
+      "category": "Música",
+      "description": "Sumérgete en el arte del lutier en Onsebat, donde la fabricación y la reparación de instrumentos musicales revelan la pasión por el sonido y el arte de crear melodías cautivadoras.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 29,
+      "titre": "Tapicero de amueblado",
+      "category": "Construcción",
+      "description": "Descubre el arte del tapicero de amueblado en Onsebat, donde cada mueble recupera su belleza y comodidad a través de telas y técnicas de renovación de alta calidad.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 30,
+      "titre": "Bordador",
+      "category": "Arte",
+      "description": "Explora el arte del bordado en Onsebat, donde cada hilo se convierte en una historia cosida a mano, embelleciendo tejidos y prendas con motivos elegantes y detalles minuciosos.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 31,
+      "titre": "Marroquinero",
+      "category": "Moda",
+      "description": "Sumérgete en el arte del marroquinero en Onsebat, donde el cuero toma forma en bolsos y accesorios de lujo, combinando el saber hacer tradicional y el diseño contemporáneo.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 32,
+      "titre": "Escenógrafo",
+      "category": "Arte",
+      "description": "Descubre el arte de la escenografía en Onsebat, donde cada decorado se convierte en un lienzo para contar historias visuales y cautivar al público a través del arte del espectáculo.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 33,
+      "titre": "Ebanista",
+      "category": "Construcción",
+      "description": "Explora el arte de la ebanistería en Onsebat, donde la madera noble se transforma en muebles elegantes y funcionales, creando piezas que combinan tradición y modernidad.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 34,
+      "titre": "Tapicero decorador",
+      "category": "Arte",
+      "description": "Sumérgete en el arte del tapicero decorador en Onsebat, donde cada espacio se convierte en una expresión de estilo y armonía, gracias a telas y texturas seleccionadas con cuidado.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id": 35,
+      "titre": "Sastre",
+      "category": "Moda",
+      "description": "Descubre el arte del sastre en Onsebat, donde cada prenda a medida encarna elegancia y refinamiento, ofreciendo un estilo personalizado e impecable a cada cliente.",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

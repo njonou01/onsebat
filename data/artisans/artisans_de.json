@@ -1,0 +1,804 @@
+{
+  "artisans": [
+    {
+      "id_service": 23,
+      "description": "Entdecken Sie die Kunst des Barbers mit Alioune Ndiaye auf Onsebat, wo die Präzision der Rasierungen und Bartschneide eine Ausdrucksform der Männlichkeit und des Stils darstellt, eine raffinierte Haarpflegeerfahrung bietet.",
+      "id": 1,
+      "nom": "Alioune Ndiaye",
+      "specialite": "Barbier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "Entdecken Sie die Welt des Elektrikers mit Fatoumata Traoré auf Onsebat, wo die elektrische Sicherheit an erster Stelle steht. Fatoumata bietet zuverlässige elektrische Lösungen, die die Energieeffizienz der Infrastruktur in Kamerun verbessern, eine sichere Umgebung für alle gewährleisten.",
+      "id": 2,
+      "nom": "Fatoumata Traoré",
+      "specialite": "Elektriker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "Tauchen Sie in die Welt der Frisur mit Issa Diop auf Onsebat ein, wo jeder Stil die Kreativität und Expertise in Sachen Schönheit widerspiegelt, Haare zu kunstvollen Kapitel der Haarpflege verwandelt.",
+      "id": 3,
+      "nom": "Issa Diop",
+      "specialite": "Friseur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "Entdecken Sie die Kunst der Schmuckherstellung mit Aïcha Kone auf Onsebat, wo jedes Stück eine Verschmelzung von Kreativität und handwerklicher Präzision darstellt, Eleganz und Raffinesse verkörpert.",
+      "id": 4,
+      "nom": "Aïcha Kone",
+      "specialite": "Schmuckdesigner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "Tauchen Sie in die Kunst des Polsterers mit Ibrahim Sow auf Onsebat ein, wo jeder Raum zu einem Ausdruck von Stil und Harmonie wird, dank sorgfältig ausgewählter Stoffe und Texturen.",
+      "id": 5,
+      "nom": "Ibrahim Sow",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "Entdecken Sie die Kunst des Bäckers mit Mariam Diawara auf Onsebat, wo traditionelles Handwerk und Leidenschaft für frisches Brot und köstliche Gebäckkreationen die Sinne bei jedem Bissen verwöhnen.",
+      "id": 6,
+      "nom": "Mariam Diawara",
+      "specialite": "Bäcker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "Tauchen Sie in die Kunst des Lederarbeiters mit Moussa Cissé auf Onsebat ein, wo Leder zu luxuriösen Taschen und Accessoires verwandelt wird, traditionelles Handwerk und modernes Design vereint.",
+      "id": 7,
+      "nom": "Moussa Cissé",
+      "specialite": "Lederarbeiter",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "Tauchen Sie in die Welt des Maurers mit Jean-Pierre Ndong auf Onsebat ein, wo der Bau solider Strukturen eine wahre Leidenschaft ist. Jean-Pierre kombiniert moderne Techniken mit traditionellem Handwerk, um in Kamerun dauerhafte Gebäude zu schaffen, die das städtische Landschaftsbild bereichern.",
+      "id": 8,
+      "nom": "Jean-Pierre Ndong",
+      "specialite": "Maurer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "Tauchen Sie in die Kunst der Holzschnitzerei mit Alphonse Mbarga auf Onsebat ein, wo jedes Stück die Schönheit des Holzes und die handwerkliche Fähigkeit widerspiegelt, zeitlose Werke schafft.",
+      "id": 9,
+      "nom": "Alphonse Mbarga",
+      "specialite": "Holzschnitzer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "Tauchen Sie in die Welt der Küche mit Adama Ba auf Onsebat ein, wo jedes Gericht eine Verschmelzung von Kochkünsten und hochwertigen Zutaten darstellt, eine einzigartige Gastronomieerfahrung bietet.",
+      "id": 10,
+      "nom": "Adama Ba",
+      "specialite": "Koch",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "Erkunden Sie die Kunst des Metallrecyclings mit Moussa Konaté auf Onsebat, wo verantwortungsbewusstes Recycling zur Umweltverträglichkeit und Ressourcenschonung beiträgt.",
+      "id": 11,
+      "nom": "Moussa Konaté",
+      "specialite": "Metallhändler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "Tauchen Sie in die Welt des Schneiders mit Aïssatou Diop auf Onsebat ein, wo jedes maßgeschneiderte Kleidungstück Eleganz und Persönlichkeit widerspiegelt, einzigartige und unvergessliche Stile schafft.",
+      "id": 12,
+      "nom": "Aïssatou Diop",
+      "specialite": "Schneider",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "Erkunden Sie die Expertise des Heizungsbauers mit Aboubacar Diallo auf Onsebat, wo thermischer Komfort durch die Installation und Wartung effizienter und nachhaltiger Heizsysteme Priorität hat.",
+      "id": 13,
+      "nom": "Aboubacar Diallo",
+      "specialite": "Heizungsbauer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "Erkunden Sie die Kunst des Fliesenlegers mit Fatou Camara auf Onsebat, wo die präzise Verlegung von Fliesen Oberflächen zu funktionalen und ästhetischen Kunstwerken verwandelt.",
+      "id": 14,
+      "nom": "Fatou Camara",
+      "specialite": "Fliesenleger",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "Erkunden Sie die Expertise des Installateurs mit Aliou Mbengue auf Onsebat, wo die präzise Installation von Wasserleitungen Komfort und Funktionalität in jedem Gebäude gewährleistet.",
+      "id": 15,
+      "nom": "Aliou Mbengue",
+      "specialite": "Installateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "Tauchen Sie in die Kunst des Gartenbaus mit Fanta Diallo auf Onsebat ein, wo jede Pflanze und Blume ihren Platz in einer natürlichen Balance findet, Außenräume zu Oasen des Friedens und der Schönheit verwandelt.",
+      "id": 16,
+      "nom": "Fanta Diallo",
+      "specialite": "Gärtner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "Entdecken Sie die Kunst der Bühnenbildnerin mit Amadou Fofana auf Onsebat, wo jede Kulisse zu einem Leinwand wird, um visuelle Geschichten zu erzählen und das Publikum durch die Kunst des Schauspiels zu begeistern.",
+      "id": 17,
+      "nom": "Amadou Fofana",
+      "specialite": "Bühnenbildner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "Entdecken Sie die Kunst des Glasers mit Adama Doumbia auf Onsebat, wo die Präzision bei der Schneide- und Installation von Glas klare und lichtdurchlässige Räume schafft, die die moderne Architektur bereichern.",
+      "id": 18,
+      "nom": "Adama Doumbia",
+      "specialite": "Glaser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "Entdecken Sie die Kunst der Polstererin mit Aminata Ba auf Onsebat, wo jedes Sitzmöbel und Vorhang zu einem Meisterstück des Komforts und der Eleganz wird, traditionelles Handwerk und Design verbindet.",
+      "id": 19,
+      "nom": "Aminata Ba",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "Entdecken Sie die Kunst des Schweißers mit Moustapha Diagne auf Onsebat, wo die präzise Verschmelzung von Metallen robuste und funktionale Strukturen schafft, die den Anforderungen der Bau- und Fertigungstechnik gerecht werden.",
+      "id": 20,
+      "nom": "Moustapha Diagne",
+      "specialite": "Schweißer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "Entdecken Sie die Kunst des Schneiders mit Kadiatou Sow auf Onsebat, wo jedes maßgeschneiderte Kleidungstück Eleganz und Persönlichkeit widerspiegelt, einzigartige Stile prägt.",
+      "id": 21,
+      "nom": "Kadiatou Sow",
+      "specialite": "Schneider",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "Entdecken Sie die Kunst des Metallbildners mit Issouf Traoré auf Onsebat, wo jedes Metallstück zu einem funktionalen Kunstwerk wird, das Ästhetik und Haltbarkeit in der Architektur vereint.",
+      "id": 22,
+      "nom": "Issouf Traoré",
+      "specialite": "Metallbildner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "Entdecken Sie die Kunst des Tischlers mit Abdoulaye Sarr auf Onsebat, wo jedes maßgeschneiderte Möbelstück traditionelles Handwerk und modernes Design verbindet, Innenräume mit Eleganz und Funktionalität bereichert.",
+      "id": 23,
+      "nom": "Abdoulaye Sarr",
+      "specialite": "Tischler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "Entdecken Sie die Kunst des Karosseriebauers mit Fatimata Camara auf Onsebat, wo jedes Fahrzeug zu einem einzigartigen Design- und Funktionsstück wird, das Ästhetik und Ingenieurskunst vereint.",
+      "id": 24,
+      "nom": "Fatimata Camara",
+      "specialite": "Karosseriebauer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "Entdecken Sie die Kunst der Keramik mit Oumar Sy auf Onsebat, wo jedes von Hand geformte Stück die Schönheit des Tonmaterials widerspiegelt, einzigartige Kunstwerke schafft.",
+      "id": 25,
+      "nom": "Oumar Sy",
+      "specialite": "Keramiker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "Entdecken Sie die Kunst des Steinmetzes mit Amadou Diop auf Onsebat, wo jede Steinstruktur zu einem dauerhaften Kunstwerk wird, das das architektonische Landschaftsbild in Kamerun prägt.",
+      "id": 26,
+      "nom": "Amadou Diop",
+      "specialite": "Steinmetz",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "Entdecken Sie die Kunst des Vitrailkünstlers mit Mariama Cissé auf Onsebat, wo jedes Stück farbiges Glas zu einem Lichtfenster für künstlerische Ausdrucksformen und innere Schönheit wird.",
+      "id": 27,
+      "nom": "Mariama Cissé",
+      "specialite": "Vitrailkünstler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "Entdecken Sie die Kunst des Dekorateurs mit Modibo Traoré auf Onsebat, wo jeder Raum zu einer Symphonie aus Farben und Texturen wird, Räume schafft, die inspirieren und verzaubern.",
+      "id": 28,
+      "nom": "Modibo Traoré",
+      "specialite": "Dekorateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "Entdecken Sie die Kunst der Schmiedekunst mit Adama Fofana auf Onsebat, wo jedes Metallstück durch die Verschmelzung traditioneller Techniken und moderner Designs zu Leben erweckt wird, funktionale und ästhetische Werke schafft.",
+      "id": 29,
+      "nom": "Adama Fofana",
+      "specialite": "Schmied",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "Entdecken Sie die Welt des Fahrers mit Moussa Traoré auf Onsebat, wo sicher und effizientes Fahren zu einem wichtigen Element der städtischen Mobilität wird, einen zuverlässigen und pünktlichen Service in ganz Kamerun bietet.",
+      "id": 30,
+      "nom": "Moussa Traoré",
+      "specialite": "Fahrer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "Entdecken Sie die Kunst der Stickerei mit Fanta Konaté auf Onsebat, wo jeder Stich eine Geschichte erzählt, die durch Farbfäden und handwerkliche Techniken gestickt wird, einzigartige Textilwerke schafft.",
+      "id": 31,
+      "nom": "Fanta Konaté",
+      "specialite": "Sticker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "Entdecken Sie die Kunst der Mosaikarbeit mit Amadou Diarra auf Onsebat, wo jedes Glasstück zu einem Teil eines abstrakten Kunstwerks wird, Oberflächen in farbigen und texturierten Kunstwerken verwandelt.",
+      "id": 32,
+      "nom": "Amadou Diarra",
+      "specialite": "Mosaikkünstler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "Entdecken Sie die Kunst des Glaskünstlers mit Fatimata Diakité auf Onsebat, wo jedes geblasene Glasstück die Zerbrechlichkeit und Reinheit des Materials widerspiegelt, lichtdurchlässige und elegante Werke schafft.",
+      "id": 33,
+      "nom": "Fatimata Diakité",
+      "specialite": "Glaskünstler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "Entdecken Sie die Kunst des Töpfers mit Ousmane Doumbia auf Onsebat, wo jede Tasse und Vase durch Handarbeit und Sorgfalt geformt wird, die Essenz der Kreativität und Natürlichkeit verkörpert.",
+      "id": 34,
+      "nom": "Ousmane Doumbia",
+      "specialite": "Töpfer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "Entdecken Sie die Kunst der Präparation mit Moussa Keita auf Onsebat, wo jedes Tier durch Präparation eine Geschichte der Erhaltung und natürlichen Schönheit erzählt, die Essenz der kamerunischen Fauna für die kommenden Generationen bewahrt.",
+      "id": 35,
+      "nom": "Moussa Keita",
+      "specialite": "Präparator",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "Erkunden Sie die Expertise des Installateurs mit Aissatou Diallo auf Onsebat, wo die präzise Installation von Wasserleitungen Komfort und Funktionalität in jedem Gebäude gewährleistet.",
+      "id": 36,
+      "nom": "Aissatou Diallo",
+      "specialite": "Installateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "Tauchen Sie in die Welt der Küche mit Mamadou Sow auf Onsebat ein, wo jedes Gericht eine Verschmelzung von Kochkünsten und hochwertigen Zutaten darstellt, eine einzigartige Gastronomieerfahrung bietet.",
+      "id": 37,
+      "nom": "Mamadou Sow",
+      "specialite": "Koch",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "Entdecken Sie die Kunst der Malerei mit Fatoumata Diarra auf Onsebat, wo jede Oberfläche zu einer Leinwand für kreativen Ausdruck und Atmosphäre in Innen- und Außenräumen wird.",
+      "id": 38,
+      "nom": "Fatoumata Diarra",
+      "specialite": "Maler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "Tauchen Sie in die Welt des Glasers mit Oumar Camara auf Onsebat ein, wo Glas zu einem integralen Bestandteil der modernen Architektur wird, Licht und Transparenz in jedem Raum bringt.",
+      "id": 39,
+      "nom": "Oumar Camara",
+      "specialite": "Glaser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "Tauchen Sie in die Welt der Frisur mit Kadiatou Bah auf Onsebat ein, wo jedes Stil die Kreativität und Expertise in Sachen Schönheit widerspiegelt, Haare zu kunstvollen Kapitel der Haarpflege verwandelt.",
+      "id": 40,
+      "nom": "Kadiatou Bah",
+      "specialite": "Friseur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "Erkunden Sie die Kunst des Fliesenlegers mit Seydou Traoré auf Onsebat, wo die präzise Verlegung von Fliesen Oberflächen zu funktionalen und ästhetischen Kunstwerken verwandelt.",
+      "id": 41,
+      "nom": "Seydou Traoré",
+      "specialite": "Fliesenleger",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "Entdecken Sie die Kunst des Polsterers mit Fanta Camara auf Onsebat, wo jedes Möbelstück zu einem Kunstwerk wird, das durch Stoffe und dekorative Materialien sorgfältig ausgewählt wird.",
+      "id": 42,
+      "nom": "Fanta Camara",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "Tauchen Sie in die Welt des Maurers mit Modibo Doumbia auf Onsebat ein, wo der Bau solider und dauerhafter Strukturen zu einer Verwirklichung von Ideen in architektonischer Realität wird.",
+      "id": 43,
+      "nom": "Modibo Doumbia",
+      "specialite": "Maurer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "Tauchen Sie in die Kunst des Luthiers mit Ousmane Sow auf Onsebat ein, wo die Herstellung und Reparatur von Musikinstrumenten die Leidenschaft für den Klang und die Kunst der Schöpfung beeindruckender Melodien offenbart.",
+      "id": 44,
+      "nom": "Ousmane Sow",
+      "specialite": "Luthier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "Entdecken Sie die Welt des Elektrikers mit Mariam Konaté auf Onsebat, wo die Beherrschung elektrischer Systeme Sicherheit und Energieeffizienz in allen Projekten gewährleistet.",
+      "id": 45,
+      "nom": "Mariam Konaté",
+      "specialite": "Elektriker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "Tauchen Sie in die Kunst der Holzschnitzerei mit Mamadou Barry auf Onsebat ein, wo jedes Stück die Schönheit des Holzes und die handwerkliche Fähigkeit widerspiegelt, zeitlose Werke schafft.",
+      "id": 46,
+      "nom": "Mamadou Barry",
+      "specialite": "Holzschnitzer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "Erkunden Sie die Kunst der Pâtisserie mit Aminata Traoré auf Onsebat, wo jedes Dessert eine köstliche und künstlerische Kreation ist, die Süße und Kreativität durch einzigartige Geschmackserlebnisse feiert.",
+      "id": 47,
+      "nom": "Aminata Traoré",
+      "specialite": "Pâtissier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "Entdecken Sie die Kunst der Stickerei mit Amadou Diallo auf Onsebat, wo jedes Stich eine Geschichte erzählt, die durch Farbfäden und handwerkliche Techniken gestickt wird, Stoffe und Kleidung mit eleganten Mustern und feinen Details schmückt.",
+      "id": 48,
+      "nom": "Amadou Diallo",
+      "specialite": "Sticker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "Entdecken Sie die Kunst der Schmuckherstellung mit Fadimata Keita auf Onsebat, wo jedes Stück eine Verschmelzung von Kreativität und handwerklicher Präzision darstellt, Eleganz und Raffinesse verkörpert.",
+      "id": 49,
+      "nom": "Fadimata Keita",
+      "specialite": "Schmuckdesigner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "Erkunden Sie die Kunst des Landschaftsgestaltung mit Ousmane Diallo auf Onsebat, wo jeder Garten zu einer harmonischen Erweiterung der Natur und der menschlichen Kreativität wird, Räume des Lebens mit Grün und Frieden schafft.",
+      "id": 50,
+      "nom": "Ousmane Diallo",
+      "specialite": "Landschaftsgestalter",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "Entdecken Sie die Kunst der Bühnenbildnerin mit Fanta Traoré auf Onsebat, wo jede Kulisse zu einem Leinwand wird, um visuelle Geschichten zu erzählen und das Publikum durch die Kunst des Schauspiels zu begeistern.",
+      "id": 51,
+      "nom": "Fanta Traoré",
+      "specialite": "Bühnenbildner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "Tauchen Sie in die Kunst des Polsterers mit Oumar Keita auf Onsebat ein, wo jedes Zimmer zu einem Ausdruck von Stil und Harmonie wird, dank sorgfältig ausgewählter Stoffe und Texturen.",
+      "id": 52,
+      "nom": "Oumar Keita",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "Erkunden Sie die Kunst des Töpfers mit Aminata Camara auf Onsebat, wo Ton zu einer lebendigen Kunstform wird, die durch Formgebung einzigartige und funktionale Stücke schafft, die die Essenz der Kreativität einfangen.",
+      "id": 53,
+      "nom": "Aminata Camara",
+      "specialite": "Töpfer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "Entdecken Sie die Kunst der Möbelrestauration mit Mamadou Traoré auf Onsebat, wo jedes antike Stück durch Expertentechniken seine ursprüngliche Schönheit wiedererlangt, indem es das kamerunische Kulturerbe respektiert.",
+      "id": 54,
+      "nom": "Mamadou Traoré",
+      "specialite": "Möbelrestaurator",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "Erkunden Sie die Kunst der Lederarbeit mit Fatoumata Traoré auf Onsebat, wo jede Tasche und jedes Accessoire eine Verschmelzung von hochwertigem Leder und modernem Design darstellt, elegante und funktionale Stücke schafft.",
+      "id": 55,
+      "nom": "Fatoumata Traoré",
+      "specialite": "Lederarbeiter",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "Tauchen Sie in die Welt der Schneiderei mit Ibrahim Camara auf Onsebat ein, wo jedes Kleidungsstück zu einem maßgeschneiderten Kunstwerk wird, das Stil, Komfort und Qualität durch exzellente Nähtechniken verbindet.",
+      "id": 56,
+      "nom": "Ibrahim Camara",
+      "specialite": "Schneider",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "Entdecken Sie die Kunst der Mosaikarbeit mit Kadiatou Traoré auf Onsebat, wo jedes farbige Muster zu einem Einrichtungsstück wird, das künstlerische Präzision und visuelle Schönheit vereint.",
+      "id": 57,
+      "nom": "Kadiatou Traoré",
+      "specialite": "Mosaikkünstler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "Erkunden Sie die Kunst des Steinmetzes mit Ousmane Diallo auf Onsebat, wo jeder Stein präzise bearbeitet wird, um robuste und ästhetische Strukturen zu schaffen, die der Zeit standhalten.",
+      "id": 58,
+      "nom": "Ousmane Diallo",
+      "specialite": "Steinmetz",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "Entdecken Sie die Kunst der Klimaanlageninstallation mit Mariama Diop auf Onsebat, wo jedes System Komfort und Energieeffizienz gewährleistet, für Wohn- und Geschäftsräume geeignet ist.",
+      "id": 59,
+      "nom": "Mariama Diop",
+      "specialite": "Klimaanlageninstallateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "Erkunden Sie die Kunst des Tischlers mit Amadou Barry auf Onsebat, wo jedes Möbelstück eine Verschmelzung von hochwertigem Holz und funktionalem Design darstellt, elegante und individuell gestaltete Räume schafft.",
+      "id": 60,
+      "nom": "Amadou Barry",
+      "specialite": "Tischler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "Tauchen Sie in die Welt der Fotografie mit Aminata Diallo auf Onsebat ein, wo jedes Bild Momente einfängt und Perspektiven inspiriert, Geschichten durch das Objektiv erzählt.",
+      "id": 61,
+      "nom": "Aminata Diallo",
+      "specialite": "Fotograf",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "Erkunden Sie die Kunst des Bildhauers mit Abdoulaye Traoré auf Onsebat, wo jedes Werk künstlerische Vision und technische Fähigkeit widerspiegelt, durch vielfältige Materialien und Stile.",
+      "id": 62,
+      "nom": "Abdoulaye Traoré",
+      "specialite": "Bildhauer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "Tauchen Sie in die Welt der Schmiedekunst mit Fanta Camara auf Onsebat ein, wo jedes Metallstück zu einem funktionalen Kunstwerk wird, das Ästhetik und Haltbarkeit vereint.",
+      "id": 63,
+      "nom": "Fanta Camara",
+      "specialite": "Schmied",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "Erkunden Sie die Kunst des Polsterers mit Amadou Sow auf Onsebat, wo jedes Stück mit Mustern und Texturen geschmückt wird, die einzigartige Geschichten erzählen, Räume mit Schönheit und Komfort bereichern.",
+      "id": 64,
+      "nom": "Amadou Sow",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "Entdecken Sie die Kunst des Metallrecyclings mit Mariam Doumbia auf Onsebat, wo jedes recycelte Metallstück zu einem einzigartigen und haltbaren Kunstwerk wird, das Kreativität und Umweltbewusstsein verkörpert.",
+      "id": 65,
+      "nom": "Mariam Doumbia",
+      "specialite": "Metallhändler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "Tauchen Sie in die Welt des Glasers mit Oumar Traoré auf Onsebat ein, wo Glas zu einem integralen Bestandteil der modernen Architektur wird, Licht und Transparenz in jedem Raum bringt, präzise verarbeitet.",
+      "id": 66,
+      "nom": "Oumar Traoré",
+      "specialite": "Glaser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "Entdecken Sie die Kunst des Schlosserhandwerks mit Fatoumata Camara auf Onsebat, wo jedes Schloss und jeden Schlüssel zu robusten und ästhetischen Sicherheitselementen werden, für alle Arten von Türen und Fenstern geeignet.",
+      "id": 67,
+      "nom": "Fatoumata Camara",
+      "specialite": "Schlosser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "Erkunden Sie die Kunst der Innenarchitektur mit Mohamed Keita auf Onsebat, wo jeder Raum zu einer harmonischen Verschmelzung von Farben, Möbeln und Accessoires wird, inspirierende und einladende Umgebungen schafft.",
+      "id": 68,
+      "nom": "Mohamed Keita",
+      "specialite": "Innenarchitekt",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "Tauchen Sie in die Welt der Putzerarbeiten mit Aminata Diakité auf Onsebat ein, wo jede Wand zu einer Leinwand für kreativen Ausdruck und Funktionalität wird, durch präzise und haltbare Finish.",
+      "id": 69,
+      "nom": "Aminata Diakité",
+      "specialite": "Putzer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "Entdecken Sie die Kunst der Blumendekoration mit Amadou Camara auf Onsebat, wo jede Blumenarrangement zu einer Symphonie aus Farben und Formen wird, die die Essenz der natürlichen Schönheit einfängt.",
+      "id": 70,
+      "nom": "Amadou Camara",
+      "specialite": "Blumendekorateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "Entdecken Sie die Kunst der Pâtisserie mit Fanta Diarra auf Onsebat, wo jedes Dessert eine köstliche und künstlerische Kreation ist, die Süße und Kreativität durch einzigartige Geschmackserlebnisse feiert.",
+      "id": 71,
+      "nom": "Fanta Diarra",
+      "specialite": "Pâtissier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "Erkunden Sie die Kunst des Tischlers mit Mamadou Traoré auf Onsebat, wo jedes Möbelstück eine Verschmelzung von hochwertigem Holz und funktionalem Design darstellt, elegante und individuell gestaltete Räume schafft.",
+      "id": 72,
+      "nom": "Mamadou Traoré",
+      "specialite": "Tischler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "Tauchen Sie in die Kunst der Holzschnitzerei mit Aïcha Traoré auf Onsebat ein, wo jedes Stück die Schönheit des Holzes und die handwerkliche Fähigkeit widerspiegelt, zeitlose Werke schafft.",
+      "id": 73,
+      "nom": "Aïcha Traoré",
+      "specialite": "Holzschnitzer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "Entdecken Sie die Kunst des Landschaftsgestaltung mit Amadou Camara auf Onsebat, wo jedes Garten zu einer harmonischen Erweiterung der Natur und der menschlichen Kreativität wird, Räume des Lebens mit Grün und Frieden schafft.",
+      "id": 74,
+      "nom": "Amadou Camara",
+      "specialite": "Landschaftsgestalter",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "Erkunden Sie die Kunst des Fliesenlegers mit Aminata Traoré auf Onsebat, wo die präzise Verlegung von Fliesen Oberflächen zu funktionalen und ästhetischen Kunstwerken verwandelt.",
+      "id": 75,
+      "nom": "Aminata Traoré",
+      "specialite": "Fliesenleger",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "Tauchen Sie in die Welt der Frisur mit Oumar Keita auf Onsebat ein, wo jedes Stil die Kreativität und Expertise in Sachen Schönheit widerspiegelt, Haare zu kunstvollen Kapitel der Haarpflege verwandelt.",
+      "id": 76,
+      "nom": "Oumar Keita",
+      "specialite": "Friseur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "Entdecken Sie die Kunst der Bühnenbildnerin mit Mariam Camara auf Onsebat, wo jede Kulisse zu einem Leinwand wird, um visuelle Geschichten zu erzählen und das Publikum durch die Kunst des Schauspiels zu begeistern.",
+      "id": 77,
+      "nom": "Mariam Camara",
+      "specialite": "Bühnenbildner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "Erkunden Sie die Kunst der Bäckerei mit Amadou Traoré auf Onsebat, wo traditionelles Handwerk und Leidenschaft für frisches Brot und köstliche Gebäckkreationen die Sinne bei jedem Bissen verwöhnen.",
+      "id": 78,
+      "nom": "Amadou Traoré",
+      "specialite": "Bäcker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "Tauchen Sie in die Kunst des Töpfers mit Aïssatou Traoré auf Onsebat ein, wo Ton zu funktionalen und ästhetischen Kunstwerken wird, die die Essenz der Kreativität und Tradition einfangen.",
+      "id": 79,
+      "nom": "Aïssatou Traoré",
+      "specialite": "Töpfer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "Entdecken Sie die Kunst der Malerei mit Ousmane Camara auf Onsebat, wo jede Oberfläche zu einer Leinwand für kreativen Ausdruck und Atmosphäre in Innen- und Außenräumen wird.",
+      "id": 80,
+      "nom": "Ousmane Camara",
+      "specialite": "Maler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "Erkunden Sie die Kunst des Polsterers mit Fanta Traoré auf Onsebat, wo jedes Zimmer zu einem Ausdruck von Stil und Harmonie wird, dank sorgfältig ausgewählter Stoffe und Texturen.",
+      "id": 81,
+      "nom": "Fanta Traoré",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "Tauchen Sie in die Welt der Luthierkunst mit Mamadou Camara auf Onsebat ein, wo die Herstellung und Reparatur von Musikinstrumenten die Leidenschaft für den Klang und die Kunst der Schöpfung beeindruckender Melodien offenbart.",
+      "id": 82,
+      "nom": "Mamadou Camara",
+      "specialite": "Luthier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "Entdecken Sie die Kunst des Maurers mit Mariama Traoré auf Onsebat, wo der Bau solider und dauerhafter Strukturen zu einer Verwirklichung von Ideen in architektonischer Realität wird.",
+      "id": 83,
+      "nom": "Mariama Traoré",
+      "specialite": "Maurer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "Erkunden Sie die Expertise des Installateurs mit Aminata Diarra auf Onsebat, wo die präzise Installation von Wasserleitungen Komfort und Funktionalität in jedem Gebäude gewährleistet.",
+      "id": 84,
+      "nom": "Aminata Diarra",
+      "specialite": "Installateur",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "Tauchen Sie in die Welt des Glasers mit Mamadou Traoré auf Onsebat ein, wo Glas zu einem integralen Bestandteil der modernen Architektur wird, Licht und Transparenz in jedem Raum bringt.",
+      "id": 85,
+      "nom": "Mamadou Traoré",
+      "specialite": "Glaser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "Entdecken Sie die Kunst der Schmuckherstellung mit Oumou Traoré auf Onsebat, wo jedes Stück eine Verschmelzung von Kreativität und handwerklicher Präzision darstellt, Eleganz und Raffinesse verkörpert.",
+      "id": 86,
+      "nom": "Oumou Traoré",
+      "specialite": "Schmuckdesigner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "Tauchen Sie in die Kunst des Polsterers mit Fatoumata Diakité auf Onsebat ein, wo jedes Möbelstück zu einem Kunstwerk wird, das durch Stoffe und dekorative Materialien sorgfältig ausgewählt wird.",
+      "id": 87,
+      "nom": "Fatoumata Diakité",
+      "specialite": "Polsterer",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "Erkunden Sie die Kunst des Glaskünstlers mit Amadou Traoré auf Onsebat, wo Glas zu einem Leinwand für Licht und Farbe wird, lichtdurchlässige und künstlerische Kunstwerke schafft.",
+      "id": 88,
+      "nom": "Amadou Traoré",
+      "specialite": "Glaskünstler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "Entdecken Sie die Kunst des Polsterers für Möbel mit Aminata Camara auf Onsebat, wo jedes Möbelstück durch Polsterung und Restaurationstechniken seine Schönheit und seinen Komfort wiedererlangt.",
+      "id": 89,
+      "nom": "Aminata Camara",
+      "specialite": "Polsterer für Möbel",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "Erkunden Sie die Kunst der Fotografie mit Ousmane Diarra auf Onsebat, wo jedes Bild einzigartige Momente und inspirierende Perspektiven einfängt, durch das Objektiv Geschichten erzählt.",
+      "id": 90,
+      "nom": "Ousmane Diarra",
+      "specialite": "Fotograf",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "Erkunden Sie die Kunst der Stickerei mit Fanta Diarra auf Onsebat, wo jedes Stich eine Geschichte erzählt, die durch Farbfäden und handwerkliche Techniken gestickt wird, Stoffe und Kleidung mit eleganten Mustern und feinen Details schmückt.",
+      "id": 91,
+      "nom": "Fanta Diarra",
+      "specialite": "Sticker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "Erkunden Sie die Kunst der Ebenenarbeit mit Ousmane Traoré auf Onsebat, wo edles Holz zu eleganten und funktionalen Möbeln verwandelt wird, traditionelles Handwerk und Design verbindet.",
+      "id": 92,
+      "nom": "Ousmane Traoré",
+      "specialite": "Ebenenarbeiter",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "Tauchen Sie in die Welt der Schneiderei mit Mariam Diakité auf Onsebat ein, wo jedes maßgeschneiderte Kleidungstück Eleganz und Persönlichkeit widerspiegelt, einzigartige und unvergessliche Stile schafft.",
+      "id": 93,
+      "nom": "Mariam Diakité",
+      "specialite": "Schneider",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "Erkunden Sie die Kunst des Metallrecyclings mit Aïssatou Diakité auf Onsebat, wo verantwortungsbewusstes Recycling zur Umweltverträglichkeit und Ressourcenschonung beiträgt.",
+      "id": 94,
+      "nom": "Aïssatou Diakité",
+      "specialite": "Metallhändler",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "Tauchen Sie in die Kunst des Gartenbaus mit Amadou Traoré auf Onsebat ein, wo jede Pflanze und Blume ihren Platz in einer natürlichen Balance findet, Außenräume zu Oasen des Friedens und der Schönheit verwandelt.",
+      "id": 95,
+      "nom": "Amadou Traoré",
+      "specialite": "Gärtner",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "Tauchen Sie in die Kunst des Schlosserhandwerks mit Oumar Camara auf Onsebat ein, wo die Herstellung von Schlossen und Sicherheitssystemen die Sicherheit von Eigentum und Personen gewährleistet.",
+      "id": 96,
+      "nom": "Oumar Camara",
+      "specialite": "Schlosser",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "Entdecken Sie die Kunst des Barbers mit Fanta Camara auf Onsebat, wo die Präzision der Rasierungen und Bartschneide eine Ausdrucksform der Männlichkeit und des Stils darstellt, eine raffinierte Haarpflegeerfahrung bietet.",
+      "id": 97,
+      "nom": "Fanta Camara",
+      "specialite": "Barbier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "Entdecken Sie die Kunst der Pâtisserie mit Aminata Traoré auf Onsebat, wo jedes Dessert eine köstliche und künstlerische Kreation ist, die Süße und Kreativität durch einzigartige Geschmackserlebnisse feiert.",
+      "id": 98,
+      "nom": "Aminata Traoré",
+      "specialite": "Pâtissier",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "Entdecken Sie die Welt der Schönheitspflege mit Oumar Diarra auf Onsebat, wo Expertise in Sachen Schönheit und Wohlbefinden individuell angepasste Pflege- und Entspannungsbehandlungen bietet, für eine strahlende Haut und einen entspannten Geist.",
+      "id": 99,
+      "nom": "Oumar Diarra",
+      "specialite": "Kosmetiker",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "Entdecken Sie die Kunst des Schmiedehandwerks mit Aminata Diarra auf Onsebat, wo Metall durch Hitze und Fertigkeiten zu Leben erweckt wird, funktionale und künstlerische Stücke schafft.",
+      "id": 100,
+      "nom": "Aminata Diarra",
+      "specialite": "Schmied",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

@@ -1,0 +1,804 @@
+{
+  "artisans": [
+    {
+      "id_service": 23,
+      "description": "探索剃须师的艺术与阿里尤内·迪亚耶在Onsebat上，其中剃须和修剪胡子的精确度成为男性风格和时尚的表达，提供精致的 toilettage 体验。",
+      "id": 1,
+      "nom": "阿里尤内·迪亚耶",
+      "specialite": "剃须师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "探索电工的世界与法图玛·特拉奥雷在Onsebat上，其中电气安全是首要考虑因素。法图玛提供可靠的电气解决方案，改善基诺安的能源效率基础设施，确保一个安全的环境。",
+      "id": 2,
+      "nom": "法图玛·特拉奥雷",
+      "specialite": "电工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "潜入发型世界与伊萨·迪奥普在Onsebat上，每种发型都反映了创造性和美发专业知识，将头发变成头发艺术作品。",
+      "id": 3,
+      "nom": "伊萨·迪奥普",
+      "specialite": "理发师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "探索珠宝设计的艺术与艾夏·克奥内在Onsebat上，每件珠宝都是创造性和精确手工制作的结合，体现优雅和精致。",
+      "id": 4,
+      "nom": "艾夏·克奥内",
+      "specialite": "珠宝师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "潜入装饰软装的艺术与伊布拉希姆·索在Onsebat上，每个空间都成为风格和和谐的表达，通过精心选择的面料和材质。",
+      "id": 5,
+      "nom": "伊布拉希姆·索",
+      "specialite": "装饰软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "探索面包师的手工艺与玛里姆·迪亚瓦拉在Onsebat上，其中传统技艺与面包和糕点的热情相结合，唤醒您的感官。",
+      "id": 6,
+      "nom": "玛里姆·迪亚瓦拉",
+      "specialite": "面包师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "潜入皮具制作的手工艺与穆萨·西塞在Onsebat上，其中皮革变成奢侈的包和配件，结合传统手工艺和现代设计。",
+      "id": 7,
+      "nom": "穆萨·西塞",
+      "specialite": "皮具制作师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "潜入砌体工的世界与ジャン=ピエール·ンドン在Onsebat上，其中结合现代技术与传统技能，建造持久的建筑物，丰富喀麦隆的城市景观。",
+      "id": 8,
+      "nom": "ジャン=ピエール·ンドン",
+      "specialite": "砌体工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "潜入木雕艺术的世界与阿尔福恩斯·姆巴尔加在Onsebat上，每件作品都反映了木头自然的美和技艺高超，创造出永恒的艺术作品。",
+      "id": 9,
+      "nom": "阿尔福恩斯·姆巴尔加",
+      "specialite": "木雕师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "潜入烹饪世界与阿达马·巴在Onsebat上，每道菜都是烹饪技术与优质原料的融合，提供独特的美食体验。",
+      "id": 10,
+      "nom": "阿达马·巴",
+      "specialite": "厨师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "探索金属回收的世界与穆萨·科纳特在Onsebat上，其中负责任的回收有助于环境可持续性和资源保护。",
+      "id": 11,
+      "nom": "穆萨·科纳特",
+      "specialite": "废铁工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "潜入裁缝世界与艾萨图·迪奥普在Onsebat上，每件定制衣物都反映了优雅和个性，创造出独特而难忘的风格。",
+      "id": 12,
+      "nom": "艾萨图·迪奥普",
+      "specialite": "裁缝",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "探索暖气工的专业知识与阿布巴卡·迪亚洛在Onsebat上，其中暖气系统的安装和维护成为优先考虑因素，提供可持续且有效的暖气解决方案。",
+      "id": 13,
+      "nom": "阿布巴卡·迪亚洛",
+      "specialite": "暖气工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "探索瓷砖工的艺术与法图·卡马拉在Onsebat上，精确的铺设使每个空间变成功能性和美学的艺术作品。",
+      "id": 14,
+      "nom": "法图·卡马拉",
+      "specialite": "瓷砖工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "探索水管工的专业知识与阿里尤·孟格在Onsebat上，其中水管系统的精确安装确保每栋建筑的舒适和功能性。",
+      "id": 15,
+      "nom": "阿里尤·孟格",
+      "specialite": "水管工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "潜入园艺世界与范塔·迪亚洛在Onsebat上，每朵花和植物在自然的平衡中找到其位置，将外部空间变成和平与美的天堂。",
+      "id": 16,
+      "nom": "范塔·迪亚洛",
+      "specialite": "园艺师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "探索场景设计的艺术与阿玛都·福法纳在Onsebat上，每个场景都成为视觉故事的画布，通过表演艺术吸引观众。",
+      "id": 17,
+      "nom": "阿玛都·福法纳",
+      "specialite": "场景设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "探索玻璃工的世界与阿达马·杜姆比亚在Onsebat上，玻璃的精确切割和安装创造出光明和安全的空间，丰富现代建筑。",
+      "id": 18,
+      "nom": "阿达马·杜姆比亚",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "探索软装的艺术与阿米纳塔·巴在Onsebat上，每个座位和窗帘都成为舒适和雅致的主角，结合风格和传统手工技艺。",
+      "id": 19,
+      "nom": "阿米纳塔·巴",
+      "specialite": "软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "探索焊接工的艺术与穆斯塔法·迪安内在Onsebat上，金属的精确融合创造出坚固且功能性强的结构，满足建筑和制造的需求。",
+      "id": 20,
+      "nom": "穆斯塔法·迪安内",
+      "specialite": "焊接工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "探索裁缝的艺术与卡迪亚图·索在Onsebat上，每件定制衣物都反映了优雅和个性，创造出令人印象深刻的风格。",
+      "id": 21,
+      "nom": "卡迪亚图·索",
+      "specialite": "裁缝",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "探索金属工艺的世界与伊苏福·特拉奥雷在Onsebat上，每件金属制品都成为功能性和耐用性的艺术作品，在城市景观中结合美学和耐用性。",
+      "id": 22,
+      "nom": "伊苏福·特拉奥雷",
+      "specialite": "金属工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "探索木匠的艺术与阿布杜拉伊·萨尔在Onsebat上，每件定制家具都结合传统手工技艺和现代设计，使内部环境更加优雅和实用。",
+      "id": 23,
+      "nom": "阿布杜拉伊·萨尔",
+      "specialite": "木匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "探索修车工的世界与法蒂玛塔·卡马拉在Onsebat上，每辆车都成为独特的设计和功能性的合体，结合美学和汽车工程。",
+      "id": 24,
+      "nom": "法蒂玛塔·卡马拉",
+      "specialite": "修车工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "探索陶瓷艺术的世界与烏馬尔·西在Onsebat上，每件由手工制造的陶瓷作品都表达了泥土的自然美和创造性。",
+      "id": 25,
+      "nom": "烏馬尔·西",
+      "specialite": "陶瓷师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "探索石匠的手工艺与阿玛都·迪奥普在Onsebat上，每个石头建筑都成为持久的艺术作品，标记喀麦隆的城市景观。",
+      "id": 26,
+      "nom": "阿玛都·迪奥普",
+      "specialite": "石匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "探索彩色玻璃艺术的世界与玛里亚马·西塞在Onsebat上，每片彩色玻璃成为光线和表达艺术的窗户。",
+      "id": 27,
+      "nom": "玛里亚马·西塞",
+      "specialite": "彩玻璃师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "探索装饰师的手工艺与莫迪博·特拉奥雷在Onsebat上，每个空间都成为色彩和材质的交响乐，创造出启发和迷人的氛围。",
+      "id": 28,
+      "nom": "莫迪博·特拉奥雷",
+      "specialite": "装饰师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "探索铁艺的世界与阿达马·福法纳在Onsebat上，每件金属制品都结合了传统技艺和现代设计，创造出功能性和美学的作品。",
+      "id": 29,
+      "nom": "阿达马·福法纳",
+      "specialite": "铁匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "探索驾驶员的世界与穆萨·特拉奥雷在Onsebat上，安全驾驶和高效驾驶成为城市交通的关键元素，提供可靠且准时的服务。",
+      "id": 30,
+      "nom": "穆萨·特拉奥雷",
+      "specialite": "驾驶员",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "探索绣花的艺术与范塔·科纳特在Onsebat上，每个绣花模式都通过线和彩色线materials，创造出独特的纺织艺术作品。",
+      "id": 31,
+      "nom": "范塔·科纳特",
+      "specialite": "绣花工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "探索马赛克的艺术与阿玛都·迪亚拉在Onsebat上，每片瓷砖都成为色彩和材质的抽象作品，将表面变成色彩和材质的艺术作品。",
+      "id": 32,
+      "nom": "阿玛都·迪亚拉",
+      "specialite": "马赛克工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "探索玻璃工艺的世界与法蒂玛塔·迪亚基特在Onsebat上，每件玻璃制品都显示了玻璃的美丽而脆弱的自然以及纯洁的材质，创造出光明和优雅的作品。",
+      "id": 33,
+      "nom": "法蒂玛塔·迪亚基特",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "探索陶艺的世界与烏斯曼·杜姆比亚在Onsebat上，每个陶罐和花瓶都是手工制造的，体现了泥土的简单和自然美。",
+      "id": 34,
+      "nom": "烏斯曼·杜姆比亚",
+      "specialite": "陶师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "探索制作假物的艺术与穆萨·柯伊塔在Onsebat上，每个被填充的动物都讲述了保护和自然美的故事，捕捉喀麦隆野生动物的本质，为未来的几代保留。",
+      "id": 35,
+      "nom": "穆萨·柯伊塔",
+      "specialite": "制作假物者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "探索水管工的专业知识与艾萨图·迪阿洛在Onsebat上，其中水管系统的精确安装确保每栋建筑的舒适和功能性。",
+      "id": 36,
+      "nom": "艾萨图·迪阿洛",
+      "specialite": "水管工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "潜入烹饪世界与马马都·索在Onsebat上，每道菜都是烹饪技术与优质原料的融合，提供独特的美食体验。",
+      "id": 37,
+      "nom": "马马都·索",
+      "specialite": "厨师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "探索油漆工的艺术与法图玛塔·迪亚拉在Onsebat上，每个表面都成为表达创造性和氛围的画布，在室内和室外。",
+      "id": 38,
+      "nom": "法图玛塔·迪亚拉",
+      "specialite": "油漆工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "潜入玻璃工的手工艺与烏馬尔·卡马拉在Onsebat上，玻璃成为现代建筑的不可或缺的部分，带来光线和透明感。",
+      "id": 39,
+      "nom": "烏馬尔·卡马拉",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "潜入发型世界与卡迪亚图·巴在Onsebat上，每种发型都反映了创造性和美发专业知识，将头发变成头发艺术作品。",
+      "id": 40,
+      "nom": "卡迪亚图·巴",
+      "specialite": "理发师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "探索瓷砖工的艺术与塞耶都·特拉奥雷在Onsebat上，精确的铺设使每个空间变成功能性和美学的艺术作品。",
+      "id": 41,
+      "nom": "塞耶都·特拉奥雷",
+      "specialite": "瓷砖工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "探索软装的手工艺与范塔·卡马拉在Onsebat上，每件家具都成为一件艺术作品，通过精心选择的面料和装饰材料。",
+      "id": 42,
+      "nom": "范塔·卡马拉",
+      "specialite": "软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "潜入砌体工的世界与莫迪博·杜姆比亚在Onsebat上，建筑坚固且持久的结构转化为建筑实际。",
+      "id": 43,
+      "nom": "莫迪博·杜姆比亚",
+      "specialite": "砌体工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "潜入制作音乐仪器的手工艺与烏斯曼·索在Onsebat上，制作和修复音乐仪器揭示了对声音和创造音乐的热情。",
+      "id": 44,
+      "nom": "烏斯曼·索",
+      "specialite": "制作音乐仪器者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 5,
+      "description": "探索电工的世界与玛里亚姆·科纳特在Onsebat上，电气系统的精通确保安全和能源效率。",
+      "id": 45,
+      "nom": "玛里亚姆·科纳特",
+      "specialite": "电工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "潜入木雕艺术的世界与马玛都·巴里在Onsebat上，每件作品都反映了木头自然的美和技艺高超，创造出永恒的艺术作品。",
+      "id": 46,
+      "nom": "马玛都·巴里",
+      "specialite": "木雕师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "探索糕点的艺术与阿米纳塔·特拉奥雷在Onsebat上，每个甜点都是一个美味且艺术般的创作，庆祝甜味和创造性的结合。",
+      "id": 47,
+      "nom": "阿米纳塔·特拉奥雷",
+      "specialite": "糕点师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "探索绣花的艺术与阿玛都·迪阿洛在Onsebat上，每根线都成为手工缝制的故事，使织物和衣服变得优雅而细节丰富。",
+      "id": 48,
+      "nom": "阿玛都·迪阿洛",
+      "specialite": "绣花工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "探索珠宝设计的艺术与法蒂玛塔·柯伊塔在Onsebat上，每件珠宝都是创造性和精确手工制作的结合，体现优雅和精致。",
+      "id": 49,
+      "nom": "法蒂玛塔·柯伊塔",
+      "specialite": "珠宝师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "探索园艺设计的艺术与烏斯曼·迪阿洛在Onsebat上，每个花园都成为自然和人类创造力的和谐扩展，创造出绿色和平的生活空间。",
+      "id": 50,
+      "nom": "烏斯曼·迪阿洛",
+      "specialite": "园艺设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "探索场景设计的艺术与范塔·特拉奥雷在Onsebat上，每个场景都成为视觉故事的画布，通过表演艺术吸引观众。",
+      "id": 51,
+      "nom": "范塔·特拉奥雷",
+      "specialite": "场景设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "潜入装饰软装的艺术与烏馬尔·柯伊塔在Onsebat上，每个空间都成为风格和和谐的表达，通过精心选择的面料和材质。",
+      "id": 52,
+      "nom": "烏馬尔·柯伊塔",
+      "specialite": "装饰软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "探索陶艺的手工艺与阿米纳塔·卡马拉在Onsebat上，泥土成为活的艺术形式，手工制造独特的作品，捕捉人类创造性的本质。",
+      "id": 53,
+      "nom": "阿米纳塔·卡马拉",
+      "specialite": "陶师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "探索家具修复的艺术与马玛都·特拉奥雷在Onsebat上，每件古董家具都恢复了其原来的美丽，通过专业的修复技术和尊重遗产的方式。",
+      "id": 54,
+      "nom": "马玛都·特拉奥雷",
+      "specialite": "家具修复师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 27,
+      "description": "探索皮具制作的艺术与法图玛塔·特拉奥雷在Onsebat上，每个包和配件都是高质量皮革和创新设计的融合，创造出时尚且实用的作品。",
+      "id": 55,
+      "nom": "法图玛塔·特拉奥雷",
+      "specialite": "皮具制作师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "潜入裁缝世界与伊布拉希姆·卡马拉在Onsebat上，每件定制衣物都是一件手工艺术，结合风格、舒适和质量，通过不可思议的裁缝技巧。",
+      "id": 56,
+      "nom": "伊布拉希姆·卡马拉",
+      "specialite": "裁缝",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "探索马赛克的艺术与卡迪亚图·特拉奥雷在Onsebat上，每个色彩丰富的模式都成为独特的室内装饰，结合精确的艺术技巧和视觉美感。",
+      "id": 57,
+      "nom": "卡迪亚图·特拉奥雷",
+      "specialite": "马赛克工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "探索石匠的手工艺与烏斯曼·迪阿洛在Onsebat上，每块石头都被精确地切割，创造出持久且美学的结构。",
+      "id": 58,
+      "nom": "烏斯曼·迪阿洛",
+      "specialite": "石匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "探索空调安装的艺术与玛里亚姆·迪奥普在Onsebat上，每个系统确保舒适和能源效率，适合所有住宅和商业环境。",
+      "id": 59,
+      "nom": "玛里亚姆·迪奥普",
+      "specialite": "空调安装工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "探索木工的艺术与阿玛都·巴里在Onsebat上，每件家具都是高质量木材和实用设计的融合，创造出优雅且个性化的生活空间。",
+      "id": 60,
+      "nom": "阿玛都·巴里",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "潜入摄影世界与阿米纳塔·迪阿洛在Onsebat上，每张照片都捕捉到珍贵时刻的精神和情感，将光线变成永恒的回忆。",
+      "id": 61,
+      "nom": "阿米纳塔·迪阿洛",
+      "specialite": "摄影师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "探索雕塑的手工艺与阿布杜拉伊·特拉奥雷在Onsebat上，每件艺术作品都表达了创造性的视觉和技术技能，通过各种材料和创新的风格。",
+      "id": 62,
+      "nom": "阿布杜拉伊·特拉奥雷",
+      "specialite": "雕塑师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "潜入铁艺的世界与范塔·卡马拉在Onsebat上，每件金属制品都成为功能性和耐用性的艺术作品。",
+      "id": 63,
+      "nom": "范塔·卡马拉",
+      "specialite": "铁匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "探索装饰绣花的艺术与阿玛都·索在Onsebat上，每件作品都装饰有各种模式和材质，旨在使每个空间都美丽舒适。",
+      "id": 64,
+      "nom": "阿玛都·索",
+      "specialite": "装饰绣花工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "探索废铁的艺术与玛里亚姆·杜姆比亚在Onsebat上，每件由可持续的金属制成的创作都成为独特且耐用的作品，体现创造性和对环境的承诺。",
+      "id": 65,
+      "nom": "玛里亚姆·杜姆比亚",
+      "specialite": "废铁工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "潜入玻璃艺术的世界与烏馬尔·特拉奥雷在Onsebat上，玻璃成为现代建筑的必不可少的部分，带来光线和透明感。",
+      "id": 66,
+      "nom": "烏馬尔·特拉奥雷",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "探索锁匠的手工艺与法图玛塔·卡马拉在Onsebat上，每个锁和钥匙都成为坚固且美学的安全元素，适用于所有类型的门窗。",
+      "id": 67,
+      "nom": "法图玛塔·卡马拉",
+      "specialite": "锁匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 31,
+      "description": "探索室内装饰的艺术与穆哈默德·柯伊塔在Onsebat上，每个空间都成为色彩、家具和配件的和谐融合，创造出灵感和温馨的环境。",
+      "id": 68,
+      "nom": "穆哈默德·柯伊塔",
+      "specialite": "室内装饰师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 2,
+      "description": "潜入石灰工的世界与阿米纳塔·迪亚基特在Onsebat上，每堵墙都成为表达创造性和功能性的画布，通过精确且耐用的完工。",
+      "id": 69,
+      "nom": "阿米纳塔·迪亚基特",
+      "specialite": "石灰工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 35,
+      "description": "探索花艺设计的艺术与阿玛都·卡马拉在Onsebat上，每个花束都成为色彩和形状的交响乐，捕捉自然美的本质。",
+      "id": 70,
+      "nom": "阿玛都·卡马拉",
+      "specialite": "花艺设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 21,
+      "description": "探索糕点的艺术与范塔·迪亚拉在Onsebat上，每个甜点都是一个美味且艺术般的创作，庆祝甜味和创造性的结合。",
+      "id": 71,
+      "nom": "范塔·迪亚拉",
+      "specialite": "糕点师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 26,
+      "description": "探索木工的艺术与马玛都·特拉奥雷在Onsebat上，每件家具都是高质量木材和实用设计的融合，创造出优雅且个性化的生活空间。",
+      "id": 72,
+      "nom": "马玛都·特拉奥雷",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 13,
+      "description": "潜入木雕艺术的世界与艾夏·特拉奥雷在Onsebat上，每件作品都反映了木头自然的美和技艺高超，创造出永恒的艺术作品。",
+      "id": 73,
+      "nom": "艾夏·特拉奥雷",
+      "specialite": "木雕师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 18,
+      "description": "探索园艺设计的艺术与阿玛都·卡马拉在Onsebat上，每个花园都成为自然和人类创造力的和谐扩展，创造出绿色和平的生活空间。",
+      "id": 74,
+      "nom": "阿玛都·卡马拉",
+      "specialite": "园艺设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 7,
+      "description": "探索瓷砖工的艺术与阿米纳塔·特拉奥雷在Onsebat上，精确的铺设使每个空间变成功能性和美学的艺术作品。",
+      "id": 75,
+      "nom": "阿米纳塔·特拉奥雷",
+      "specialite": "瓷砖工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 16,
+      "description": "潜入发型世界与烏馬尔·柯伊塔在Onsebat上，每种发型都反映了创造性和美发专业知识，将头发变成头发艺术作品。",
+      "id": 76,
+      "nom": "烏馬尔·柯伊塔",
+      "specialite": "理发师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 32,
+      "description": "探索场景设计的艺术与玛里亚姆·卡马拉在Onsebat上，每个场景都成为视觉故事的画布，通过表演艺术吸引观众。",
+      "id": 77,
+      "nom": "玛里亚姆·卡马拉",
+      "specialite": "场景设计师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 22,
+      "description": "探索面包师的手工艺与阿玛都·特拉奥雷在Onsebat上，面包和糕点的热情与传统技艺相结合，唤醒您的感官。",
+      "id": 78,
+      "nom": "阿玛都·特拉奥雷",
+      "specialite": "面包师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 12,
+      "description": "探索陶艺的手工艺与艾萨图·特拉奥雷在Onsebat上，泥土成为活的艺术形式，手工制造独特的作品，捕捉人类创造性的本质。",
+      "id": 79,
+      "nom": "艾萨图·特拉奥雷",
+      "specialite": "陶师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 8,
+      "description": "探索油漆工的艺术与烏斯曼·卡马拉在Onsebat上，每个表面都成为表达创造性和氛围的画布，在室内和室外。",
+      "id": 80,
+      "nom": "烏斯曼·卡马拉",
+      "specialite": "油漆工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 34,
+      "description": "探索装饰软装的艺术与范塔·特拉奥雷在Onsebat上，每个空间都成为风格和和谐的表达，通过精心选择的面料和材质。",
+      "id": 81,
+      "nom": "范塔·特拉奥雷",
+      "specialite": "装饰软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 28,
+      "description": "潜入制作音乐仪器的手工艺与马玛都·卡马拉在Onsebat上，制作和修复音乐仪器揭示了对声音和创造音乐的热情。",
+      "id": 82,
+      "nom": "马玛都·卡马拉",
+      "specialite": "制作音乐仪器者",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 3,
+      "description": "潜入砌体工的世界与玛里亚姆·特拉奥雷在Onsebat上，建筑坚固且持久的结构转化为建筑实际。",
+      "id": 83,
+      "nom": "玛里亚姆·特拉奥雷",
+      "specialite": "砌体工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 4,
+      "description": "探索水管工的专业知识与阿米纳塔·迪亚拉在Onsebat上，其中水管系统的精确安装确保每栋建筑的舒适和功能性。",
+      "id": 84,
+      "nom": "阿米纳塔·迪亚拉",
+      "specialite": "水管工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 25,
+      "description": "潜入玻璃工的手工艺与马玛都·特拉奥雷在Onsebat上，玻璃成为现代建筑的不可或缺的部分，带来光线和透明感。",
+      "id": 85,
+      "nom": "马玛都·特拉奥雷",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 11,
+      "description": "探索珠宝设计的艺术与烏馬尔·特拉奥雷在Onsebat上，每件珠宝都是创造性和精确手工制作的结合，体现优雅和精致。",
+      "id": 86,
+      "nom": "烏馬尔·特拉奥雷",
+      "specialite": "珠宝师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 1,
+      "description": "探索软装的手工艺与法图玛塔·迪亚基特在Onsebat上，每件家具都成为一件艺术作品，通过精心选择的面料和装饰材料。",
+      "id": 87,
+      "nom": "法图玛塔·迪亚基特",
+      "specialite": "软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 15,
+      "description": "探索玻璃工艺的艺术与阿玛都·特拉奥雷在Onsebat上，玻璃成为光线和色彩的画布，创造出装饰性和艺术性的作品。",
+      "id": 88,
+      "nom": "阿玛都·特拉奥雷",
+      "specialite": "玻璃工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 29,
+      "description": "探索家具软装的艺术与阿米纳塔·卡马拉在Onsebat上，每件家具都恢复了其原来的美丽和舒适，通过高质量的面料和 renovation techniques。",
+      "id": 89,
+      "nom": "阿米纳塔·卡马拉",
+      "specialite": "家具软装师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 24,
+      "description": "探索摄影的艺术与烏斯曼·迪亚拉在Onsebat上，每张照片都捕捉到独特的时刻和灵感的视角，通过镜头呈现故事。",
+      "id": 90,
+      "nom": "烏斯曼·迪亚拉",
+      "specialite": "摄影师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 30,
+      "description": "探索绣花的艺术与范塔·迪亚拉在Onsebat上，每根线都成为手工缝制的故事，使织物和衣服变得优雅而细节丰富。",
+      "id": 91,
+      "nom": "范塔·迪亚拉",
+      "specialite": "绣花工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 33,
+      "description": "探索木工的艺术与烏斯曼·特拉奥雷在Onsebat上，坚硬的木材变成优雅且功能性的家具，结合传统和现代性。",
+      "id": 92,
+      "nom": "烏斯曼·特拉奥雷",
+      "specialite": "木工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 10,
+      "description": "潜入裁缝世界与玛里亚姆·迪亚基特在Onsebat上，每件定制衣物都反映了优雅和个性，创造出独特而难忘的风格。",
+      "id": 93,
+      "nom": "玛里亚姆·迪亚基特",
+      "specialite": "裁缝",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 9,
+      "description": "探索金属回收的世界与艾萨图·迪亚基特在Onsebat上，其中负责任的回收有助于环境可持续性和资源保护。",
+      "id": 94,
+      "nom": "艾萨图·迪亚基特",
+      "specialite": "废铁工",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 19,
+      "description": "潜入园艺的世界与阿玛都·特拉奥雷在Onsebat上，每个植物和花卉都在自然的平衡中找到其位置，将外部空间变成和平与美的天堂。",
+      "id": 95,
+      "nom": "阿玛都·特拉奥雷",
+      "specialite": "园艺师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 6,
+      "description": "探索锁匠的手工艺与烏馬尔·卡马拉在Onsebat上，锁和安全系统的制造保证人们和物业的安全。",
+      "id": 96,
+      "nom": "烏馬尔·卡马拉",
+      "specialite": "锁匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 23,
+      "description": "探索剃须师的艺术与范塔·卡马拉在Onsebat上，其中剃须和修剪胡子的精确度成为男性风格和时尚的表达，提供精致的 toilettage 体验。",
+      "id": 97,
+      "nom": "范塔·卡马拉",
+      "specialite": "剃须师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 20,
+      "description": "探索糕点的艺术与阿米纳塔·特拉奥雷在Onsebat上，每个甜点都是一个美味且艺术般的创作，庆祝甜味和创造性的结合。",
+      "id": 98,
+      "nom": "阿米纳塔·特拉奥雷",
+      "specialite": "糕点师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 17,
+      "description": "探索美容的世界与烏馬尔·迪亚拉在Onsebat上，其中美容专业知识提供定制的美容和健康治疗，使皮肤光泽而心情舒畅。",
+      "id": 99,
+      "nom": "烏馬尔·迪亚拉",
+      "specialite": "美容师",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    },
+    {
+      "id_service": 14,
+      "description": "探索铁匠的古老艺术与阿米纳塔·迪亚拉在Onsebat上，其中金属在热度和技艺下变成功能性和艺术性的作品。",
+      "id": 100,
+      "nom": "阿米纳塔·迪亚拉",
+      "specialite": "铁匠",
+      "image_url": "https://via.placeholder.com/400x200.png"
+    }
+  ]
+}

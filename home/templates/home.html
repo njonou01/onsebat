@@ -1,0 +1,21 @@
+{% extends 'base.html' %} 
+
+{% load i18n %}
+{% load static %}
+
+{% block announce %}
+<section class="bg-blue-600 text-white py-4 px-4 flex justify-center items-center">
+  <div class="container mx-auto text-center flex gap-4 justify-center items-center">
+    <h2 class="text-xl md:text-2xl font-semibold">{% trans "Besoin d'un devis ?" %}</h2>
+    
+    <p>{% trans 'Obtenez gratuitement des devis pour vos travaux.' %}</p>
+    <a href="{% url 'quote_page' %}" class="inline-block bg-white text-blue-600 px-6 py-2 rounded-full hover:bg-blue-100">{% trans 'Demandez un devis' %}</a>
+  </div>
+</section>
+{% endblock %} 
+{% block content %} 
+      {% include 'hero.html' with services=services %} 
+      {% include 'heroes-section.html' with artisans=artisans  %} 
+      {% include 'featured-services-section.html' with popular_features=popular_features %}
+      {% include 'why-choose-us-section.html' %}
+{% endblock %}

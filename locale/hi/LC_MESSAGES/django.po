@@ -1,0 +1,480 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 08:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: core/templates/_chat.html:20
+msgid "Chatbot"
+msgstr "चैटबॉट"
+
+#: core/templates/_chat.html:32
+msgid "Posez votre question ici..."
+msgstr "यहां अपना सवाल पूछें..."
+
+#: core/templates/_footer.html:7
+msgid "À propos d'Onsebat"
+msgstr "Onsebat के बारे में"
+
+#: core/templates/_footer.html:10
+msgid ""
+"Onsebat is the leading platform for connecting qualified artisans and clients "
+"in Cameroon."
+msgstr ""
+"Onsebat कमेरून में कुशल करीगरों और ग्राहकों को जोड़ने के लिए प्रमुख प्लेटफॉर्म है।"
+
+#: core/templates/_footer.html:14
+msgid "Liens rapides"
+msgstr "त्वरित लिंक"
+
+#: core/templates/_footer.html:17
+msgid " Accueil"
+msgstr " होम"
+
+#: core/templates/_footer.html:19
+msgid "Recherche d'artisans"
+msgstr "करीगर खोज"
+
+#: core/templates/_footer.html:20
+msgid "Devenir artisan"
+msgstr "करीगर बनें"
+
+#: core/templates/_footer.html:21
+msgid "Blog"
+msgstr "ब्लॉग"
+
+#: core/templates/_footer.html:25
+msgid "Contact"
+msgstr "संपर्क"
+
+#: core/templates/_footer.html:33
+msgid "Suivez-nous"
+msgstr "हमारे आगे बढ़ें"
+
+#: core/templates/_footer.html:43
+msgid ""
+"Conditions générales - Données personnelles - Mentions légales - Charte de "
+"qualité"
+msgstr ""
+"सामान्य शर्तें - व्यक्तिगत डेटा - कानूनी जानकारी - गुणवत्ता चार्ट"
+
+#: core/templates/_header.html:17
+msgid "Acceuil"
+msgstr "होम"
+
+#: core/templates/_header.html:18
+msgid "Espace Clients"
+msgstr "ग्राहक स्थान"
+
+#: core/templates/_header.html:19
+msgid "Espace Artisans"
+msgstr "करीगर स्थान"
+
+#: core/templates/_header.html:25
+msgid "Devenir Artisan"
+msgstr "करीगर बनें"
+
+#: core/templates/_header.html:27 home/templates/modal_sign.html:28
+msgid "Se connecter"
+msgstr "लॉग इन करें"
+
+#: core/templates/thanksPage.html:8
+msgid "Merci !"
+msgstr "धन्यवाद!"
+
+#: core/templates/thanksPage.html:9
+msgid ""
+"Votre demande a été soumise avec succès. Notre équipe vous contactera sous "
+"peu."
+msgstr ""
+"आपका अनुरोध सफलतापूर्वक सबमिट किया गया है। हमारी टीम जल्द ही आपसे संपर्क करेगी।"
+
+#: core/templates/thanksPage.html:11
+msgid "Retourner à l'accueil"
+msgstr "होम पे वापस जाएं"
+
+#: core/templates/thanksPage.html:20
+msgid "Redirection automatique dans"
+msgstr "स्वचालित रीडायरेक्ट करना"
+
+#: core/templates/thanksPage.html:20
+msgid "secondes..."
+msgstr "सेकंड..."
+
+#: home/templates/featured-services-section.html:4
+msgid "Services Populaires"
+msgstr "लोकप्रिय सेवाएं"
+
+#: home/templates/featured-services-section.html:19
+msgid ""
+"D'autres services disponibles : Carreleur, Chauffagiste, Couvreur, Maçon, "
+"Peintre, etc.' "
+msgstr ""
+"अन्य सेवाएं उपलब्ध हैं: कैरेलियर, हीटर इंस्टालर, रूफर, मसोन, पेंटर, आदि।"
+
+#: home/templates/featured-services-section.html:20
+msgid "Voir tous les services"
+msgstr "सभी सेवाएं देखें"
+
+#: home/templates/hero.html:32
+msgid "Trouvez le meilleur Artisan près de chez vous"
+msgstr "अपने पास सबसे अच्छे करीगर का पता लगाएं"
+
+#: home/templates/hero.html:33
+msgid ""
+"Onsebat vous met en relation avec des professionnels qualifiés pour tous vos "
+"travaux."
+msgstr ""
+"Onsebat आपके सभी कामों के लिए कुशल पेशेवरों से आपका संपर्क कराता है।"
+
+#: home/templates/hero.html:38
+msgid "Selectionner un service"
+msgstr "एक सेवा चुनें"
+
+#: home/templates/hero.html:47
+msgid "Ville, code postal, adresse..."
+msgstr "शहर, पिन कोड, पता..."
+
+#: home/templates/hero.html:54
+msgid "Rechercher"
+msgstr "खोजें"
+
+#: home/templates/heroes-section.html:6
+msgid "Nos Héros"
+msgstr "हमारे हीरो"
+
+#: home/templates/heroes-section.html:7
+msgid ""
+"Découvrez les artisans qui se dépassent chaque jour pour vous offrir le "
+"meilleur service."
+msgstr ""
+"प्रतिदिन आपको सर्वोत्तम सेवा प्रदान करने के लिए अपने को अतिक्रम करने वाले करीगरों का पता लगाएं।"
+
+#: home/templates/home.html:9
+msgid "Besoin d'un devis ?"
+msgstr "कोटेशन की आवश्यकता है?"
+
+#: home/templates/home.html:11
+msgid "Obtenez gratuitement des devis pour vos travaux."
+msgstr "अपने कामों के लिए मुफ्त में कोटेशन प्राप्त करें।"
+
+#: home/templates/home.html:12
+msgid "Demandez un devis"
+msgstr "कोटेशन का अनुरोध करें"
+
+#: home/templates/modal_sign.html:5
+msgid "Connexion"
+msgstr "लॉग इन"
+
+#: home/templates/modal_sign.html:8
+msgid "Email"
+msgstr "ईमेल"
+
+#: home/templates/modal_sign.html:18
+msgid "Mot de passe"
+msgstr "पासवर्ड"
+
+#: home/templates/modal_sign.html:31
+msgid "Pas encore de compte ?"
+msgstr "अभी तक कोई खाता नहीं है?"
+
+#: home/templates/modal_sign.html:31
+msgid "S'inscrire"
+msgstr "साइन अप करें"
+
+#: home/templates/quote-page.html:11
+msgid "Demandez un Devis"
+msgstr "कोटेशन का अनुरोध करें"
+
+#: home/templates/quote-page.html:13
+msgid ""
+"Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans "
+"engagement."
+msgstr ""
+"निम्नलिखित फॉर्म भरें ताकि आप मुफ्त और बिना किसी कमिटमेंट के कोटेशन प्राप्त कर सकें।"
+
+#: home/templates/quote-page.html:20
+msgid "Nom"
+msgstr "नाम"
+
+#: home/templates/quote-page.html:25
+msgid "Entrez votre nom"
+msgstr "अपना नाम दर्ज करें"
+
+#: home/templates/quote-page.html:31
+msgid "E-mail"
+msgstr "ईमेल"
+
+#: home/templates/quote-page.html:36
+msgid "Entrez votre email"
+msgstr "अपना ईमेल दर्ज करें"
+
+#: home/templates/quote-page.html:43
+msgid "Téléphone"
+msgstr "फ़ोन"
+
+#: home/templates/quote-page.html:48
+msgid "Entrez votre téléphone"
+msgstr "अपना फ़ोन नंबर दर्ज करें"
+
+#: home/templates/quote-page.html:55
+msgid "Service"
+msgstr "सेवा"
+
+#: home/templates/quote-page.html:57
+msgid "Choisissez un service"
+msgstr "एक सेवा चुनें"
+
+#: home/templates/quote-page.html:58
+msgid "Maconnerie"
+msgstr "मसोनरी"
+
+#: home/templates/quote-page.html:59
+msgid "Menuiserie"
+msgstr "कार्पेंटरी"
+
+#: home/templates/quote-page.html:60
+msgid "Électricité"
+msgstr "इलेक्ट्रिसिटी"
+
+#: home/templates/quote-page.html:61
+msgid "Plomberie"
+msgstr "प्लंबिंग"
+
+#: home/templates/quote-page.html:66
+msgid "Adresse"
+msgstr "पता"
+
+#: home/templates/quote-page.html:72
+msgid "Entrez votre adresse"
+msgstr "अपना पता दर्ज करें"
+
+#: home/templates/quote-page.html:78
+msgid "Description du projet"
+msgstr "परियोजना का विवरण"
+
+#: home/templates/quote-page.html:84
+msgid "Décrivez votre projet"
+msgstr "अपनी परियोजना का वर्णन करें"
+
+#: home/templates/quote-page.html:95
+msgid "Demander un devis"
+msgstr "कोटेशन का अनुरोध करें"
+
+#: home/templates/searchPage.html:8
+msgid "Trouvez l'Artisan Parfait au Cameroun"
+msgstr "कैमरून में पर्फेक्ट करीगर खोजें"
+
+#: home/templates/searchPage.html:15
+msgid "Catégorie"
+msgstr "श्रेणी"
+
+#: home/templates/searchPage.html:17
+msgid "Tous les métiers"
+msgstr "सभी पेशे"
+
+#: home/templates/searchPage.html:24
+msgid "Spécialité"
+msgstr "विशेषज्ञता"
+
+#: home/templates/searchPage.html:28
+msgid "Ex: Installation climatisation"
+msgstr "उदाहरण: एयर कंडीशनिंग इंस्टॉलेशन"
+
+#: home/templates/searchPage.html:33
+msgid "Ville"
+msgstr "शहर"
+
+#: home/templates/searchPage.html:35
+msgid "Toutes les villes"
+msgstr "सभी शहर"
+
+#: home/templates/searchPage.html:42
+msgid "Quartier"
+msgstr "क्वार्टर"
+
+#: home/templates/searchPage.html:46
+msgid "Ex: Akwa, Biyem-Assi"
+msgstr "उदाहरण: एक्वा, बियेम-एसी"
+
+#: home/templates/searchPage.html:56
+msgid "Filtres avancés"
+msgstr "उन्नत फिल्टर"
+
+#: home/templates/searchPage.html:60
+msgid "Expérience minimum"
+msgstr "न्यूनतम अनुभव"
+
+#: home/templates/searchPage.html:63
+msgid "0 an"
+msgstr "0 वर्ष"
+
+#: home/templates/searchPage.html:64
+msgid "10 ans"
+msgstr "10 वर्ष"
+
+#: home/templates/searchPage.html:65
+msgid "20+ ans"
+msgstr "20+ वर्ष"
+
+#: home/templates/searchPage.html:70
+msgid "Note minimale"
+msgstr "न्यूनतम रेटिंग"
+
+#: home/templates/searchPage.html:78
+msgid "Disponibilité"
+msgstr "उपलब्धता"
+
+#: home/templates/searchPage.html:82
+msgid "Disponible immédiatement"
+msgstr "तुरंत उपलब्ध"
+
+#: home/templates/searchPage.html:86
+msgid "Disponible le week-end"
+msgstr "सप्ताहांत उपलब्ध"
+
+#: home/templates/searchPage.html:90
+msgid "Disponible en soirée"
+msgstr "शाम के समय उपलब्ध"
+
+#: home/templates/searchPage.html:96
+msgid "Langue parlée"
+msgstr "बोली जाने वाली भाषा"
+
+#: home/templates/searchPage.html:100 onsebat/settings.py:124
+msgid "Français"
+msgstr "फ्रेंच"
+
+#: home/templates/searchPage.html:104
+msgid "Anglais"
+msgstr "अंग्रेज़ी"
+
+#: home/templates/searchPage.html:108
+msgid "Langues locales"
+msgstr "स्थानीय भाषाएं"
+
+#: home/templates/searchPage.html:114
+msgid "Appliquer les filtres"
+msgstr "फिल्टर लागू करें"
+
+#: home/templates/searchPage.html:123
+msgid "Trier par :"
+msgstr "इसके अनुसार क्रमबद्ध करें:"
+
+#: home/templates/searchPage.html:125
+msgid "Pertinence"
+msgstr "प्रासंगिकता"
+
+#: home/templates/searchPage.html:126
+msgid "Note"
+msgstr "रेटिंग"
+
+#: home/templates/searchPage.html:127
+msgid "Expérience"
+msgstr "अनुभव"
+
+#: home/templates/searchPage.html:128
+msgid "Tarif horaire"
+msgstr "प्रति घंटे की दर"
+
+#: home/templates/searchPage.html:135
+msgid "Rechercher un artisan..."
+msgstr "करीगर खोजें..."
+
+#: home/templates/why-choose-us-section.html:6
+msgid "Témoignages"
+msgstr "टेस्टिमोनियल"
+
+#: home/templates/why-choose-us-section.html:12
+msgid ""
+"Service impeccable ! L'artisan était professionnel et le résultat est au-"
+"delà de mes attentes. Je recommande fortement ! - "
+msgstr ""
+"अद्भुत सेवा! करीगर पेशेवर था और परिणाम मेरी आशाओं से बहुत अच्छा था। मैं इसे बहुत ज्यादा सिफारिश करता हूं! - "
+
+#: home/templates/why-choose-us-section.html:18
+msgid ""
+"J'ai eu une excellente expérience avec ArtisanConnect. Le processus de "
+"réservation était simple et rapide. - "
+msgstr ""
+"मुझे ArtisanConnect के साथ एक बहुत अच्छा अनुभव हुआ। बुकिंग प्रक्रिया सरल और तेज थी। - "
+
+#: home/templates/why-choose-us-section.html:25
+msgid ""
+"Les artisans sont très compétents et le service client est exceptionnel. "
+"Très satisfait ! - "
+msgstr ""
+"करीगर बहुत कुशल हैं और ग्राहक सेवा अत्यंत उत्कृष्ट है। बहुत संतुष्ट! - "
+
+#: home/templates/why-choose-us-section.html:35
+msgid "Pourquoi nous choisir ?"
+msgstr "हमें क्यों चुनना चाहिए?"
+
+#: home/templates/why-choose-us-section.html:38
+#: home/templates/why-choose-us-section.html:39
+msgid "Qualité"
+msgstr "गुणवत्ता"
+
+#: home/templates/why-choose-us-section.html:40
+msgid ""
+"Nous sélectionnons rigoureusement nos artisans pour garantir un service de "
+"qualité."
+msgstr ""
+"हम गुणवत्ता सुनिश्चित करने के लिए अपने करीगरों को सावधानीपूर्वक चुनते हैं।"
+
+#: home/templates/why-choose-us-section.html:43
+#: home/templates/why-choose-us-section.html:44
+msgid "Confiance"
+msgstr "विश्वास"
+
+#: home/templates/why-choose-us-section.html:45
+msgid "Nos artisans sont certifiés et de confiance pour tous vos travaux."
+msgstr "हमारे करीगर सभी कामों के लिए सर्टिफाइड और विश्वसनीय हैं।"
+
+#: home/templates/why-choose-us-section.html:48
+#: home/templates/why-choose-us-section.html:49
+msgid "Support"
+msgstr "सहायता"
+
+#: home/templates/why-choose-us-section.html:50
+msgid ""
+"Nous vous accompagnons tout au long de votre projet pour un résultat parfait."
+msgstr ""
+"हम आपकी परियोजना के दौरान आपके साथ हैं ताकि परिणाम परफेक्ट हो।"
+
+#: onsebat/settings.py:123
+msgid "English"
+msgstr "अंग्रेज़ी"
+
+#: onsebat/settings.py:125
+msgid "Español"
+msgstr "स्पेनिश"
+
+#: onsebat/settings.py:126
+msgid "Deutsch"
+msgstr "जर्मन"
+
+#: onsebat/settings.py:128
+msgid "Arabe"
+msgstr "अरबी"
+
+#: onsebat/settings.py:131
+msgid "Japonais"
+msgstr "जापानी"
+
+#: onsebat/settings.py:133
+msgid "Hindi"
+msgstr "हिंदी"

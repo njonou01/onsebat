@@ -1,0 +1,471 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 08:29+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: core/templates/_chat.html:20
+msgid "Chatbot"
+msgstr "聊天机器人"
+
+#: core/templates/_chat.html:32
+msgid "Posez votre question ici..."
+msgstr "在这里提出您的问题..."
+
+#: core/templates/_footer.html:7
+msgid "À propos d'Onsebat"
+msgstr "关于 Onsebat"
+
+#: core/templates/_footer.html:10
+msgid ""
+"Onsebat est la plateforme leader de mise en relation entre artisans "
+"qualifiés et clients au Cameroun."
+msgstr "Onsebat 是喀麦隆领先的平台，为合格的工匠和客户建立联系。"
+
+#: core/templates/_footer.html:14
+msgid "Liens rapides"
+msgstr "快速链接"
+
+#: core/templates/_footer.html:17
+msgid " Accueil"
+msgstr " 首页"
+
+#: core/templates/_footer.html:19
+msgid "Recherche d'artisans"
+msgstr "工匠搜索"
+
+#: core/templates/_footer.html:20
+msgid "Devenir artisan"
+msgstr "成为工匠"
+
+#: core/templates/_footer.html:21
+msgid "Blog"
+msgstr "博客"
+
+#: core/templates/_footer.html:25
+msgid "Contact"
+msgstr "联系我们"
+
+#: core/templates/_footer.html:33
+msgid "Suivez-nous"
+msgstr "关注我们"
+
+#: core/templates/_footer.html:43
+msgid ""
+"Conditions générales - Données personnelles - Mentions légales - Charte de "
+"qualité"
+msgstr "一般条款 - 个人数据 - 法律声明 - 质量宪章"
+
+#: core/templates/_header.html:17
+msgid "Acceuil"
+msgstr "首页"
+
+#: core/templates/_header.html:18
+msgid "Espace Clients"
+msgstr "客户空间"
+
+#: core/templates/_header.html:19
+msgid "Espace Artisans"
+msgstr "工匠空间"
+
+#: core/templates/_header.html:25
+msgid "Devenir Artisan"
+msgstr "成为工匠"
+
+#: core/templates/_header.html:27 home/templates/modal_sign.html:28
+msgid "Se connecter"
+msgstr "登录"
+
+#: core/templates/thanksPage.html:8
+msgid "Merci !"
+msgstr "谢谢！"
+
+#: core/templates/thanksPage.html:9
+msgid ""
+"Votre demande a été soumise avec succès. Notre équipe vous contactera sous "
+"peu."
+msgstr "您的请求已成功提交。我们的团队将很快与您联系。"
+
+#: core/templates/thanksPage.html:11
+msgid "Retourner à l'accueil"
+msgstr "返回首页"
+
+#: core/templates/thanksPage.html:20
+msgid "Redirection automatique dans"
+msgstr "自动重定向到"
+
+#: core/templates/thanksPage.html:20
+msgid "secondes..."
+msgstr "秒..."
+
+#: home/templates/featured-services-section.html:4
+msgid "Services Populaires"
+msgstr "热门服务"
+
+#: home/templates/featured-services-section.html:19
+msgid ""
+"D'autres services disponibles : Carreleur, Chauffagiste, Couvreur, Maçon, "
+"Peintre, etc.' "
+msgstr "其他可用服务：瓦工、热水器安装工、 roofers、砌筑工、画家等。"
+
+#: home/templates/featured-services-section.html:20
+msgid "Voir tous les services"
+msgstr "查看所有服务"
+
+#: home/templates/hero.html:32
+msgid "Trouvez le meilleur Artisan près de chez vous"
+msgstr "在您附近找到最好的工匠"
+
+#: home/templates/hero.html:33
+msgid ""
+"Onsebat vous met en relation avec des professionnels qualifiés pour tous vos "
+"travaux."
+msgstr "Onsebat 为您提供与合格专业人员联系的服务，为您的所有工作提供服务。"
+
+#: home/templates/hero.html:38
+msgid "Selectionner un service"
+msgstr "选择服务"
+
+#: home/templates/hero.html:47
+msgid "Ville, code postal, adresse..."
+msgstr "城市、邮政编码、地址..."
+
+#: home/templates/hero.html:54
+msgid "Rechercher"
+msgstr "搜索"
+
+#: home/templates/heroes-section.html:6
+msgid "Nos Héros"
+msgstr "我们的英雄"
+
+#: home/templates/heroes-section.html:7
+msgid ""
+"Découvrez les artisans qui se dépassent chaque jour pour vous offrir le "
+"meilleur service."
+msgstr "发现那些每天都超越自我为您提供最佳服务的工匠。"
+
+#: home/templates/home.html:9
+msgid "Besoin d'un devis ?"
+msgstr "需要报价吗？"
+
+#: home/templates/home.html:11
+msgid "Obtenez gratuitement des devis pour vos travaux."
+msgstr "免费获取您的工作报价。"
+
+#: home/templates/home.html:12
+msgid "Demandez un devis"
+msgstr "请求报价"
+
+#: home/templates/modal_sign.html:5
+msgid "Connexion"
+msgstr "登录"
+
+#: home/templates/modal_sign.html:8
+msgid "Email"
+msgstr "电子邮件"
+
+#: home/templates/modal_sign.html:18
+msgid "Mot de passe"
+msgstr "密码"
+
+#: home/templates/modal_sign.html:31
+msgid "Pas encore de compte ?"
+msgstr "还没有账户？"
+
+#: home/templates/modal_sign.html:31
+msgid "S'inscrire"
+msgstr "注册"
+
+#: home/templates/quote-page.html:11
+msgid "Demandez un Devis"
+msgstr "请求报价"
+
+#: home/templates/quote-page.html:13
+msgid ""
+"Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans "
+"engagement."
+msgstr "填写以下表格以获得免费且无义务的报价。"
+
+#: home/templates/quote-page.html:20
+msgid "Nom"
+msgstr "姓名"
+
+#: home/templates/quote-page.html:25
+msgid "Entrez votre nom"
+msgstr "输入您的姓名"
+
+#: home/templates/quote-page.html:31
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: home/templates/quote-page.html:36
+msgid "Entrez votre email"
+msgstr "输入您的电子邮件"
+
+#: home/templates/quote-page.html:43
+msgid "Téléphone"
+msgstr "电话"
+
+#: home/templates/quote-page.html:48
+msgid "Entrez votre téléphone"
+msgstr "输入您的电话号码"
+
+#: home/templates/quote-page.html:55
+msgid "Service"
+msgstr "服务"
+
+#: home/templates/quote-page.html:57
+msgid "Choisissez un service"
+msgstr "选择服务"
+
+#: home/templates/quote-page.html:58
+msgid "Maconnerie"
+msgstr "砌筑"
+
+#: home/templates/quote-page.html:59
+msgid "Menuiserie"
+msgstr "木工"
+
+#: home/templates/quote-page.html:60
+msgid "Électricité"
+msgstr "电力"
+
+#: home/templates/quote-page.html:61
+msgid "Plomberie"
+msgstr "管道"
+
+#: home/templates/quote-page.html:66
+msgid "Adresse"
+msgstr "地址"
+
+#: home/templates/quote-page.html:72
+msgid "Entrez votre adresse"
+msgstr "输入您的地址"
+
+#: home/templates/quote-page.html:78
+msgid "Description du projet"
+msgstr "项目描述"
+
+#: home/templates/quote-page.html:84
+msgid "Décrivez votre projet"
+msgstr "描述您的项目"
+
+#: home/templates/quote-page.html:95
+msgid "Demander un devis"
+msgstr "请求报价"
+
+#: home/templates/searchPage.html:8
+msgid "Trouvez l'Artisan Parfait au Cameroun"
+msgstr "在喀麦隆找到完美的工匠"
+
+#: home/templates/searchPage.html:15
+msgid "Catégorie"
+msgstr "类别"
+
+#: home/templates/searchPage.html:17
+msgid "Tous les métiers"
+msgstr "所有职业"
+
+#: home/templates/searchPage.html:24
+msgid "Spécialité"
+msgstr "专业"
+
+#: home/templates/searchPage.html:28
+msgid "Ex: Installation climatisation"
+msgstr "例如：空调安装"
+
+#: home/templates/searchPage.html:33
+msgid "Ville"
+msgstr "城市"
+
+#: home/templates/searchPage.html:35
+msgid "Toutes les villes"
+msgstr "所有城市"
+
+#: home/templates/searchPage.html:42
+msgid "Quartier"
+msgstr "区"
+
+#: home/templates/searchPage.html:46
+msgid "Ex: Akwa, Biyem-Assi"
+msgstr "例如：Akwa, Biyem-Assi"
+
+#: home/templates/searchPage.html:56
+msgid "Filtres avancés"
+msgstr "高级筛选"
+
+#: home/templates/searchPage.html:60
+msgid "Expérience minimum"
+msgstr "最低经验"
+
+#: home/templates/searchPage.html:63
+msgid "0 an"
+msgstr "0 年"
+
+#: home/templates/searchPage.html:64
+msgid "10 ans"
+msgstr "10 年"
+
+#: home/templates/searchPage.html:65
+msgid "20+ ans"
+msgstr "20+ 年"
+
+#: home/templates/searchPage.html:70
+msgid "Note minimale"
+msgstr "最低评分"
+
+#: home/templates/searchPage.html:78
+msgid "Disponibilité"
+msgstr "可用性"
+
+#: home/templates/searchPage.html:82
+msgid "Disponible immédiatement"
+msgstr "立即可用"
+
+#: home/templates/searchPage.html:86
+msgid "Disponible le week-end"
+msgstr "周末可用"
+
+#: home/templates/searchPage.html:90
+msgid "Disponible en soirée"
+msgstr "晚上可用"
+
+#: home/templates/searchPage.html:96
+msgid "Langue parlée"
+msgstr "使用语言"
+
+#: home/templates/searchPage.html:100 onsebat/settings.py:124
+msgid "Français"
+msgstr "法语"
+
+#: home/templates/searchPage.html:104
+msgid "Anglais"
+msgstr "英语"
+
+#: home/templates/searchPage.html:108
+msgid "Langues locales"
+msgstr "当地语言"
+
+#: home/templates/searchPage.html:114
+msgid "Appliquer les filtres"
+msgstr "应用筛选"
+
+#: home/templates/searchPage.html:123
+msgid "Trier par :"
+msgstr "排序方式："
+
+#: home/templates/searchPage.html:125
+msgid "Pertinence"
+msgstr "相关性"
+
+#: home/templates/searchPage.html:126
+msgid "Note"
+msgstr "评分"
+
+#: home/templates/searchPage.html:127
+msgid "Expérience"
+msgstr "经验"
+
+#: home/templates/searchPage.html:128
+msgid "Tarif horaire"
+msgstr "每小时费率"
+
+#: home/templates/searchPage.html:135
+msgid "Rechercher un artisan..."
+msgstr "搜索工匠..."
+
+#: home/templates/why-choose-us-section.html:6
+msgid "Témoignages"
+msgstr "推荐信"
+
+#: home/templates/why-choose-us-section.html:12
+msgid ""
+"Service impeccable ! L'artisan était professionnel et le résultat est au-"
+"delà de mes attentes. Je recommande fortement ! - "
+msgstr "无可挑剔的服务！工匠专业且结果超出了我的预期。我强烈推荐！ - "
+
+#: home/templates/why-choose-us-section.html:18
+msgid ""
+"J'ai eu une excellente expérience avec ArtisanConnect. Le processus de "
+"réservation était simple et rapide. - "
+msgstr "我在 ArtisanConnect 有了很好的体验。预订过程简单快速。 - "
+
+#: home/templates/why-choose-us-section.html:25
+msgid ""
+"Les artisans sont très compétents et le service client est exceptionnel. "
+"Très satisfait ! - "
+msgstr "工匠非常有能力，客户服务非常出色。非常满意！ - "
+
+#: home/templates/why-choose-us-section.html:35
+msgid "Pourquoi nous choisir ?"
+msgstr "为什么选择我们？"
+
+#: home/templates/why-choose-us-section.html:38
+#: home/templates/why-choose-us-section.html:39
+msgid "Qualité"
+msgstr "质量"
+
+#: home/templates/why-choose-us-section.html:40
+msgid ""
+"Nous sélectionnons rigoureusement nos artisans pour garantir un service de "
+"qualité."
+msgstr "我们严格选择工匠，以确保提供高质量的服务。"
+
+#: home/templates/why-choose-us-section.html:43
+#: home/templates/why-choose-us-section.html:44
+msgid "Confiance"
+msgstr "信任"
+
+#: home/templates/why-choose-us-section.html:45
+msgid "Nos artisans sont certifiés et de confiance pour tous vos travaux."
+msgstr "我们的工匠经过认证，可以为您的所有工作提供信任。"
+
+#: home/templates/why-choose-us-section.html:48
+#: home/templates/why-choose-us-section.html:49
+msgid "Support"
+msgstr "支持"
+
+#: home/templates/why-choose-us-section.html:50
+msgid ""
+"Nous vous accompagnons tout au long de votre projet pour un résultat parfait."
+msgstr "我们将在整个项目中为您提供支持，以获得完美的结果。"
+
+#: onsebat/settings.py:123
+msgid "English"
+msgstr "英语"
+
+#: onsebat/settings.py:125
+msgid "Español"
+msgstr "西班牙语"
+
+#: onsebat/settings.py:126
+msgid "Deutsch"
+msgstr "德语"
+
+#: onsebat/settings.py:128
+msgid "Arabe"
+msgstr "阿拉伯语"
+
+#: onsebat/settings.py:131
+msgid "Japonais"
+msgstr "日语"
+
+#: onsebat/settings.py:133
+msgid "Hindi"
+msgstr "印地语"
+
+#~ msgid "Chinois"
+#~ msgstr "中文"

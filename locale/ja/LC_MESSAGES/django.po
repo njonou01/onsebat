@@ -1,0 +1,484 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-06-30 08:37+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: core/templates/_chat.html:20
+msgid "Chatbot"
+msgstr "チャットボット"
+
+#: core/templates/_chat.html:32
+msgid "Posez votre question ici..."
+msgstr "ここで質問をしてください..."
+
+#: core/templates/_footer.html:7
+msgid "À propos d'Onsebat"
+msgstr "Onsebatについて"
+
+#: core/templates/_footer.html:10
+msgid ""
+"Onsebat est la plateforme leader de mise en relation entre artisans "
+"qualifiés et clients au Cameroun."
+msgstr ""
+"Onsebatはカメルーンで資格を持つ職人と顧客を繋ぐリーディングプラットフォームです。"
+
+#: core/templates/_footer.html:14
+msgid "Liens rapides"
+msgstr "クイックリンク"
+
+#: core/templates/_footer.html:17
+msgid " Accueil"
+msgstr " ホーム"
+
+#: core/templates/_footer.html:19
+msgid "Recherche d'artisans"
+msgstr "職人の検索"
+
+#: core/templates/_footer.html:20
+msgid "Devenir artisan"
+msgstr "職人になる"
+
+#: core/templates/_footer.html:21
+msgid "Blog"
+msgstr "ブログ"
+
+#: core/templates/_footer.html:25
+msgid "Contact"
+msgstr "連絡先"
+
+#: core/templates/_footer.html:33
+msgid "Suivez-nous"
+msgstr "フォローしてください"
+
+#: core/templates/_footer.html:43
+msgid ""
+"Conditions générales - Données personnelles - Mentions légales - Charte de "
+"qualité"
+msgstr ""
+"一般条件 - 個人データ - 法的通知 - 品質チャーター"
+
+#: core/templates/_header.html:17
+msgid "Acceuil"
+msgstr "ホーム"
+
+#: core/templates/_header.html:18
+msgid "Espace Clients"
+msgstr "顧客スペース"
+
+#: core/templates/_header.html:19
+msgid "Espace Artisans"
+msgstr "職人スペース"
+
+#: core/templates/_header.html:25
+msgid "Devenir Artisan"
+msgstr "職人になる"
+
+#: core/templates/_header.html:27 home/templates/modal_sign.html:28
+msgid "Se connecter"
+msgstr "ログイン"
+
+#: core/templates/thanksPage.html:8
+msgid "Merci !"
+msgstr "ありがとうございました！"
+
+#: core/templates/thanksPage.html:9
+msgid ""
+"Votre demande a été soumise avec succès. Notre équipe vous contactera sous "
+"peu."
+msgstr ""
+"お申し込みは正常に送信されました。 私たちのチームは間もなくご連絡いたします。"
+
+#: core/templates/thanksPage.html:11
+msgid "Retourner à l'accueil"
+msgstr "ホームに戻る"
+
+#: core/templates/thanksPage.html:20
+msgid "Redirection automatique dans"
+msgstr "自動リダイレクト"
+
+#: core/templates/thanksPage.html:20
+msgid "secondes..."
+msgstr "秒..."
+
+#: home/templates/featured-services-section.html:4
+msgid "Services Populaires"
+msgstr "人気のサービス"
+
+#: home/templates/featured-services-section.html:19
+msgid ""
+"D'autres services disponibles : Carreleur, Chauffagiste, Couvreur, Maçon, "
+"Peintre, etc.' "
+msgstr ""
+"その他の利用可能なサービス：タイルレイヤー、暖房技師、屋根屋根職人、石工、ペインターなど。"
+
+#: home/templates/featured-services-section.html:20
+msgid "Voir tous les services"
+msgstr "すべてのサービスを見る"
+
+#: home/templates/hero.html:32
+msgid "Trouvez le meilleur Artisan près de chez vous"
+msgstr "近くの最高の職人を見つける"
+
+#: home/templates/hero.html:33
+msgid ""
+"Onsebat vous met en relation avec des professionnels qualifiés pour tous vos "
+"travaux."
+msgstr ""
+"Onsebatは、資格を持つプロフェッショナルとあなたのすべての仕事を繋ぎます。"
+
+#: home/templates/hero.html:38
+msgid "Selectionner un service"
+msgstr "サービスを選択"
+
+#: home/templates/hero.html:47
+msgid "Ville, code postal, adresse..."
+msgstr "市区町村、郵便番号、住所..."
+
+#: home/templates/hero.html:54
+msgid "Rechercher"
+msgstr "検索"
+
+#: home/templates/heroes-section.html:6
+msgid "Nos Héros"
+msgstr "私たちのヒーロー"
+
+#: home/templates/heroes-section.html:7
+msgid ""
+"Découvrez les artisans qui se dépassent chaque jour pour vous offrir le "
+"meilleur service."
+msgstr ""
+"毎日自分を超えて最高のサービスを提供する職人を見つけてください。"
+
+#: home/templates/home.html:9
+msgid "Besoin d'un devis ?"
+msgstr "見積もりが必要ですか？"
+
+#: home/templates/home.html:11
+msgid "Obtenez gratuitement des devis pour vos travaux."
+msgstr "無料でお見積もりを入手してください。"
+
+#: home/templates/home.html:12
+msgid "Demandez un devis"
+msgstr "見積もりを依頼する"
+
+#: home/templates/modal_sign.html:5
+msgid "Connexion"
+msgstr "ログイン"
+
+#: home/templates/modal_sign.html:8
+msgid "Email"
+msgstr "メール"
+
+#: home/templates/modal_sign.html:18
+msgid "Mot de passe"
+msgstr "パスワード"
+
+#: home/templates/modal_sign.html:31
+msgid "Pas encore de compte ?"
+msgstr "まだアカウントをお持ちでないですか？"
+
+#: home/templates/modal_sign.html:31
+msgid "S'inscrire"
+msgstr "サインアップ"
+
+#: home/templates/quote-page.html:11
+msgid "Demandez un Devis"
+msgstr "見積もりを依頼する"
+
+#: home/templates/quote-page.html:13
+msgid ""
+"Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans "
+"engagement."
+msgstr ""
+"無料で見積もりを入手するには、以下のフォームに入力してください。"
+
+#: home/templates/quote-page.html:20
+msgid "Nom"
+msgstr "名前"
+
+#: home/templates/quote-page.html:25
+msgid "Entrez votre nom"
+msgstr "名前を入力してください"
+
+#: home/templates/quote-page.html:31
+msgid "E-mail"
+msgstr "メール"
+
+#: home/templates/quote-page.html:36
+msgid "Entrez votre email"
+msgstr "メールアドレスを入力してください"
+
+#: home/templates/quote-page.html:43
+msgid "Téléphone"
+msgstr "電話"
+
+#: home/templates/quote-page.html:48
+msgid "Entrez votre téléphone"
+msgstr "電話番号を入力してください"
+
+#: home/templates/quote-page.html:55
+msgid "Service"
+msgstr "サービス"
+
+#: home/templates/quote-page.html:57
+msgid "Choisissez un service"
+msgstr "サービスを選択"
+
+#: home/templates/quote-page.html:58
+msgid "Maconnerie"
+msgstr "石工"
+
+#: home/templates/quote-page.html:59
+msgid "Menuiserie"
+msgstr "木工"
+
+#: home/templates/quote-page.html:60
+msgid "Électricité"
+msgstr "電気"
+
+#: home/templates/quote-page.html:61
+msgid "Plomberie"
+msgstr "配管"
+
+#: home/templates/quote-page.html:66
+msgid "Adresse"
+msgstr "住所"
+
+#: home/templates/quote-page.html:72
+msgid "Entrez votre adresse"
+msgstr "住所を入力してください"
+
+#: home/templates/quote-page.html:78
+msgid "Description du projet"
+msgstr "プロジェクトの説明"
+
+#: home/templates/quote-page.html:84
+msgid "Décrivez votre projet"
+msgstr "プロジェクトを説明してください"
+
+#: home/templates/quote-page.html:95
+msgid "Demander un devis"
+msgstr "見積もりを依頼する"
+
+#: home/templates/searchPage.html:8
+msgid "Trouvez l'Artisan Parfait au Cameroun"
+msgstr "カメルーンで完璧な職人を見つける"
+
+#: home/templates/searchPage.html:15
+msgid "Catégorie"
+msgstr "カテゴリー"
+
+#: home/templates/searchPage.html:17
+msgid "Tous les métiers"
+msgstr "すべての職業"
+
+#: home/templates/searchPage.html:24
+msgid "Spécialité"
+msgstr "専門分野"
+
+#: home/templates/searchPage.html:28
+msgid "Ex: Installation climatisation"
+msgstr "例：エアコンの設置"
+
+#: home/templates/searchPage.html:33
+msgid "Ville"
+msgstr "市区町村"
+
+#: home/templates/searchPage.html:35
+msgid "Toutes les villes"
+msgstr "すべての市区町村"
+
+#: home/templates/searchPage.html:42
+msgid "Quartier"
+msgstr "地区"
+
+#: home/templates/searchPage.html:46
+msgid "Ex: Akwa, Biyem-Assi"
+msgstr "例：Akwa, Biyem-Assi"
+
+#: home/templates/searchPage.html:56
+msgid "Filtres avancés"
+msgstr "高度なフィルター"
+
+#: home/templates/searchPage.html:60
+msgid "Expérience minimum"
+msgstr "最低経験年数"
+
+#: home/templates/searchPage.html:63
+msgid "0 an"
+msgstr "0年"
+
+#: home/templates/searchPage.html:64
+msgid "10 ans"
+msgstr "10年"
+
+#: home/templates/searchPage.html:65
+msgid "20+ ans"
+msgstr "20年以上"
+
+#: home/templates/searchPage.html:70
+msgid "Note minimale"
+msgstr "最低評価"
+
+#: home/templates/searchPage.html:78
+msgid "Disponibilité"
+msgstr "利用可能性"
+
+#: home/templates/searchPage.html:82
+msgid "Disponible immédiatement"
+msgstr "すぐに利用可能"
+
+#: home/templates/searchPage.html:86
+msgid "Disponible le week-end"
+msgstr "週末に利用可能"
+
+#: home/templates/searchPage.html:90
+msgid "Disponible en soirée"
+msgstr "夜間に利用可能"
+
+#: home/templates/searchPage.html:96
+msgid "Langue parlée"
+msgstr "話す言語"
+
+#: home/templates/searchPage.html:100 onsebat/settings.py:124
+msgid "Français"
+msgstr "フランス語"
+
+#: home/templates/searchPage.html:104
+msgid "Anglais"
+msgstr "英語"
+
+#: home/templates/searchPage.html:108
+msgid "Langues locales"
+msgstr "地域言語"
+
+#: home/templates/searchPage.html:114
+msgid "Appliquer les filtres"
+msgstr "フィルターを適用"
+
+#: home/templates/searchPage.html:123
+msgid "Trier par :"
+msgstr "並び替え："
+
+#: home/templates/searchPage.html:125
+msgid "Pertinence"
+msgstr "関連性"
+
+#: home/templates/searchPage.html:126
+msgid "Note"
+msgstr "評価"
+
+#: home/templates/searchPage.html:127
+msgid "Expérience"
+msgstr "経験"
+
+#: home/templates/searchPage.html:128
+msgid "Tarif horaire"
+msgstr "時間単価"
+
+#: home/templates/searchPage.html:135
+msgid "Rechercher un artisan..."
+msgstr "職人を検索..."
+
+#: home/templates/why-choose-us-section.html:6
+msgid "Témoignages"
+msgstr "テストモニアル"
+
+#: home/templates/why-choose-us-section.html:12
+msgid ""
+"Service impeccable ! L'artisan était professionnel et le résultat est au-"
+"delà de mes attentes. Je recommande fortement ! - "
+msgstr ""
+"素晴らしいサービス！ 職人はプロフェッショナルで、結果は私の期待を超えています。 私は強くお勧めします！ - "
+
+#: home/templates/why-choose-us-section.html:18
+msgid ""
+"J'ai eu une excellente expérience avec ArtisanConnect. Le processus de "
+"réservation était simple et rapide. - "
+msgstr ""
+"ArtisanConnectで素晴らしい体験をしました。 予約プロセスはシンプルで迅速でした。 - "
+
+#: home/templates/why-choose-us-section.html:25
+msgid ""
+"Les artisans sont très compétents et le service client est exceptionnel. "
+"Très satisfait ! - "
+msgstr ""
+"職人は非常に有能で、カスタマーサービスは優れています。 非常に満足しています！ - "
+
+#: home/templates/why-choose-us-section.html:35
+msgid "Pourquoi nous choisir ?"
+msgstr "なぜ私たちを選ぶのですか？"
+
+#: home/templates/why-choose-us-section.html:38
+#: home/templates/why-choose-us-section.html:39
+msgid "Qualité"
+msgstr "品質"
+
+#: home/templates/why-choose-us-section.html:40
+msgid ""
+"Nous sélectionnons rigoureusement nos artisans pour garantir un service de "
+"qualité."
+msgstr ""
+"私たちは、高品質のサービスを提供することを保証するために、厳選して職人を選びます。"
+
+#: home/templates/why-choose-us-section.html:43
+#: home/templates/why-choose-us-section.html:44
+msgid "Confiance"
+msgstr "信頼"
+
+#: home/templates/why-choose-us-section.html:45
+msgid "Nos artisans sont certifiés et de confiance pour tous vos travaux."
+msgstr "私たちの職人は認定されており、すべての仕事に信頼できます。"
+
+#: home/templates/why-choose-us-section.html:48
+#: home/templates/why-choose-us-section.html:49
+msgid "Support"
+msgstr "サポート"
+
+#: home/templates/why-choose-us-section.html:50
+msgid ""
+"Nous vous accompagnons tout au long de votre projet pour un résultat parfait."
+msgstr ""
+"私たちは、完璧な結果を得るために、プロジェクト全体をサポートします。"
+
+#: onsebat/settings.py:123
+msgid "English"
+msgstr "英語"
+
+#: onsebat/settings.py:125
+msgid "Español"
+msgstr "スペイン語"
+
+#: onsebat/settings.py:126
+msgid "Deutsch"
+msgstr "ドイツ語"
+
+#: onsebat/settings.py:127
+msgid "Chinois"
+msgstr "中国語"
+
+#: onsebat/settings.py:128
+msgid "Arabe"
+msgstr "アラビア語"
+
+#: onsebat/settings.py:131
+msgid "Japonais"
+msgstr "日本語"
+
+#: onsebat/settings.py:133
+msgid "Hindi"
+msgstr "ヒンディー語"

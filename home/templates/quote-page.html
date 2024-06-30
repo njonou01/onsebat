@@ -1,0 +1,107 @@
+{% extends 'base.html' %} 
+{% load static %}
+{% load i18n %} 
+{% block announce %} 
+{% endblock %} 
+{% block content %}
+{% get_current_language as LANGUAGE_CODE %} 
+
+<div class="container mx-auto py-16 px-4">
+  <section id="devis" class="mb-16 container">
+    <div class="px-4 py-16 bg-white shadow-lg rounded-lg md:px-8 md:py-20">
+      <div class="max-w-xl mx-auto text-center">
+        <h2 class="text-3xl font-semibold text-gray-800 mb-8">{% trans 'Demandez un Devis' %}</h2>
+        <p class="text-gray-600 mb-10">
+          {% trans 'Remplissez le formulaire ci-dessous pour obtenir un devis gratuit et sans engagement.' %}
+        </p>
+      </div>
+      <form id="devisForm" class="max-w-xl mx-auto" method="post" action="{% url 'get_data' %}">
+        {% csrf_token %}
+        <div class="grid grid-cols-1 gap-8 md:grid-cols-2">
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2" for="name"> {% trans 'Nom' %} </label>
+                <input
+                    type="text"
+                    id="name"
+                    class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    placeholder="{% trans 'Entrez votre nom' %}"
+                    name='name'
+                />
+                <small class="error text-red-700" id="nameError"></small>
+            </div>
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2" for="email"> {% trans 'E-mail' %} </label>
+                <input
+                    type="email"
+                    id="email"
+                    class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    placeholder="{% trans 'Entrez votre email' %}"
+                    name='email'
+                    
+                />
+                <small class="error text-red-700" id="emailError"></small>
+            </div>
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2" for="phone"> {% trans 'Téléphone' %} </label>
+                <input
+                    type="tel"
+                    id="phone"
+                    class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    placeholder="{% trans 'Entrez votre téléphone' %}"
+                    name='phone'
+                    
+                />
+                <small class="error text-red-700" id="phoneError"></small>
+            </div>
+            <div>
+                <label class="block text-gray-700 font-semibold mb-2" for="service"> {% trans 'Service' %} </label>
+                <select id="service" name='service' class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600" >
+                    <option value="">{% trans 'Choisissez un service' %}</option>
+                    <option value="maconerie">{% trans 'Maconnerie' %}</option>
+                    <option value="menuiserie">{% trans 'Menuiserie' %}</option>
+                    <option value="electricite">{% trans 'Électricité' %}</option>
+                    <option value="plomberie">{% trans 'Plomberie' %}</option>
+                </select>
+                <small class="error text-red-700" id="serviceError"></small>
+            </div>
+            <div class="col-span-2">
+                <label class="block text-gray-700 font-semibold mb-2" for="address"> {% trans 'Adresse' %} </label>
+                <input
+                    type="text"
+                    id="address"
+                    name='address'
+                    class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    placeholder="{% trans 'Entrez votre adresse' %}"
+                    
+                />
+                <small class="error text-red-700" id="addressError"></small>
+            </div>
+            <div class="col-span-2">
+                <label class="block text-gray-700 font-semibold mb-2" for="description"> {% trans 'Description du projet' %} </label>
+                <textarea
+                    id="description"
+                    class="w-full px-4 py-2 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"
+                    rows="4"
+                    name='description'
+                    placeholder="{% trans 'Décrivez votre projet' %}"
+                    
+                ></textarea>
+                <small class="error text-red-700" id="descriptionError"></small>
+            </div>
+        </div>
+        <div class="mt-8 text-center">
+            <button id="submitButton"
+                type="submit"
+                class="inline-block bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600"
+            >
+                {% trans 'Demander un devis' %}
+            </button>
+        </div>
+        <input type="hidden" name="langue" value="{{ LANGUAGE_CODE }}" />
+    </form>
+    
+    </div>
+  </section>
+</div>
+<script src="{% static 'js/quote-page.js' %}"></script>
+{% endblock %}

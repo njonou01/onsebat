@@ -1,0 +1,26 @@
+{% load  static %}
+{% load i18n %}
+
+<section class="bg-blue-800 text-white py-20 px-4">
+    <div class="container mx-auto text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">{% trans 'Nos Héros' %}</h2>
+      <p class="text-lg mb-8">{% trans 'Découvrez les artisans qui se dépassent chaque jour pour vous offrir le meilleur service.' %}</p>
+      <div class="carousel container relative overflow-hidden">
+        <div class="carousel-inner flex">
+          {% for artisan in artisans %}
+          <div class="carousel-card w-1/4">
+            <div class="bg-white shadow rounded overflow-hidden">
+              <img src="{{ artisan.image_url }}" alt="{{ artisan.nom }}" class="w-full" />
+              <div class="p-4">
+                <h3 class="text-xl font-semibold text-gray-800">{{ artisan.nom }}</h3>
+                <p class="text-gray-600 mt-2">{{ artisan.specialite }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="{% static 'js/carousel.js' %}"></script>
+  
