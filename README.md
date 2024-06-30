@@ -49,7 +49,7 @@ Onsebat simplifie la recherche de professionnels et assure des travaux de qualit
 - **Une API très lente** : En effet, l'API de Mistral envoie des résultats avec des délais longs.
 - **J'ai eu des difficultés pour gérer la mise de ma clé secrète dans une variable d'environnement lors du déploiement, j'ai dû la mettre en dur.**
 
-## Suivi du planning : 
+## Planning  Suivi : 
 - **Un jour et demi pour apprendre Django et Python**
 - **6 jours pour coder** : Souhaitant réaliser cette application, j'ai dû réfléchir à une structure (design HTML, CSS) que je souhaitais et j'ai aussi beaucoup réfléchi à la structure globale de l'application.
 - **Demi-journée pour documenter et déployer**
