@@ -19,9 +19,10 @@ import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-ALLOWED_HOSTS = ['onsebat.onrender.com', 'localhost']
-LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
+
 DEBUG = False
+ALLOWED_HOSTS = ["0.0.0.0"]
+LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
 
 # File system encoding
 FILE_CHARSET = 'utf-8'
