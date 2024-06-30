@@ -1,5 +1,50 @@
 # Onsebat: Plateforme de Connexion Professionnels-Particuliers au Cameroun
+## Formulaire de Notation - Évaluation pour Poste d'Alternance
 
+### Introduction
+
+Bonjour Madme , Monsieur,
+
+Je vous remercie de prendre le temps de remplir ce formulaire de notation. Votre évaluation est précieuse dans le cadre de ma candidature pour le poste d'alternance chez Diot-Siaci. Vos commentaires et suggestions m'aideront à évaluer mes compétences actuelles et me permettre de progresser. Merci pour votre participation constructive.
+
+### Informations sur l'Évaluation
+
+- **Votre Nom :**
+  - [Votre Nom ici]
+
+- **Date de l'Évaluation :**
+  - [Date de l'évaluation]
+
+### Évaluation
+
+- **Note globale (sur 5) :**
+  - [ ] 1
+  - [ ] 2
+  - [ ] 3
+  - [ ] 4
+  - [ ] 5
+
+### Appréciation et Commentaires
+
+- **Points forts :**
+  - [Votre réponse ici]
+
+- **Points à améliorer :**
+  - [Votre réponse ici]
+
+### Recommandation
+
+- **Recommanderiez-vous ma candidature pour l'alternance chez Diot-Siaci ?**
+  - [ ] Oui
+  - [ ] Non
+  - [ ] Peut-être
+
+### Informations Supplémentaires
+
+- **Suggestions ou Commentaires additionnels :**
+  - [Votre réponse ici]
+ 
+    
 ## Objectif
 Onsebat facilite la mise en relation entre particuliers et professionnels qualifiés pour divers travaux (construction, rénovation, services divers) au Cameroun.
 
