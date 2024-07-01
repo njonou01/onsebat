@@ -1,8 +1,6 @@
 # Onsebat: Plateforme de Connexion Professionnels-Particuliers au Cameroun
 ## Formulaire de Notation - Évaluation pour Poste d'Alternance
 
-### Introduction
-
 Bonjour Madme , Monsieur,
 
 Je vous remercie de prendre le temps de remplir ce formulaire de notation. Votre évaluation est précieuse dans le cadre de ma candidature pour le poste d'alternance chez Diot-Siaci. Vos commentaires et suggestions m'aideront à évaluer mes compétences actuelles et me permettre de progresser. Merci pour votre participation constructive.
